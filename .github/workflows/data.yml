@@ -1,0 +1,32 @@
+name: Daten
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Daten prüfen
+        run: python3 tools/validate_races.py
+
+      - name: Generator ergibt dieselben Daten (bis auf updatedAt)
+        run: |
+          cp data/races.json /tmp/committed.json
+          python3 tools/generate_races.py
+          python3 - <<'EOF'
+          import json, sys
+          a = json.load(open("/tmp/committed.json")); b = json.load(open("data/races.json"))
+          a.pop("updatedAt"); b.pop("updatedAt")
+          if a != b:
+              print("data/races.json passt nicht zu tools/generate_races.py – bitte Generator laufen lassen")
+              sys.exit(1)
+          print("Generator und Datei stimmen überein")
+          EOF
