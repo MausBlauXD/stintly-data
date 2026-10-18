@@ -1,0 +1,409 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · British Touring Car Championship
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:btcc-2027-donington-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270410T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Donington Park – Qualifying
+LOCATION:Donington Park (National)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park – Rennen 1
+LOCATION:Donington Park (National)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park – Rennen 2
+LOCATION:Donington Park (National)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park – Rennen 3
+LOCATION:Donington Park (National)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-indy-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270508T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Brands Hatch Indy – Qualifying
+LOCATION:Brands Hatch (Indy)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-indy-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Brands Hatch Indy – Rennen 1
+LOCATION:Brands Hatch (Indy)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-indy-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Brands Hatch Indy – Rennen 2
+LOCATION:Brands Hatch (Indy)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-indy-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Brands Hatch Indy – Rennen 3
+LOCATION:Brands Hatch (Indy)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-snetterton-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270529T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Snetterton – Qualifying
+LOCATION:Snetterton 300\, Norfolk
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-snetterton-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Snetterton – Rennen 1
+LOCATION:Snetterton 300\, Norfolk
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-snetterton-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Snetterton – Rennen 2
+LOCATION:Snetterton 300\, Norfolk
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-snetterton-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Snetterton – Rennen 3
+LOCATION:Snetterton 300\, Norfolk
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-oulton-park-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270612T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Oulton Park – Qualifying
+LOCATION:Oulton Park (Island)\, Cheshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-oulton-park-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Oulton Park – Rennen 1
+LOCATION:Oulton Park (Island)\, Cheshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-oulton-park-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Oulton Park – Rennen 2
+LOCATION:Oulton Park (Island)\, Cheshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-oulton-park-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Oulton Park – Rennen 3
+LOCATION:Oulton Park (Island)\, Cheshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-thruxton-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270724T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Thruxton – Qualifying
+LOCATION:Thruxton\, Hampshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-thruxton-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Thruxton – Rennen 1
+LOCATION:Thruxton\, Hampshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-thruxton-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Thruxton – Rennen 2
+LOCATION:Thruxton\, Hampshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-thruxton-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Thruxton – Rennen 3
+LOCATION:Thruxton\, Hampshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-knockhill-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270807T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Knockhill – Qualifying
+LOCATION:Knockhill\, Fife
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-knockhill-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Knockhill – Rennen 1
+LOCATION:Knockhill\, Fife
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-knockhill-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Knockhill – Rennen 2
+LOCATION:Knockhill\, Fife
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-knockhill-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Knockhill – Rennen 3
+LOCATION:Knockhill\, Fife
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-croft-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270814T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Croft – Qualifying
+LOCATION:Croft\, North Yorkshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-croft-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Croft – Rennen 1
+LOCATION:Croft\, North Yorkshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-croft-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Croft – Rennen 2
+LOCATION:Croft\, North Yorkshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-croft-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Croft – Rennen 3
+LOCATION:Croft\, North Yorkshire
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-gp-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Donington Park GP – Qualifying
+LOCATION:Donington Park (GP)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-gp-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park GP – Rennen 1
+LOCATION:Donington Park (GP)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-gp-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park GP – Rennen 2
+LOCATION:Donington Park (GP)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-donington-gp-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Donington Park GP – Rennen 3
+LOCATION:Donington Park (GP)\, Castle Donington
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-silverstone-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Silverstone – Qualifying
+LOCATION:Silverstone (National)\, Silverstone
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-silverstone-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Silverstone – Rennen 1
+LOCATION:Silverstone (National)\, Silverstone
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-silverstone-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Silverstone – Rennen 2
+LOCATION:Silverstone (National)\, Silverstone
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-silverstone-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Silverstone – Rennen 3
+LOCATION:Silverstone (National)\, Silverstone
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-gp-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T143000Z
+DURATION:PT30M
+SUMMARY:BTCC · BTCC Finale Brands Hatch – Qualifying
+LOCATION:Brands Hatch (GP)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-gp-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T103000Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Finale Brands Hatch – Rennen 1
+LOCATION:Brands Hatch (GP)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-gp-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T131500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Finale Brands Hatch – Rennen 2
+LOCATION:Brands Hatch (GP)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:btcc-2027-brands-hatch-gp-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T154500Z
+DURATION:PT40M
+SUMMARY:BTCC · BTCC Finale Brands Hatch – Rennen 3
+LOCATION:Brands Hatch (GP)\, Kent
+DESCRIPTION:Wo schauen: YouTube · BTCC\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

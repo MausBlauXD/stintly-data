@@ -75,6 +75,19 @@ def main():
         if s.get("website") and not str(s["website"]).startswith("https://"):
             err(f"{where}: Website muss mit https:// beginnen")
 
+    entrant_ids = set()
+    for en in data.get("entrants") or []:
+        where = f"Favorit {en.get('id')}"
+        need(en, ["id", "name", "kind"], where)
+        unique(en.get("id"), where)
+        entrant_ids.add(en.get("id"))
+        if en.get("kind") not in ("driver", "car", "team"):
+            err(f"{where}: unbekannte Art '{en.get('kind')}'")
+    for s in data.get("series", []):
+        for key in ("liveTimingUrl", "calendarUrl"):
+            if s.get(key) and not str(s[key]).startswith("https://"):
+                err(f"Serie {s.get('id')}: {key} muss mit https:// beginnen")
+
     now = datetime.now(timezone.utc)
     upcoming = {sid: 0 for sid in series_ids}
     session_count = 0
@@ -89,6 +102,9 @@ def main():
         for c in e.get("channelIds") or []:
             if c not in channel_ids:
                 err(f"{where}: unbekannter Sender '{c}'")
+        for en in e.get("entrantIds") or []:
+            if en not in entrant_ids:
+                err(f"{where}: unbekannter Favorit '{en}'")
         for src in e.get("sources") or []:
             if not str(src).startswith("http"):
                 err(f"{where}: Quelle '{src}' ist keine URL")

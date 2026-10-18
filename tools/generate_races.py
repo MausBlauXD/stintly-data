@@ -9,11 +9,17 @@ Ablauf beim Datenupdate: Termine unten anpassen, dann
 """
 import json
 import pathlib
+import sys
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from i18n import translate_data  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUTPUTS = [ROOT / "data" / "races.json"]
+CALENDAR_DIR = ROOT / "docs" / "calendar"
+SITE = "https://mausblauxd.github.io/stintly-data"
 
 DEFAULT_DURATION = {"practice": 60, "qualifying": 60, "sprint": 45, "race": 120}
 
@@ -98,6 +104,10 @@ SERIES = [
 ]
 
 EVENTS = []
+
+
+def t_(de, en, fr, it):
+    return {"de": de, "en": en, "fr": fr, "it": it}
 
 
 def d(date_str):
@@ -837,9 +847,121 @@ event("macau", "grand-prix", "73. Macau Grand Prix", "Guia Circuit", "Macau", "M
     "https://www.macau.grandprix.gov.mo"], note="Datum offiziell, Startzeiten provisorisch")
 
 
+# ===========================================================================
+# Favoriten: Fahrer und Autos, die man in der App folgen kann
+# ===========================================================================
+ENTRANTS = [
+    ("grello", "Grello", "car", t_("Manthey Porsche 911 GT3 R #911", "Manthey Porsche 911 GT3 R #911",
+                                  "Manthey Porsche 911 GT3 R #911", "Manthey Porsche 911 GT3 R #911")),
+    ("rexy", "Rexy", "car", t_("AO Racing Porsche 911 GT3 R #77 und Schwesterautos",
+                              "AO Racing Porsche 911 GT3 R #77 and sister cars",
+                              "AO Racing Porsche 911 GT3 R #77 et voitures sœurs",
+                              "AO Racing Porsche 911 GT3 R #77 e vetture sorelle")),
+    ("estre", "Kévin Estre", "driver", t_("Porsche-Werksfahrer", "Porsche factory driver",
+                                          "Pilote d'usine Porsche", "Pilota ufficiale Porsche")),
+]
+# Nur bestätigte Starts eintragen (Quelle in der Klammer)
+EVENT_ENTRANTS = {
+    # Estre 2027 Vollzeit in der IMSA bei Porsche Penske (sportscar365, Aug. 2026)
+    **{e_id: ["estre"] for e_id in [f"imsa-2027-{s}" for s in [
+        "daytona", "sebring", "long-beach", "laguna-seca", "detroit", "watkins-glen",
+        "road-america", "indianapolis", "petit-le-mans"]]},
+    # AO Racing by Absolute in Macau (aoracing.com, 15.10.2026)
+    "macau-2026-grand-prix": ["rexy"],
+}
+ENTRANT_NOTES = {"macau-2026-grand-prix": "AO Racing by Absolute"}
+
+# Live-Timing (nur geprüfte Links)
+LIVE_TIMING = {
+    "f1": "https://www.formula1.com/en/timing/f1-live",
+    "indycar": "https://www.indycar.com/timing-and-scoring",
+    "fe": "https://www.fiaformulae.com/en/live-timing",
+    "wec": "https://fiawec.alkamelsystems.com",
+    "imsa": "https://imsa.alkamelsystems.com",
+    "elms": "https://elms.alkamelsystems.com",
+    "gtwc": "https://www.gt-world-challenge-europe.com/live",
+    "nls": "https://livetiming.azurewebsites.net",
+    "n24": "https://livetiming.azurewebsites.net",
+    "dtm": "https://www.dtm.com/de/livetiming",
+    "btcc": "https://www.tsl-timing.com",
+    "supercars": "https://www.supercars.com/live-timing",
+    "nascar": "https://www.nascar.com/live-leaderboard/",
+    "motogp": "https://www.motogp.com/en/live",
+    "moto2": "https://www.motogp.com/en/live",
+    "moto3": "https://www.motogp.com/en/live",
+    "iomtt": "https://www.iomttraces.com/live-timing/",
+    "mxgp": "https://www.mxgp.com/live-timing",
+    "supercup": "https://racing.porsche.com/mobil-1-supercup/live-timing",
+}
+
+
+# ---------------------------------------------------------------------------
+# Kalender-Abos (.ics) für GitHub Pages: pro Serie und pro Favorit
+# ---------------------------------------------------------------------------
+def _ics_escape(text):
+    return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def _ics_fold(line):
+    raw = line.encode("utf-8")
+    if len(raw) <= 75:
+        return line
+    out, current = [], b""
+    for ch in line:
+        b = ch.encode("utf-8")
+        if len(current) + len(b) > (75 if not out else 74):
+            out.append(current.decode("utf-8"))
+            current = b""
+        current += b
+    out.append(current.decode("utf-8"))
+    return "\r\n ".join(out)
+
+
+def write_calendars(data):
+    CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
+    series = {s["id"]: s for s in data["series"]}
+    channels = {c["id"]: c for c in data["channels"]}
+    stamp = data["updatedAt"].replace("-", "").replace(":", "")
+
+    def calendar(name, events):
+        lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Stintly//Renndaten//DE",
+                 "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{_ics_escape(name)}",
+                 "X-PUBLISHED-TTL:PT12H", "REFRESH-INTERVAL;VALUE=DURATION:PT12H"]
+        for e in events:
+            s_info = series[e["seriesId"]]
+            ch_ids = e.get("channelIds") or s_info["channelIds"]
+            where = " · ".join(channels[c]["name"] for c in ch_ids if c in channels)
+            for s in e["sessions"]:
+                start = s["start"].replace("-", "").replace(":", "")
+                desc = f"Wo schauen: {where}" if where else ""
+                if not s["confirmed"]:
+                    desc += "\nStartzeit provisorisch"
+                if e.get("note"):
+                    desc += f"\n{e['note']}"
+                lines += ["BEGIN:VEVENT", f"UID:{s['id']}@stintly", f"DTSTAMP:{stamp}", f"DTSTART:{start}",
+                          f"DURATION:PT{s['durationMinutes']}M",
+                          f"SUMMARY:{_ics_escape(s_info['shortName'] + ' · ' + e['name'] + ' – ' + s['name'])}",
+                          f"LOCATION:{_ics_escape(e['circuit'] + ', ' + e['location'])}",
+                          f"DESCRIPTION:{_ics_escape(desc.strip())}", "END:VEVENT"]
+        lines.append("END:VCALENDAR")
+        return "\r\n".join(_ics_fold(l) for l in lines) + "\r\n"
+
+    for s in data["series"]:
+        evs = [e for e in data["events"] if e["seriesId"] == s["id"]]
+        (CALENDAR_DIR / f"{s['id']}.ics").write_text(calendar(f"Stintly · {s['name']}", evs), encoding="utf-8")
+        s["calendarUrl"] = f"{SITE}/calendar/{s['id']}.ics"
+    for en in data["entrants"]:
+        evs = [e for e in data["events"] if en["id"] in (e.get("entrantIds") or [])]
+        (CALENDAR_DIR / f"fav-{en['id']}.ics").write_text(calendar(f"Stintly · {en['name']}", evs), encoding="utf-8")
+        en["calendarUrl"] = f"{SITE}/calendar/fav-{en['id']}.ics"
+
 # ---------------------------------------------------------------------------
 def build():
     events = sorted(EVENTS, key=lambda e: (e["sessions"][0]["start"], e["id"]))
+    for e in events:
+        e["entrantIds"] = EVENT_ENTRANTS.get(e["id"])
+        if e["id"] in ENTRANT_NOTES:
+            e["note"] = f"{e['note']}; {ENTRANT_NOTES[e['id']]}" if e.get("note") else ENTRANT_NOTES[e["id"]]
     return {
         "schemaVersion": 1,
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -849,9 +971,14 @@ def build():
             for i, n, k, u, note in CHANNELS
         ],
         "series": [
-            {"id": i, "name": n, "shortName": s, "category": c, "tagline": t,
-             "color": col, "channelIds": ch, "website": w}
-            for i, n, s, c, t, col, ch, w in SERIES
+            {"id": i, "name": n, "shortName": s, "category": c, "tagline": tl,
+             "color": col, "channelIds": ch, "website": w, "liveTimingUrl": LIVE_TIMING.get(i)}
+            for i, n, s, c, tl, col, ch, w in SERIES
+        ],
+        "entrants": [
+            {"id": i, "name": n, "kind": k, "description": desc["de"],
+             "descriptionI18n": {lang: desc[lang] for lang in ("en", "fr", "it")}}
+            for i, n, k, desc in ENTRANTS
         ],
         "events": events,
     }
@@ -859,6 +986,13 @@ def build():
 
 def main():
     data = build()
+    unknown = [e for ids in EVENT_ENTRANTS for e in [ids] if not any(ev["id"] == ids for ev in data["events"])]
+    if unknown:
+        raise SystemExit(f"EVENT_ENTRANTS verweist auf unbekannte Events: {unknown}")
+    write_calendars(data)
+    missing = translate_data(data)
+    if missing:
+        print("Hinweis – ohne Übersetzung (App zeigt Deutsch):", ", ".join(missing))
     text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     for path in OUTPUTS:
         path.parent.mkdir(parents=True, exist_ok=True)

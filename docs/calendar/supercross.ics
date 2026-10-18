@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Supercross (AMA)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:supercross-2027-anaheim-1-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270110T030000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Anaheim 1 – Night Show
+LOCATION:Angel Stadium\, Anaheim
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-san-diego-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270117T030000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross San Diego – Night Show
+LOCATION:Snapdragon Stadium\, San Diego
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-anaheim-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270124T030000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Anaheim 2 – Night Show
+LOCATION:Angel Stadium\, Anaheim
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-san-antonio-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270131T010000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross San Antonio – Night Show
+LOCATION:Alamodome\, San Antonio
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-tampa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270207T000000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Tampa – Night Show
+LOCATION:Raymond James Stadium\, Tampa
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-glendale-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270214T020000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Glendale – Night Show
+LOCATION:State Farm Stadium\, Glendale
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-detroit-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270221T000000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Detroit – Night Show
+LOCATION:Ford Field\, Detroit
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-arlington-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270228T010000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Arlington – Night Show
+LOCATION:AT&T Stadium\, Arlington
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-daytona-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270307T000000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Daytona – Night Show
+LOCATION:Daytona International Speedway\, Daytona Beach
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-indianapolis-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T000000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Indianapolis – Night Show
+LOCATION:Lucas Oil Stadium\, Indianapolis
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-seattle-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T020000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Seattle – Night Show
+LOCATION:Lumen Field\, Seattle
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-foxborough-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270403T230000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Foxborough – Night Show
+LOCATION:Gillette Stadium\, Foxborough
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-baltimore-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270410T230000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Baltimore – Night Show
+LOCATION:M&T Bank Stadium\, Baltimore
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-east-rutherford-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T230000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross East Rutherford – Night Show
+LOCATION:MetLife Stadium\, East Rutherford
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-pittsburgh-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270424T230000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Pittsburgh – Night Show
+LOCATION:Acrisure Stadium\, Pittsburgh
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-denver-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T010000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Denver – Night Show
+LOCATION:Empower Field at Mile High\, Denver
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercross-2027-salt-lake-city-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270516T010000Z
+DURATION:PT180M
+SUMMARY:SX · Supercross Salt Lake City (Finale) – Night Show
+LOCATION:Rice-Eccles Stadium\, Salt Lake City
+DESCRIPTION:Wo schauen: SMX Video Pass\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

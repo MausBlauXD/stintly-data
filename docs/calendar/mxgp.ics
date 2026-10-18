@@ -1,0 +1,419 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Motocross-WM (MXGP)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:mxgp-2027-andalusien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270228T131000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Andalusien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Almonte\, Almonte
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-andalusien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270228T161000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Andalusien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Almonte\, Almonte
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-argentinien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T171000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Argentinien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Bariloche\, Bariloche
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-argentinien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T201000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Argentinien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Bariloche\, Bariloche
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270328T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Italien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Montevarchi\, Montevarchi
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-italien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270328T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Italien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Montevarchi\, Montevarchi
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-sardinien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Sardinien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Riola Sardo\, Riola Sardo
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-sardinien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Sardinien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Riola Sardo\, Riola Sardo
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-spanien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Spanien – MXGP Lauf 1
+LOCATION:Strecke noch offen\, Spanien
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-spanien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Spanien – MXGP Lauf 2
+LOCATION:Strecke noch offen\, Spanien
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-trentino-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Trentino – MXGP Lauf 1
+LOCATION:Motocross-Strecke Pietramurata\, Pietramurata
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-trentino-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Trentino – MXGP Lauf 2
+LOCATION:Motocross-Strecke Pietramurata\, Pietramurata
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-china-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T061000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von China – MXGP Lauf 1
+LOCATION:Motocross-Strecke Shanghai\, Shanghai
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-china-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T091000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von China – MXGP Lauf 2
+LOCATION:Motocross-Strecke Shanghai\, Shanghai
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-portugal-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T131000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Portugal – MXGP Lauf 1
+LOCATION:Strecke noch offen\, Portugal
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-portugal-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T161000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Portugal – MXGP Lauf 2
+LOCATION:Strecke noch offen\, Portugal
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-frankreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Frankreich – MXGP Lauf 1
+LOCATION:Motocross-Strecke Saint-Jean-d'Angély\, Saint-Jean-d'Angély
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-frankreich-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Frankreich – MXGP Lauf 2
+LOCATION:Motocross-Strecke Saint-Jean-d'Angély\, Saint-Jean-d'Angély
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-lettland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T111000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Lettland – MXGP Lauf 1
+LOCATION:Motocross-Strecke Ķegums\, Ķegums
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-lettland-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T141000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Lettland – MXGP Lauf 2
+LOCATION:Motocross-Strecke Ķegums\, Ķegums
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-deutschland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Deutschland – MXGP Lauf 1
+LOCATION:Motocross-Strecke Teutschenthal\, Teutschenthal
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-deutschland-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Deutschland – MXGP Lauf 2
+LOCATION:Motocross-Strecke Teutschenthal\, Teutschenthal
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-grossbritannien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T131000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Grossbritannien – MXGP Lauf 1
+LOCATION:Foxhills\, Foxhills
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-grossbritannien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T161000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Grossbritannien – MXGP Lauf 2
+LOCATION:Foxhills\, Foxhills
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-tschechien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Tschechien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Loket\, Loket
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-tschechien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Tschechien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Loket\, Loket
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-flandern-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Flandern – MXGP Lauf 1
+LOCATION:Motocross-Strecke Lommel\, Lommel
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-flandern-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Flandern – MXGP Lauf 2
+LOCATION:Motocross-Strecke Lommel\, Lommel
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-schweden-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Schweden – MXGP Lauf 1
+LOCATION:Motocross-Strecke Uddevalla\, Uddevalla
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-schweden-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Schweden – MXGP Lauf 2
+LOCATION:Motocross-Strecke Uddevalla\, Uddevalla
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-niederlande-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Niederlande – MXGP Lauf 1
+LOCATION:Motocross-Strecke Arnhem\, Arnhem
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-niederlande-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Niederlande – MXGP Lauf 2
+LOCATION:Motocross-Strecke Arnhem\, Arnhem
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-tuerkei-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T111000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Türkei – MXGP Lauf 1
+LOCATION:Motocross-Strecke Afyonkarahisar\, Afyonkarahisar
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-tuerkei-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T141000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Türkei – MXGP Lauf 2
+LOCATION:Motocross-Strecke Afyonkarahisar\, Afyonkarahisar
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-australien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T044000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Australien – MXGP Lauf 1
+LOCATION:Motocross-Strecke Darwin\, Darwin
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-australien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T074000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP von Australien – MXGP Lauf 2
+LOCATION:Motocross-Strecke Darwin\, Darwin
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-schweiz-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T121000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Schweiz – MXGP Lauf 1
+LOCATION:Strecke noch offen\, Schweiz
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-schweiz-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T151000Z
+DURATION:PT40M
+SUMMARY:MXGP · MXGP der Schweiz – MXGP Lauf 2
+LOCATION:Strecke noch offen\, Schweiz
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-nations-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T093000Z
+DURATION:PT40M
+SUMMARY:MXGP · Motocross der Nationen – Lauf 1
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nDatum provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-nations-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T121500Z
+DURATION:PT40M
+SUMMARY:MXGP · Motocross der Nationen – Lauf 2
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nDatum provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:mxgp-2027-nations-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T134500Z
+DURATION:PT40M
+SUMMARY:MXGP · Motocross der Nationen – Lauf 3
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · MXGP-TV\nStartzeit provisor
+ isch\nDatum provisorisch\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

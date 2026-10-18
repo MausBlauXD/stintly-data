@@ -1,0 +1,697 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Formel 1
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:f1-2026-usa-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261024T210000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis der USA – Qualifying
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-usa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261025T200000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis der USA – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-mexiko-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261031T210000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Mexiko – Qualifying
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-mexiko-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261101T200000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Mexiko – Rennen
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-sao-paulo-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261107T180000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von São Paulo – Qualifying
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-sao-paulo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261108T170000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von São Paulo – Rennen
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-las-vegas-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261121T040000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Las Vegas – Qualifying
+LOCATION:Las Vegas Strip Circuit\, Las Vegas
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-las-vegas-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261122T040000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Las Vegas – Rennen
+LOCATION:Las Vegas Strip Circuit\, Las Vegas
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-katar-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261128T180000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Katar – Qualifying
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261129T160000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Katar – Rennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-abu-dhabi-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261205T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Abu Dhabi – Qualifying
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-abu-dhabi-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261206T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Abu Dhabi – Rennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-bahrain-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270313T113000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Bahrain – Sprint
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-bahrain-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270313T160000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Bahrain – Qualifying
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-bahrain-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T150000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Bahrain – Rennen
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-saudi-arabien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T170000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Saudi-Arabien – Qualifying
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-saudi-arabien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T170000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Saudi-Arabien – Rennen
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-australien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270403T003000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Australien – Sprint
+LOCATION:Albert Park\, Melbourne
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-australien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270403T050000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Australien – Qualifying
+LOCATION:Albert Park\, Melbourne
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-australien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T050000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Australien – Rennen
+LOCATION:Albert Park\, Melbourne
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-japan-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270410T023000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Japan – Sprint
+LOCATION:Suzuka\, Suzuka
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-japan-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270410T060000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Japan – Qualifying
+LOCATION:Suzuka\, Suzuka
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-japan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T050000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Japan – Rennen
+LOCATION:Suzuka\, Suzuka
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-china-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T070000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von China – Qualifying
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-china-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T070000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von China – Rennen
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-miami-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270501T200000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Miami – Qualifying
+LOCATION:Miami International Autodrome\, Miami
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-miami-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T200000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Miami – Rennen
+LOCATION:Miami International Autodrome\, Miami
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-kanada-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270522T160000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Kanada – Sprint
+LOCATION:Circuit Gilles Villeneuve\, Montréal
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-kanada-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270522T200000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Kanada – Qualifying
+LOCATION:Circuit Gilles Villeneuve\, Montréal
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-kanada-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T180000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Kanada – Rennen
+LOCATION:Circuit Gilles Villeneuve\, Montréal
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-monaco-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T100000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Monaco – Sprint
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-monaco-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Monaco – Qualifying
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-monaco-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Monaco – Rennen
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-portugal-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270619T150000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Portugal – Qualifying
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-portugal-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T140000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Portugal – Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-grossbritannien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T110000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Grossbritannien – Sprint
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-grossbritannien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T150000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Grossbritannien – Qualifying
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-grossbritannien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T140000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Grossbritannien – Rennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-oesterreich-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270710T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Österreich – Qualifying
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-oesterreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Österreich – Rennen
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-belgien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270724T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Belgien – Qualifying
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-belgien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Belgien – Rennen
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-ungarn-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270731T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Ungarn – Qualifying
+LOCATION:Hungaroring\, Budapest
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-ungarn-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Ungarn – Rennen
+LOCATION:Hungaroring\, Budapest
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-italien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270904T100000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Italien – Sprint
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-italien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270904T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Italien – Qualifying
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Italien – Rennen
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-spanien-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Spanien – Qualifying
+LOCATION:Madring\, Madrid
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-spanien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Spanien – Rennen
+LOCATION:Madring\, Madrid
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-aserbaidschan-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T120000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Aserbaidschan – Qualifying
+LOCATION:Baku City Circuit\, Baku
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-aserbaidschan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T110000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Aserbaidschan – Rennen
+LOCATION:Baku City Circuit\, Baku
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-tuerkei-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271002T130000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis der Türkei – Qualifying
+LOCATION:Istanbul Park\, Istanbul
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-tuerkei-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T120000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis der Türkei – Rennen
+LOCATION:Istanbul Park\, Istanbul
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-singapur-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T130000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Singapur – Qualifying
+LOCATION:Marina Bay\, Singapur
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-singapur-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T120000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Singapur – Rennen
+LOCATION:Marina Bay\, Singapur
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-usa-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271023T210000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis der USA – Qualifying
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-usa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271024T200000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis der USA – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-mexiko-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271030T210000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Mexiko – Qualifying
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-mexiko-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T200000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Mexiko – Rennen
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-sao-paulo-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271106T140000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von São Paulo – Sprint
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-sao-paulo-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271106T180000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von São Paulo – Qualifying
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-sao-paulo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271107T170000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von São Paulo – Rennen
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-las-vegas-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271120T040000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Las Vegas – Qualifying
+LOCATION:Las Vegas Strip Circuit\, Las Vegas
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-las-vegas-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271121T040000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Las Vegas – Rennen
+LOCATION:Las Vegas Strip Circuit\, Las Vegas
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-katar-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271204T140000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Katar – Sprint
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-katar-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271204T180000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Katar – Qualifying
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271205T160000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Katar – Rennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-abu-dhabi-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271211T100000Z
+DURATION:PT45M
+SUMMARY:F1 · Grosser Preis von Abu Dhabi – Sprint
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-abu-dhabi-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271211T140000Z
+DURATION:PT60M
+SUMMARY:F1 · Grosser Preis von Abu Dhabi – Qualifying
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-abu-dhabi-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271212T130000Z
+DURATION:PT120M
+SUMMARY:F1 · Grosser Preis von Abu Dhabi – Rennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: SRF zwei · Play SRF / SRF Sport App · Sky Sport\n
+ Startzeit provisorisch\nDaten offiziell\, Startzeiten noch provisorisch
+END:VEVENT
+END:VCALENDAR

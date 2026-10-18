@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Isle of Man TT
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T094500Z
+DURATION:PT115M
+SUMMARY:TT · Isle of Man TT – Superbike TT
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T094500Z
+DURATION:PT75M
+SUMMARY:TT · Isle of Man TT – Supersport TT 1
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-3@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270608T094500Z
+DURATION:PT75M
+SUMMARY:TT · Isle of Man TT – Superstock TT
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-4@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270608T130000Z
+DURATION:PT45M
+SUMMARY:TT · Isle of Man TT – Sidecar TT 1
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-5@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270609T094500Z
+DURATION:PT75M
+SUMMARY:TT · Isle of Man TT – Supersport TT 2
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-6@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270609T130000Z
+DURATION:PT80M
+SUMMARY:TT · Isle of Man TT – Sportbike TT 1
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-7@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270611T094500Z
+DURATION:PT115M
+SUMMARY:TT · Isle of Man TT – Senior TT
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-8@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270612T094500Z
+DURATION:PT45M
+SUMMARY:TT · Isle of Man TT – Sidecar TT 2
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+BEGIN:VEVENT
+UID:iomtt-2027-races-race-9@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270612T130000Z
+DURATION:PT80M
+SUMMARY:TT · Isle of Man TT – Sportbike TT 2
+LOCATION:Snaefell Mountain Course\, Douglas
+DESCRIPTION:Wo schauen: TT+\nStartzeit provisorisch\nRenntage offiziell\, S
+ tartzeiten provisorisch und wetterabhängig
+END:VEVENT
+END:VCALENDAR

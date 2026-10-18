@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · European Le Mans Series
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:elms-2027-barcelona-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T110000Z
+DURATION:PT360M
+SUMMARY:ELMS · 6 Stunden von Barcelona – Rennen
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:elms-2027-le-castellet-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T100000Z
+DURATION:PT240M
+SUMMARY:ELMS · 4 Stunden von Le Castellet – Rennen
+LOCATION:Circuit Paul Ricard\, Le Castellet
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:elms-2027-imola-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T100000Z
+DURATION:PT240M
+SUMMARY:ELMS · 4 Stunden von Imola – Rennen
+LOCATION:Autodromo Enzo e Dino Ferrari\, Imola
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:elms-2027-spa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T100000Z
+DURATION:PT240M
+SUMMARY:ELMS · 4 Stunden von Spa-Francorchamps – Rennen
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:elms-2027-silverstone-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T110000Z
+DURATION:PT240M
+SUMMARY:ELMS · 4 Stunden von Silverstone – Rennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:elms-2027-portimao-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271002T110000Z
+DURATION:PT240M
+SUMMARY:ELMS · 4 Stunden von Portimão – Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: YouTube · ELMS\nStartzeit provisorisch\nDatum offi
+ ziell\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

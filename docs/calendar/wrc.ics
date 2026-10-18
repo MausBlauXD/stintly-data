@@ -1,0 +1,309 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Rallye-WM (WRC)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wrc-2027-monte-carlo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270122T070000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Monte-Carlo – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Gap
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-monte-carlo-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270124T121500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Monte-Carlo – Power Stage
+LOCATION:Wertungsprüfungen\, Gap
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-schweden-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270219T070000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Schweden – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Umeå
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-schweden-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270221T121500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Schweden – Power Stage
+LOCATION:Wertungsprüfungen\, Umeå
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kenia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270319T050000Z
+DURATION:PT600M
+SUMMARY:WRC · Safari Rallye Kenia – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Nairobi
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kenia-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T101500Z
+DURATION:PT30M
+SUMMARY:WRC · Safari Rallye Kenia – Power Stage
+LOCATION:Wertungsprüfungen\, Nairobi
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kroatien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270409T060000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Kroatien – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Rijeka
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kroatien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T111500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Kroatien – Power Stage
+LOCATION:Wertungsprüfungen\, Rijeka
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kanaren-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270507T070000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Islas Canarias – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Las Palmas
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-kanaren-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T121500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Islas Canarias – Power Stage
+LOCATION:Wertungsprüfungen\, Las Palmas
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-japan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270603T230000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Japan – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Toyota (Aichi)
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-japan-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T041500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Japan – Power Stage
+LOCATION:Wertungsprüfungen\, Toyota (Aichi)
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-akropolis-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270625T050000Z
+DURATION:PT600M
+SUMMARY:WRC · Akropolis-Rallye – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Loutraki
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-akropolis-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T101500Z
+DURATION:PT30M
+SUMMARY:WRC · Akropolis-Rallye – Power Stage
+LOCATION:Wertungsprüfungen\, Loutraki
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270709T060000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Italien (Rom) – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Rom
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-italien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T111500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Italien (Rom) – Power Stage
+LOCATION:Wertungsprüfungen\, Rom
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-estland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270723T050000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Estland – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Tartu
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-estland-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T101500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Estland – Power Stage
+LOCATION:Wertungsprüfungen\, Tartu
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-finnland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270730T050000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Finnland – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Jyväskylä
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-finnland-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T101500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Finnland – Power Stage
+LOCATION:Wertungsprüfungen\, Jyväskylä
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-usa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270827T120000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye USA – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Knoxville
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-usa-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270829T171500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye USA – Power Stage
+LOCATION:Wertungsprüfungen\, Knoxville
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-schottland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271001T070000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Schottland – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Aberdeen
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-schottland-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T121500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Schottland – Power Stage
+LOCATION:Wertungsprüfungen\, Aberdeen
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-paraguay-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271022T110000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Paraguay – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Encarnación
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-paraguay-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271024T161500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Paraguay – Power Stage
+LOCATION:Wertungsprüfungen\, Encarnación
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-chile-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271105T110000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Chile – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Concepción
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-chile-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271107T161500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Chile – Power Stage
+LOCATION:Wertungsprüfungen\, Concepción
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-saudi-arabien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271126T050000Z
+DURATION:PT600M
+SUMMARY:WRC · Rallye Saudi-Arabien – Erster voller Rallye-Tag
+LOCATION:Wertungsprüfungen\, Dschidda
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2027-saudi-arabien-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271128T101500Z
+DURATION:PT30M
+SUMMARY:WRC · Rallye Saudi-Arabien – Power Stage
+LOCATION:Wertungsprüfungen\, Dschidda
+DESCRIPTION:Wo schauen: Rally.TV\nStartzeit provisorisch\nKalender provisor
+ isch\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

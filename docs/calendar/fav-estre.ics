@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Kévin Estre
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:imsa-2027-daytona-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270130T184000Z
+DURATION:PT1440M
+SUMMARY:IMSA · Rolex 24 at Daytona – Rennen
+LOCATION:Daytona International Speedway\, Daytona Beach
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-sebring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T141000Z
+DURATION:PT720M
+SUMMARY:IMSA · 12 Stunden von Sebring – Rennen
+LOCATION:Sebring International Raceway\, Sebring
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-long-beach-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T220500Z
+DURATION:PT100M
+SUMMARY:IMSA · Grand Prix of Long Beach – Rennen
+LOCATION:Long Beach Street Circuit\, Long Beach
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-laguna-seca-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T200000Z
+DURATION:PT160M
+SUMMARY:IMSA · Monterey SportsCar Championship – Rennen
+LOCATION:WeatherTech Raceway Laguna Seca\, Monterey
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-detroit-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T153000Z
+DURATION:PT100M
+SUMMARY:IMSA · Detroit Sports Car Classic – Rennen
+LOCATION:Detroit Street Circuit\, Detroit
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-watkins-glen-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T144000Z
+DURATION:PT360M
+SUMMARY:IMSA · 6 Stunden von Watkins Glen – Rennen
+LOCATION:Watkins Glen International\, Watkins Glen
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-road-america-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T161000Z
+DURATION:PT360M
+SUMMARY:IMSA · 6 Stunden von Road America – Rennen
+LOCATION:Road America\, Elkhart Lake
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-indianapolis-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T180000Z
+DURATION:PT160M
+SUMMARY:IMSA · Battle on the Bricks – Rennen
+LOCATION:Indianapolis Motor Speedway\, Speedway
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-petit-le-mans-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T161000Z
+DURATION:PT600M
+SUMMARY:IMSA · Petit Le Mans – Rennen
+LOCATION:Michelin Raceway Road Atlanta\, Braselton
+DESCRIPTION:Wo schauen: YouTube · IMSA\nStartzeit provisorisch\nKalender p
+ rovisorisch\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

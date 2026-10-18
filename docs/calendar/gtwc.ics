@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · GT World Challenge Europe
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:gtwc-2027-paul-ricard-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T100000Z
+DURATION:PT360M
+SUMMARY:GTWC · Paul Ricard (Endurance) – Rennen
+LOCATION:Circuit Paul Ricard\, Le Castellet
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-brands-hatch-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270501T143000Z
+DURATION:PT60M
+SUMMARY:GTWC · Brands Hatch (Sprint) – Rennen 1
+LOCATION:Brands Hatch\, Kent
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-brands-hatch-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T131500Z
+DURATION:PT60M
+SUMMARY:GTWC · Brands Hatch (Sprint) – Rennen 2
+LOCATION:Brands Hatch\, Kent
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-imola-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T123000Z
+DURATION:PT180M
+SUMMARY:GTWC · Imola (Endurance) – Rennen
+LOCATION:Autodromo Enzo e Dino Ferrari\, Imola
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-spa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270626T143000Z
+DURATION:PT1440M
+SUMMARY:GTWC · 24 Stunden von Spa – Rennen
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-misano-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270717T133000Z
+DURATION:PT60M
+SUMMARY:GTWC · Misano (Sprint) – Rennen 1
+LOCATION:Misano World Circuit\, Misano Adriatico
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-misano-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270718T121500Z
+DURATION:PT60M
+SUMMARY:GTWC · Misano (Sprint) – Rennen 2
+LOCATION:Misano World Circuit\, Misano Adriatico
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-magny-cours-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270731T133000Z
+DURATION:PT60M
+SUMMARY:GTWC · Magny-Cours (Sprint) – Rennen 1
+LOCATION:Circuit de Nevers Magny-Cours\, Magny-Cours
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-magny-cours-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T121500Z
+DURATION:PT60M
+SUMMARY:GTWC · Magny-Cours (Sprint) – Rennen 2
+LOCATION:Circuit de Nevers Magny-Cours\, Magny-Cours
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-nuerburgring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270829T123000Z
+DURATION:PT180M
+SUMMARY:GTWC · Nürburgring (Endurance) – Rennen
+LOCATION:Nürburgring GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-zandvoort-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270918T133000Z
+DURATION:PT60M
+SUMMARY:GTWC · Zandvoort (Sprint) – Rennen 1
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-zandvoort-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T121500Z
+DURATION:PT60M
+SUMMARY:GTWC · Zandvoort (Sprint) – Rennen 2
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-hungaroring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271002T133000Z
+DURATION:PT60M
+SUMMARY:GTWC · Hungaroring (Sprint) – Rennen 1
+LOCATION:Hungaroring\, Budapest
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-hungaroring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T121500Z
+DURATION:PT60M
+SUMMARY:GTWC · Hungaroring (Sprint) – Rennen 2
+LOCATION:Hungaroring\, Budapest
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:gtwc-2027-barcelona-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271024T123000Z
+DURATION:PT180M
+SUMMARY:GTWC · Barcelona (Endurance) – Rennen
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló
+DESCRIPTION:Wo schauen: YouTube · GT World\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Porsche Supercup
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:supercup-2027-monaco-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Monte Carlo – Rennen
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-portugal-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T101500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Portimão – Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-oesterreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Spielberg – Rennen
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-belgien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Spa – Rennen
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-ungarn-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Budapest – Rennen
+LOCATION:Hungaroring\, Budapest
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Monza – Rennen
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-spanien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T091500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Madrid – Rennen
+LOCATION:Madring\, Madrid
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercup-2027-tuerkei-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T081500Z
+DURATION:PT30M
+SUMMARY:PSC · Supercup Istanbul – Rennen
+LOCATION:Istanbul Park\, Istanbul
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nKal
+ ender vorläufig\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

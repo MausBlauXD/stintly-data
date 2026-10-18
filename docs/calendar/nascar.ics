@@ -1,0 +1,427 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · NASCAR Cup Series
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:nascar-2026-phoenix-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261018T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Freeway Insurance 500 – Rennen
+LOCATION:Phoenix Raceway\, Avondale
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nStartzeit p
+ rovisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-talladega-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261025T180000Z
+DURATION:PT210M
+SUMMARY:NASCAR · YellaWood 500 – Rennen
+LOCATION:Talladega Superspeedway\, Lincoln
+DESCRIPTION:Wo schauen: Sportdigital1+
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-martinsville-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261101T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Xfinity 500 – Rennen
+LOCATION:Martinsville Speedway\, Ridgeway
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nStartzeit p
+ rovisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-homestead-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261108T200000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Straight Talk Wireless 400 (Finale) – Rennen
+LOCATION:Homestead-Miami Speedway\, Homestead
+DESCRIPTION:Wo schauen: Sportdigital1+
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-clash-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270214T010000Z
+DURATION:PT150M
+SUMMARY:NASCAR · Clash at Daytona (Showrennen) – Rennen
+LOCATION:Daytona International Speedway\, Daytona Beach
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-daytona-500-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270221T193000Z
+DURATION:PT240M
+SUMMARY:NASCAR · Daytona 500 – Rennen
+LOCATION:Daytona International Speedway\, Daytona Beach
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-atlanta-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270228T200000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Autotrader 400 – Rennen
+LOCATION:EchoPark Speedway\, Hampton
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-cota-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270307T203000Z
+DURATION:PT180M
+SUMMARY:NASCAR · DuraMAX Grand Prix – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-phoenix-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T193000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Straight Talk Wireless 500 – Rennen
+LOCATION:Phoenix Raceway\, Avondale
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-las-vegas-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T193000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Pennzoil 400 – Rennen
+LOCATION:Las Vegas Motor Speedway\, Las Vegas
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-darlington-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Goodyear 400 – Rennen
+LOCATION:Darlington Raceway\, Darlington
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-bristol-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Food City 500 – Rennen
+LOCATION:Bristol Motor Speedway\, Bristol
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-martinsville-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Cook Out 400 – Rennen
+LOCATION:Martinsville Speedway\, Ridgeway
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-talladega-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Jack Link's 500 – Rennen
+LOCATION:Talladega Superspeedway\, Lincoln
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-texas-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Würth 400 – Rennen
+LOCATION:Texas Motor Speedway\, Fort Worth
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-kansas-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · AdventHealth 400 – Rennen
+LOCATION:Kansas Speedway\, Kansas City
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-dover-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270516T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Dover 400 – Rennen
+LOCATION:Dover Motor Speedway\, Dover
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-all-star-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270524T000000Z
+DURATION:PT150M
+SUMMARY:NASCAR · All-Star Race (Showrennen) – Rennen
+LOCATION:North Wilkesboro Speedway\, North Wilkesboro
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-charlotte-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T220000Z
+DURATION:PT270M
+SUMMARY:NASCAR · Coca-Cola 600 – Rennen
+LOCATION:Charlotte Motor Speedway\, Concord
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nashville-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Cracker Barrel 400 – Rennen
+LOCATION:Nashville Superspeedway\, Lebanon
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-pocono-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Great American Getaway 400 – Rennen
+LOCATION:Pocono Raceway\, Long Pond
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-michigan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · FireKeepers Casino 400 – Rennen
+LOCATION:Michigan International Speedway\, Brooklyn
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-chicagoland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · eero 400 – Rennen
+LOCATION:Chicagoland Speedway\, Joliet
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-iowa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Iowa Corn 350 – Rennen
+LOCATION:Iowa Speedway\, Newton
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-sonoma-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T193000Z
+DURATION:PT180M
+SUMMARY:NASCAR · Toyota/Save Mart 350 – Rennen
+LOCATION:Sonoma Raceway\, Sonoma
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-atlanta-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270718T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Dollar Tree 400 – Rennen
+LOCATION:EchoPark Speedway\, Hampton
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-indianapolis-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T180000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Brickyard 400 – Rennen
+LOCATION:Indianapolis Motor Speedway\, Speedway
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-san-diego-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270801T193000Z
+DURATION:PT180M
+SUMMARY:NASCAR · Anduril 250 – Rennen
+LOCATION:Coronado Street Course\, San Diego
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-bristol-night-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270814T233000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Bass Pro Shops Night Race – Rennen
+LOCATION:Bristol Motor Speedway\, Bristol
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-gateway-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Enjoy Illinois 300 – Rennen
+LOCATION:World Wide Technology Raceway\, Madison
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-daytona-night-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270828T233000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Coke Zero Sugar 400 – Rennen
+LOCATION:Daytona International Speedway\, Daytona Beach
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-southern-500-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T220000Z
+DURATION:PT240M
+SUMMARY:NASCAR · Southern 500 – Rennen
+LOCATION:Darlington Raceway\, Darlington
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-richmond-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T233000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Cook Out 400 – Rennen
+LOCATION:Richmond Raceway\, Richmond
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-watkins-glen-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T190000Z
+DURATION:PT180M
+SUMMARY:NASCAR · Go Bowling at The Glen – Rennen
+LOCATION:Watkins Glen International\, Watkins Glen
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-new-hampshire-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T180000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Dollar Tree 301 – Rennen
+LOCATION:New Hampshire Motor Speedway\, Loudon
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-kansas-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Hollywood Casino 400 – Rennen
+LOCATION:Kansas Speedway\, Kansas City
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-las-vegas-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T213000Z
+DURATION:PT210M
+SUMMARY:NASCAR · South Point 400 – Rennen
+LOCATION:Las Vegas Motor Speedway\, Las Vegas
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-charlotte-roval-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271017T180000Z
+DURATION:PT180M
+SUMMARY:NASCAR · Bank of America 400 – Rennen
+LOCATION:Charlotte Motor Speedway (Roval)\, Concord
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-phoenix-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271024T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Freeway Insurance 500 – Rennen
+LOCATION:Phoenix Raceway\, Avondale
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-talladega-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T180000Z
+DURATION:PT210M
+SUMMARY:NASCAR · YellaWood 500 – Rennen
+LOCATION:Talladega Superspeedway\, Lincoln
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-martinsville-2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271107T190000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Xfinity 500 – Rennen
+LOCATION:Martinsville Speedway\, Ridgeway
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-homestead-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271114T200000Z
+DURATION:PT210M
+SUMMARY:NASCAR · Straight Talk Wireless 400 (Finale) – Rennen
+LOCATION:Homestead-Miami Speedway\, Homestead
+DESCRIPTION:Wo schauen: Sportdigital1+\nStartzeit provisorisch\nDatum offiz
+ iell\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

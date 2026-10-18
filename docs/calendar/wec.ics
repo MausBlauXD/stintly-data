@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Langstrecken-WM (WEC)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wec-2026-bahrain-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261107T110000Z
+DURATION:PT480M
+SUMMARY:WEC · 8 Stunden von Bahrain – Rennen
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270327T100000Z
+DURATION:PT600M
+SUMMARY:WEC · Qatar 1812 km – Rennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-imola-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T110000Z
+DURATION:PT360M
+SUMMARY:WEC · 6 Stunden von Imola – Rennen
+LOCATION:Autodromo Enzo e Dino Ferrari\, Imola
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-silverstone-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T110000Z
+DURATION:PT360M
+SUMMARY:WEC · 6 Stunden von Silverstone – Rennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-spa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270515T110000Z
+DURATION:PT360M
+SUMMARY:WEC · 6 Stunden von Spa-Francorchamps – Rennen
+LOCATION:Spa-Francorchamps\, Spa
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-le-mans-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270612T140000Z
+DURATION:PT1440M
+SUMMARY:WEC · 24 Stunden von Le Mans – Rennen
+LOCATION:Circuit de la Sarthe\, Le Mans
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-sao-paulo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T150000Z
+DURATION:PT360M
+SUMMARY:WEC · 6 Stunden von São Paulo – Rennen
+LOCATION:Interlagos\, São Paulo
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-cota-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T180000Z
+DURATION:PT360M
+SUMMARY:WEC · Lone Star Le Mans – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-fuji-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T020000Z
+DURATION:PT360M
+SUMMARY:WEC · 6 Stunden von Fuji – Rennen
+LOCATION:Fuji Speedway\, Oyama
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-bahrain-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271106T110000Z
+DURATION:PT480M
+SUMMARY:WEC · 8 Stunden von Bahrain – Rennen
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: Eurosport · HBO Max · FIAWEC+\nStartzeit provisor
+ isch\nStartzeit provisorisch
+END:VEVENT
+END:VCALENDAR

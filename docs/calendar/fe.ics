@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Formel E
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:fe-2026-jeddah-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261218T170000Z
+DURATION:PT60M
+SUMMARY:FE · Jeddah E-Prix – Rennen 1
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2026-jeddah-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261219T170000Z
+DURATION:PT60M
+SUMMARY:FE · Jeddah E-Prix – Rennen 2
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-mexiko-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270116T210000Z
+DURATION:PT60M
+SUMMARY:FE · Mexico City E-Prix – Rennen
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-austin-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270206T210000Z
+DURATION:PT60M
+SUMMARY:FE · Austin E-Prix – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-miami-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270220T210000Z
+DURATION:PT60M
+SUMMARY:FE · Miami E-Prix – Rennen
+LOCATION:Homestead-Miami Speedway\, Miami
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-sao-paulo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270313T170000Z
+DURATION:PT60M
+SUMMARY:FE · São Paulo E-Prix – Rennen
+LOCATION:Anhembi Sambadrome\, São Paulo
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-sanya-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T070000Z
+DURATION:PT60M
+SUMMARY:FE · Sanya E-Prix – Rennen
+LOCATION:Haitang Bay Circuit\, Sanya
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-monaco-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270501T130000Z
+DURATION:PT60M
+SUMMARY:FE · Monaco E-Prix – Rennen 1
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-monaco-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T130000Z
+DURATION:PT60M
+SUMMARY:FE · Monaco E-Prix – Rennen 2
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-berlin-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270508T130000Z
+DURATION:PT60M
+SUMMARY:FE · Berlin E-Prix – Rennen 1
+LOCATION:Tempelhof Airport Street Circuit\, Berlin
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-berlin-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T130000Z
+DURATION:PT60M
+SUMMARY:FE · Berlin E-Prix – Rennen 2
+LOCATION:Tempelhof Airport Street Circuit\, Berlin
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-london-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270529T140000Z
+DURATION:PT60M
+SUMMARY:FE · London E-Prix – Rennen 1
+LOCATION:Brands Hatch\, Kent
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-london-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T140000Z
+DURATION:PT60M
+SUMMARY:FE · London E-Prix – Rennen 2
+LOCATION:Brands Hatch\, Kent
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-zandvoort-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270618T130000Z
+DURATION:PT60M
+SUMMARY:FE · Zandvoort E-Prix – Rennen 1
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-zandvoort-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270619T130000Z
+DURATION:PT60M
+SUMMARY:FE · Zandvoort E-Prix – Rennen 2
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-madrid-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270626T130000Z
+DURATION:PT60M
+SUMMARY:FE · Madrid E-Prix – Rennen 1
+LOCATION:Circuito del Jarama\, Madrid
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-madrid-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T130000Z
+DURATION:PT60M
+SUMMARY:FE · Madrid E-Prix – Rennen 2
+LOCATION:Circuito del Jarama\, Madrid
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-shanghai-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270710T070000Z
+DURATION:PT60M
+SUMMARY:FE · Shanghai E-Prix – Rennen 1
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-shanghai-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T070000Z
+DURATION:PT60M
+SUMMARY:FE · Shanghai E-Prix – Rennen 2
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-tokyo-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270724T060000Z
+DURATION:PT60M
+SUMMARY:FE · Tokyo E-Prix – Rennen 1
+LOCATION:Tokyo Street Circuit\, Tokio
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:fe-2027-tokyo-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270725T060000Z
+DURATION:PT60M
+SUMMARY:FE · Tokyo E-Prix – Rennen 2
+LOCATION:Tokyo Street Circuit\, Tokio
+DESCRIPTION:Wo schauen: Disney+ · blue TV\nStartzeit provisorisch\nKalende
+ r provisorisch\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Supercars
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:supercars-2026-gold-coast-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261024T043000Z
+DURATION:PT120M
+SUMMARY:SC · Gold Coast 500 – Rennen 1
+LOCATION:Surfers Paradise Street Circuit\, Surfers Paradise
+DESCRIPTION:Wo schauen: SuperView\nStartzeit provisorisch\nDatum offiziell\
+ , Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercars-2026-gold-coast-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261025T043000Z
+DURATION:PT120M
+SUMMARY:SC · Gold Coast 500 – Rennen 2
+LOCATION:Surfers Paradise Street Circuit\, Surfers Paradise
+DESCRIPTION:Wo schauen: SuperView\nStartzeit provisorisch\nDatum offiziell\
+ , Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercars-2026-sandown-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261108T003000Z
+DURATION:PT210M
+SUMMARY:SC · Sandown 500 – Rennen
+LOCATION:Sandown Raceway\, Melbourne
+DESCRIPTION:Wo schauen: SuperView\nStartzeit provisorisch\nDatum offiziell\
+ , Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercars-2026-adelaide-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261128T040000Z
+DURATION:PT120M
+SUMMARY:SC · Adelaide Grand Final – Rennen 1
+LOCATION:Adelaide Street Circuit\, Adelaide
+DESCRIPTION:Wo schauen: SuperView\nStartzeit provisorisch\nDatum offiziell\
+ , Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supercars-2026-adelaide-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261129T040000Z
+DURATION:PT120M
+SUMMARY:SC · Adelaide Grand Final – Rennen 2
+LOCATION:Adelaide Street Circuit\, Adelaide
+DESCRIPTION:Wo schauen: SuperView\nStartzeit provisorisch\nDatum offiziell\
+ , Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · IndyCar
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:indycar-2027-st-petersburg-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270307T170000Z
+DURATION:PT120M
+SUMMARY:Indy · Grand Prix of St. Petersburg – Rennen
+LOCATION:Streets of St. Petersburg\, St. Petersburg
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-phoenix-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270313T200000Z
+DURATION:PT120M
+SUMMARY:Indy · Good Ranchers 250 – Rennen
+LOCATION:Phoenix Raceway\, Avondale
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-arlington-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T180000Z
+DURATION:PT120M
+SUMMARY:Indy · Grand Prix of Arlington – Rennen
+LOCATION:Streets of Arlington\, Arlington
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-barber-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T183000Z
+DURATION:PT120M
+SUMMARY:Indy · Indy Grand Prix of Alabama – Rennen
+LOCATION:Barber Motorsports Park\, Birmingham
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-long-beach-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T200000Z
+DURATION:PT120M
+SUMMARY:Indy · Grand Prix of Long Beach – Rennen
+LOCATION:Streets of Long Beach\, Long Beach
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-ims-road-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270515T193000Z
+DURATION:PT120M
+SUMMARY:Indy · Sonsio Grand Prix – Rennen
+LOCATION:Indianapolis Motor Speedway (Road Course)\, Speedway
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-indy500-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T164500Z
+DURATION:PT210M
+SUMMARY:Indy · 111. Indianapolis 500 – Rennen
+LOCATION:Indianapolis Motor Speedway\, Speedway
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-detroit-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T163000Z
+DURATION:PT120M
+SUMMARY:Indy · Detroit Grand Prix – Rennen
+LOCATION:Streets of Detroit\, Detroit
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-gateway-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T200000Z
+DURATION:PT120M
+SUMMARY:Indy · Bommarito Automotive Group 500 – Rennen
+LOCATION:World Wide Technology Raceway\, Madison
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:indycar-2027-road-america-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T170000Z
+DURATION:PT120M
+SUMMARY:Indy · Grand Prix at Road America – Rennen
+LOCATION:Road America\, Elkhart Lake
+DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
+ Datum laut IndyCar bzw. Medienberichten\, Startzeit provisorisch
+END:VEVENT
+END:VCALENDAR

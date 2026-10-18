@@ -1,0 +1,279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Moto3
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:moto3-2026-australien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261025T000000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Australien – Rennen
+LOCATION:Phillip Island\, Phillip Island
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2026-malaysia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261101T040000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Malaysia – Rennen
+LOCATION:Sepang International Circuit\, Sepang
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2026-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261108T140000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Katar – Rennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2026-portugal-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261122T110000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Portugal – Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2026-valencia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261129T100000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Valencia – Rennen
+LOCATION:Circuit Ricardo Tormo\, Valencia
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-thailand-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270307T050000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Thailand – Rennen
+LOCATION:Chang International Circuit\, Buriram
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T140000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Katar – Rennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-brasilien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T140000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Brasilien – Rennen
+LOCATION:Autódromo de Goiânia\, Goiânia
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-argentinien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T140000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Argentinien – Rennen
+LOCATION:Autódromo Oscar y Juan Gálvez\, Buenos Aires
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-usa-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T160000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix der USA – Rennen
+LOCATION:Circuit of the Americas\, Austin
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-spanien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Spanien – Rennen
+LOCATION:Circuito de Jerez\, Jerez
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-frankreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270516T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Frankreich – Rennen
+LOCATION:Bugatti Circuit\, Le Mans
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270530T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Italien – Rennen
+LOCATION:Mugello\, Mugello
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-katalonien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270613T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Katalonien – Rennen
+LOCATION:Circuit de Barcelona-Catalunya\, Barcelona
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-niederlande-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270627T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Dutch TT – Rennen
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-deutschland-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Deutschland – Rennen
+LOCATION:Sachsenring\, Hohenstein-Ernstthal
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-tschechien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270718T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Tschechien – Rennen
+LOCATION:Automotodrom Brno\, Brünn
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-grossbritannien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270815T100000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Grossbritannien – Rennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-oesterreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270829T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Österreich – Rennen
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-san-marino-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von San Marino – Rennen
+LOCATION:Misano World Circuit\, Misano
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-aragon-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270919T090000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Aragón – Rennen
+LOCATION:MotorLand Aragón\, Alcañiz
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-portugal-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T100000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Portugal – Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-japan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271017T020000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Japan – Rennen
+LOCATION:Mobility Resort Motegi\, Motegi
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-malaysia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271024T040000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Malaysia – Rennen
+LOCATION:Sepang International Circuit\, Sepang
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-indonesien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T040000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Indonesien – Rennen
+LOCATION:Mandalika\, Lombok
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-australien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271114T003000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Australien – Rennen
+LOCATION:Adelaide Street Circuit\, Adelaide
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+BEGIN:VEVENT
+UID:moto3-2027-valencia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271128T100000Z
+DURATION:PT40M
+SUMMARY:Moto3 · Grand Prix von Valencia – Rennen
+LOCATION:Circuit Ricardo Tormo\, Valencia
+DESCRIPTION:Wo schauen: Play SRF / SRF Sport App · Sky Sport\nStartzeit pr
+ ovisorisch\nStartzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)
+END:VEVENT
+END:VCALENDAR

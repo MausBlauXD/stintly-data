@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Nürburgring Langstrecken-Serie
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:nls-2027-nls1-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T073000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 1 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls1-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T110000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 1 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls2-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 2 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls2-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 2 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls3-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 3 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls3-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 3 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls4-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270807T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 4 · 6h-Rennen – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls4-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270807T100000Z
+DURATION:PT360M
+SUMMARY:NLS · NLS 4 · 6h-Rennen – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls5-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 5 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls5-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 5 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls6-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 6 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls6-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 6 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls7-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 7 – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls7-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 7 – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls8-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T063000Z
+DURATION:PT90M
+SUMMARY:NLS · NLS 8 · Saisonfinale – Zeittraining
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:nls-2027-nls8-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T100000Z
+DURATION:PT240M
+SUMMARY:NLS · NLS 8 · Saisonfinale – Rennen
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · VLNOFFICIAL · NLS-Website\nStartzeit pr
+ ovisorisch\nDaten offiziell\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

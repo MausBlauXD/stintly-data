@@ -1,0 +1,163 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Porsche Carrera Cup Deutschland
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:carreracup-2027-imola-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270410T120000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Imola – Rennen 1
+LOCATION:Autodromo Enzo e Dino Ferrari\, Imola
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-imola-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270411T073000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Imola – Rennen 2
+LOCATION:Autodromo Enzo e Dino Ferrari\, Imola
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-spielberg-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270424T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Spielberg – Rennen 1
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-spielberg-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Spielberg – Rennen 2
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-norisring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Norisring – Rennen 1
+LOCATION:Norisring\, Nürnberg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-norisring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Norisring – Rennen 2
+LOCATION:Norisring\, Nürnberg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-zandvoort-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270807T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Zandvoort – Rennen 1
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-zandvoort-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Zandvoort – Rennen 2
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-nuerburgring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270821T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Nürburgring – Rennen 1
+LOCATION:Nürburgring GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-nuerburgring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Nürburgring – Rennen 2
+LOCATION:Nürburgring GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-sachsenring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Sachsenring – Rennen 1
+LOCATION:Sachsenring\, Hohenstein-Ernstthal
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-sachsenring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Sachsenring – Rennen 2
+LOCATION:Sachsenring\, Hohenstein-Ernstthal
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-hockenheim-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T085000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Finale Hockenheim – Rennen 1
+LOCATION:Hockenheimring\, Hockenheim
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+BEGIN:VEVENT
+UID:carreracup-2027-hockenheim-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T103000Z
+DURATION:PT35M
+SUMMARY:CCD · Carrera Cup Finale Hockenheim – Rennen 2
+LOCATION:Hockenheimring\, Hockenheim
+DESCRIPTION:Wo schauen: Joyn · YouTube · Porsche Motorsport\nStartzeit pr
+ ovisorisch\nDaten aus dem DTM- bzw. WEC-Kalender\, Startzeiten provisorisc
+ h
+END:VEVENT
+END:VCALENDAR

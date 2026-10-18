@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · 24h Nürburgring
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:n24-2027-qualifiers-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270501T110000Z
+DURATION:PT180M
+SUMMARY:24h · 24h Qualifiers – Qualifikationsrennen 1
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · 24h Nürburgring · 24h-rennen.de\nStart
+ zeit provisorisch\nDatum offiziell (30. April – 2. Mai)\, Startzeiten pr
+ ovisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:n24-2027-qualifiers-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270502T110000Z
+DURATION:PT180M
+SUMMARY:24h · 24h Qualifiers – Qualifikationsrennen 2
+LOCATION:Nürburgring Nordschleife\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · 24h Nürburgring · 24h-rennen.de\nStart
+ zeit provisorisch\nDatum offiziell (30. April – 2. Mai)\, Startzeiten pr
+ ovisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:n24-2027-rennen-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270528T150000Z
+DURATION:PT60M
+SUMMARY:24h · 55. ADAC 24h Nürburgring – Top-Qualifying
+LOCATION:Nordschleife + GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · 24h Nürburgring · 24h-rennen.de\nStart
+ zeit provisorisch\nDatum offiziell (27.–30. Mai)\, Startzeiten provisori
+ sch
+END:VEVENT
+BEGIN:VEVENT
+UID:n24-2027-rennen-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270529T133000Z
+DURATION:PT1440M
+SUMMARY:24h · 55. ADAC 24h Nürburgring – 24h-Rennen
+LOCATION:Nordschleife + GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: YouTube · 24h Nürburgring · 24h-rennen.de\nStart
+ zeit provisorisch\nDatum offiziell (27.–30. Mai)\, Startzeiten provisori
+ sch
+END:VEVENT
+END:VCALENDAR

@@ -9,6 +9,8 @@ Die App lädt `data/races.json` direkt von hier; Updates brauchen deshalb kein A
 - `data/races.json` – erzeugte Datei, nie von Hand ändern
 - `data/logos/` – optionale Serienlogos (nur mit Lizenz)
 - `docs/` – Support- und Datenschutzseite (GitHub Pages)
+- `docs/calendar/*.ics` – Kalender-Abos pro Serie und pro Favorit, z. B. `https://mausblauxd.github.io/stintly-data/calendar/f1.ics`
+- `tools/i18n.py` – Übersetzungen der Datentexte (Englisch, Französisch, Italienisch)
 
 ```bash
 python3 tools/generate_races.py && python3 tools/validate_races.py

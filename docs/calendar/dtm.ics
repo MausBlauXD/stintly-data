@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · DTM
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:dtm-2027-spielberg-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270424T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Spielberg – Rennen 1
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-spielberg-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270425T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Spielberg – Rennen 2
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-oschersleben-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270508T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Oschersleben – Rennen 1
+LOCATION:Motorsport Arena Oschersleben\, Oschersleben
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-oschersleben-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270509T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Oschersleben – Rennen 2
+LOCATION:Motorsport Arena Oschersleben\, Oschersleben
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-lausitzring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270619T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Lausitzring – Rennen 1
+LOCATION:Lausitzring\, Klettwitz
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-lausitzring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Lausitzring – Rennen 2
+LOCATION:Lausitzring\, Klettwitz
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-norisring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Norisring – Rennen 1
+LOCATION:Norisring\, Nürnberg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-norisring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Norisring – Rennen 2
+LOCATION:Norisring\, Nürnberg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-zandvoort-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270807T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Zandvoort – Rennen 1
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-zandvoort-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270808T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Zandvoort – Rennen 2
+LOCATION:Circuit Zandvoort\, Zandvoort
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-nuerburgring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270821T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Nürburgring – Rennen 1
+LOCATION:Nürburgring GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-nuerburgring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270822T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Nürburgring – Rennen 2
+LOCATION:Nürburgring GP-Strecke\, Nürburg
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-sachsenring-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Sachsenring – Rennen 1
+LOCATION:Sachsenring\, Hohenstein-Ernstthal
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-sachsenring-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Sachsenring – Rennen 2
+LOCATION:Sachsenring\, Hohenstein-Ernstthal
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-hockenheim-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271009T113000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Finale Hockenheim – Rennen 1
+LOCATION:Hockenheimring\, Hockenheim
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dtm-2027-hockenheim-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271010T143000Z
+DURATION:PT60M
+SUMMARY:DTM · DTM Finale Hockenheim – Rennen 2
+LOCATION:Hockenheimring\, Hockenheim
+DESCRIPTION:Wo schauen: ProSieben · Joyn\nStartzeit provisorisch\nDaten of
+ fiziell\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

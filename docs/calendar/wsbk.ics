@@ -1,0 +1,369 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Superbike-WM (WorldSBK)
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:wsbk-2027-phillip-island-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270220T030000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Phillip Island – Rennen 1
+LOCATION:Phillip Island\, Phillip Island
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-phillip-island-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270221T000000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Phillip Island – Superpole-Rennen
+LOCATION:Phillip Island\, Phillip Island
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-phillip-island-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270221T030000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Phillip Island – Rennen 2
+LOCATION:Phillip Island\, Phillip Island
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-portimao-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T140000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Portimão – Rennen 1
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-portimao-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T110000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Portimão – Superpole-Rennen
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-portimao-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T140000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Portimão – Rennen 2
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-valencia-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270403T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Valencia – Rennen 1
+LOCATION:Circuit Ricardo Tormo\, Valencia
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-valencia-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Valencia – Superpole-Rennen
+LOCATION:Circuit Ricardo Tormo\, Valencia
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-valencia-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Valencia – Rennen 2
+LOCATION:Circuit Ricardo Tormo\, Valencia
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-assen-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270417T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Assen – Rennen 1
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-assen-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Assen – Superpole-Rennen
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-assen-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270418T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Assen – Rennen 2
+LOCATION:TT Circuit Assen\, Assen
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-aragon-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270522T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Alcañiz – Rennen 1
+LOCATION:MotorLand Aragón\, Alcañiz
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-aragon-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Alcañiz – Superpole-Rennen
+LOCATION:MotorLand Aragón\, Alcañiz
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-aragon-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Alcañiz – Rennen 2
+LOCATION:MotorLand Aragón\, Alcañiz
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-most-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Most – Rennen 1
+LOCATION:Autodrom Most\, Most
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-most-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Most – Superpole-Rennen
+LOCATION:Autodrom Most\, Most
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-most-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Most – Rennen 2
+LOCATION:Autodrom Most\, Most
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-misano-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270619T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Misano Adriatico – Rennen 1
+LOCATION:Misano World Circuit\, Misano Adriatico
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-misano-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Misano Adriatico – Superpole-Rennen
+LOCATION:Misano World Circuit\, Misano Adriatico
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-misano-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270620T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Misano Adriatico – Rennen 2
+LOCATION:Misano World Circuit\, Misano Adriatico
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-donington-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270710T130000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Castle Donington – Rennen 1
+LOCATION:Donington Park\, Castle Donington
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-donington-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T100000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Castle Donington – Superpole-Rennen
+LOCATION:Donington Park\, Castle Donington
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-donington-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T130000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Castle Donington – Rennen 2
+LOCATION:Donington Park\, Castle Donington
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-magny-cours-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270904T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Magny-Cours – Rennen 1
+LOCATION:Circuit de Nevers Magny-Cours\, Magny-Cours
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-magny-cours-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Magny-Cours – Superpole-Rennen
+LOCATION:Circuit de Nevers Magny-Cours\, Magny-Cours
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-magny-cours-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Magny-Cours – Rennen 2
+LOCATION:Circuit de Nevers Magny-Cours\, Magny-Cours
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-cremona-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK San Martino del Lago – Rennen 1
+LOCATION:Cremona Circuit\, San Martino del Lago
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-cremona-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T090000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK San Martino del Lago – Superpole-Rennen
+LOCATION:Cremona Circuit\, San Martino del Lago
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-cremona-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T120000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK San Martino del Lago – Rennen 2
+LOCATION:Cremona Circuit\, San Martino del Lago
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-estoril-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271016T130000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Estoril – Rennen 1
+LOCATION:Circuito do Estoril\, Estoril
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-estoril-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271017T100000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Estoril – Superpole-Rennen
+LOCATION:Circuito do Estoril\, Estoril
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-estoril-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271017T130000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Estoril – Rennen 2
+LOCATION:Circuito do Estoril\, Estoril
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-shanghai-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271030T060000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Shanghai – Rennen 1
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-shanghai-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T030000Z
+DURATION:PT20M
+SUMMARY:SBK · WorldSBK Shanghai – Superpole-Rennen
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:wsbk-2027-shanghai-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T060000Z
+DURATION:PT40M
+SUMMARY:SBK · WorldSBK Shanghai – Rennen 2
+LOCATION:Shanghai International Circuit\, Shanghai
+DESCRIPTION:Wo schauen: ServusTV On · WorldSBK VideoPass\nStartzeit provis
+ orisch\nKalender provisorisch\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

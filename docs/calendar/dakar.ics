@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Rallye Dakar
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:dakar-2027-rallye-qualifying-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270101T070000Z
+DURATION:PT60M
+SUMMARY:Dakar · Rallye Dakar 2027 – Prolog
+LOCATION:Start & Ziel King Abdullah Economic City\, KAEC (bei Dschidda)
+DESCRIPTION:Wo schauen: Eurosport · dakar.com\nStartzeit provisorisch\nZei
+ traum offiziell (1.–15. Januar)\, Etappenzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dakar-2027-rallye-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270102T040000Z
+DURATION:PT480M
+SUMMARY:Dakar · Rallye Dakar 2027 – Etappe 1
+LOCATION:Start & Ziel King Abdullah Economic City\, KAEC (bei Dschidda)
+DESCRIPTION:Wo schauen: Eurosport · dakar.com\nStartzeit provisorisch\nZei
+ traum offiziell (1.–15. Januar)\, Etappenzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:dakar-2027-rallye-race-2@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270115T050000Z
+DURATION:PT240M
+SUMMARY:Dakar · Rallye Dakar 2027 – Schlussetappe
+LOCATION:Start & Ziel King Abdullah Economic City\, KAEC (bei Dschidda)
+DESCRIPTION:Wo schauen: Eurosport · dakar.com\nStartzeit provisorisch\nZei
+ traum offiziell (1.–15. Januar)\, Etappenzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

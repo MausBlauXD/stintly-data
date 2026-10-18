@@ -1,0 +1,331 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Formel 2
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:f2-2026-katar-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261128T150000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Lusail – Sprintrennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ um offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2026-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261129T120000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Lusail – Hauptrennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ um offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2026-abu-dhabi-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261205T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Abu Dhabi – Sprintrennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ um offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2026-abu-dhabi-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20261206T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Abu Dhabi – Hauptrennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ um offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-bahrain-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270313T130000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Sakhir – Sprintrennen
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-bahrain-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270314T110000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Sakhir – Hauptrennen
+LOCATION:Bahrain International Circuit\, Sakhir
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-saudi-arabien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270320T140000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Dschidda – Sprintrennen
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-saudi-arabien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270321T130000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Dschidda – Hauptrennen
+LOCATION:Jeddah Corniche Circuit\, Dschidda
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-australien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270403T020000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Melbourne – Sprintrennen
+LOCATION:Albert Park\, Melbourne
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-australien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270404T010000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Melbourne – Hauptrennen
+LOCATION:Albert Park\, Melbourne
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-kanada-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270522T170000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Montréal – Sprintrennen
+LOCATION:Circuit Gilles Villeneuve\, Montréal
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch\; Montreal noch unter Ve
+ rtragsvorbehalt
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-kanada-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270523T140000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Montréal – Hauptrennen
+LOCATION:Circuit Gilles Villeneuve\, Montréal
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch\; Montreal noch unter Ve
+ rtragsvorbehalt
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-monaco-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270605T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Monte Carlo – Sprintrennen
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-monaco-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270606T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Monte Carlo – Hauptrennen
+LOCATION:Circuit de Monaco\, Monte Carlo
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-grossbritannien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270703T120000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Silverstone – Sprintrennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-grossbritannien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270704T100000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Silverstone – Hauptrennen
+LOCATION:Silverstone\, Silverstone
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-oesterreich-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270710T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Spielberg – Sprintrennen
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-oesterreich-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270711T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Spielberg – Hauptrennen
+LOCATION:Red Bull Ring\, Spielberg
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-italien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270904T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Monza – Sprintrennen
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-italien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270905T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Monza – Hauptrennen
+LOCATION:Monza\, Monza
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-spanien-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270911T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Madrid – Sprintrennen
+LOCATION:Madring\, Madrid
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-spanien-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270912T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Madrid – Hauptrennen
+LOCATION:Madring\, Madrid
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-aserbaidschan-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270925T090000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Baku – Sprintrennen
+LOCATION:Baku City Circuit\, Baku
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-aserbaidschan-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20270926T070000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Baku – Hauptrennen
+LOCATION:Baku City Circuit\, Baku
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-tuerkei-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271002T100000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Istanbul – Sprintrennen
+LOCATION:Istanbul Park\, Istanbul
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-tuerkei-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271003T080000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Istanbul – Hauptrennen
+LOCATION:Istanbul Park\, Istanbul
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-mexiko-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271030T180000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Mexiko-Stadt – Sprintrennen
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-mexiko-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271031T160000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Mexiko-Stadt – Hauptrennen
+LOCATION:Autódromo Hermanos Rodríguez\, Mexiko-Stadt
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-katar-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271204T150000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Lusail – Sprintrennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-katar-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271205T120000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Lusail – Hauptrennen
+LOCATION:Lusail International Circuit\, Lusail
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-abu-dhabi-sprint-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271211T110000Z
+DURATION:PT45M
+SUMMARY:F2 · F2 Abu Dhabi – Sprintrennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:f2-2027-abu-dhabi-race-1@stintly
+DTSTAMP:20261018T212403Z
+DTSTART:20271212T090000Z
+DURATION:PT60M
+SUMMARY:F2 · F2 Abu Dhabi – Hauptrennen
+LOCATION:Yas Marina Circuit\, Abu Dhabi
+DESCRIPTION:Wo schauen: Sky Sport · F1 TV Pro\nStartzeit provisorisch\nDat
+ en gemäss F1-Kalender\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

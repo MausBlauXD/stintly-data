@@ -18,6 +18,15 @@ Jeder Push auf `main` ist sofort bei allen Nutzern – nur geprüfte Daten pushe
 5. Hat sich ausser `updatedAt` nichts geändert: verwerfen, nicht committen.
 6. Sonst committen und auf `main` pushen.
 
+## Favoriten, Übersetzungen, Links, Kalender
+
+- Favoriten (`ENTRANTS`): Grello, Rexy (AO Racing), Kévin Estre. In `EVENT_ENTRANTS` nur **bestätigte** Starts
+  eintragen (Quelle als Kommentar); unbestätigte Pläne bleiben in `tools/watchlist.md`.
+- Übersetzungen (en/fr/it) in `tools/i18n.py`. Neue Taglines, Sender-Hinweise, Notiz-Bausteine oder
+  Session-Namen dort ergänzen – der Generator meldet fehlende als „Hinweis“ (App zeigt dann Deutsch).
+- `LIVE_TIMING` nur mit geprüften Links (HTTP 200).
+- Der Generator schreibt auch die Kalender-Abos `docs/calendar/<serie>.ics` und `fav-<id>.ics` – mitcommitten.
+
 ## Regeln
 
 - Keine Logos ohne Lizenz, keine Tipps zum Umgehen von Geosperren.
