@@ -7,7 +7,9 @@ Jeder Push auf `main` ist sofort bei allen Nutzern – nur geprüfte Daten pushe
 ## Wöchentliches Update (sparsam mit Tokens)
 
 1. `python3 tools/weekly_check.py` – die Ausgabe ist die einzige Prüfliste (provisorische Zeiten der nächsten
-   14 Tage, Serien mit bald auslaufendem Kalender). Steht überall „keine“: fertig, nichts committen.
+   14 Tage, Serien mit bald auslaufendem Kalender, am ersten Montag im Monat zusätzlich `tools/watchlist.md`:
+   Grello, Rexy, Kevin Estre und noch unveröffentlichte Kalender). Steht überall „keine“: fertig, nichts committen.
+   Erledigte Punkte der Beobachtungsliste dort löschen.
 2. Recherche nur mit Websuche (Standardmodus), höchstens 8 Suchen, bevorzugt offizielle Quellen. Nichts erfinden.
 3. Nur `tools/generate_races.py` ändern (Stelle per `grep -n` finden). Zeiten als Ortszeit der Strecke,
    bestätigte Zeiten `confirmed=True`, unsichere `False` mit note „Startzeiten provisorisch“, Quelle in `sources`.

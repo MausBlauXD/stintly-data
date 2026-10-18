@@ -3,6 +3,7 @@
 
 1. Provisorische Sessions (confirmed=false) der nächsten 14 Tage → offizielle Startzeit suchen.
 2. Serien, deren letztes Event in weniger als 60 Tagen endet → neuen Kalender suchen.
+3. Am ersten Montag im Monat (Tag 1–7): Beobachtungsliste tools/watchlist.md (Fahrer, offene Kalender).
 
     python3 tools/weekly_check.py
 """
@@ -42,3 +43,7 @@ for sid, s in series.items():
         print(f"- {s['shortName']} ({sid}): letztes Event {last:%Y-%m-%d}" if last else f"- {s['shortName']} ({sid}): keine Events")
 if not found:
     print("- keine")
+
+if now.day <= 7:
+    print("\nBEOBACHTUNGSLISTE (erster Montag im Monat):")
+    print((ROOT / "tools" / "watchlist.md").read_text(encoding="utf-8").strip())

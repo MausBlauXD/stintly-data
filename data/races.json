@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T14:11:50Z",
+  "updatedAt": "2026-10-18T20:52:47Z",
   "region": "CH",
   "channels": [
     {
@@ -212,6 +212,27 @@
       "kind": "freeStream",
       "url": "https://www.youtube.com/results?search_query=Pikes+Peak+Hill+Climb+live",
       "note": "Gratis-Livestream"
+    },
+    {
+      "id": "yt-adac",
+      "name": "YouTube · ADAC Motorsport",
+      "kind": "freeStream",
+      "url": "https://www.youtube.com/@ADACMotorsport",
+      "note": "Livestream je nach Rechtelage"
+    },
+    {
+      "id": "yt-porsche",
+      "name": "YouTube · Porsche Motorsport",
+      "kind": "freeStream",
+      "url": "https://www.youtube.com/@PorscheMotorsport",
+      "note": "Livestream je nach Rechtelage"
+    },
+    {
+      "id": "yt-macau",
+      "name": "YouTube · Macau Grand Prix",
+      "kind": "freeStream",
+      "url": "https://www.youtube.com/results?search_query=Macau+Grand+Prix+live",
+      "note": "Livestream je nach Region"
     }
   ],
   "series": [
@@ -382,6 +403,57 @@
         "joyn"
       ],
       "website": "https://www.dtm.com"
+    },
+    {
+      "id": "gtmasters",
+      "name": "ADAC GT Masters",
+      "shortName": "GTM",
+      "category": "Tourenwagen / GT",
+      "tagline": "GT3-Sprints im DTM-Rahmen",
+      "color": "#F2B800",
+      "channelIds": [
+        "joyn",
+        "yt-adac"
+      ],
+      "website": "https://www.adac-motorsport.de/adac-gt-masters/"
+    },
+    {
+      "id": "carreracup",
+      "name": "Porsche Carrera Cup Deutschland",
+      "shortName": "CCD",
+      "category": "Tourenwagen / GT",
+      "tagline": "Markenpokal im DTM-Rahmen",
+      "color": "#3C3C46",
+      "channelIds": [
+        "joyn",
+        "yt-porsche"
+      ],
+      "website": "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/"
+    },
+    {
+      "id": "supercup",
+      "name": "Porsche Supercup",
+      "shortName": "PSC",
+      "category": "Tourenwagen / GT",
+      "tagline": "Markenpokal im F1-Rahmen",
+      "color": "#B12B28",
+      "channelIds": [
+        "sky",
+        "f1tv"
+      ],
+      "website": "https://racing.porsche.com/mobil-1-supercup"
+    },
+    {
+      "id": "macau",
+      "name": "Macau Grand Prix",
+      "shortName": "Macau",
+      "category": "Tourenwagen / GT",
+      "tagline": "GT World Cup auf dem Guia Circuit",
+      "color": "#0B8A6E",
+      "channelIds": [
+        "yt-macau"
+      ],
+      "website": "https://www.macau.grandprix.gov.mo"
     },
     {
       "id": "btcc",
@@ -1151,6 +1223,46 @@
       ],
       "channelIds": null,
       "note": null
+    },
+    {
+      "id": "macau-2026-grand-prix",
+      "seriesId": "macau",
+      "name": "73. Macau Grand Prix",
+      "circuit": "Guia Circuit",
+      "location": "Macau",
+      "countryCode": "MO",
+      "sessions": [
+        {
+          "id": "macau-2026-grand-prix-sprint-1",
+          "kind": "sprint",
+          "name": "GT World Cup · Qualifikationsrennen",
+          "start": "2026-11-21T04:30:00Z",
+          "durationMinutes": 40,
+          "confirmed": false
+        },
+        {
+          "id": "macau-2026-grand-prix-race-1",
+          "kind": "race",
+          "name": "GT World Cup · Hauptrennen",
+          "start": "2026-11-22T03:30:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "macau-2026-grand-prix-race-2",
+          "kind": "race",
+          "name": "Formel Regional · Grand Prix",
+          "start": "2026-11-22T07:30:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://www.dailysportscar.com/2025/12/10/2026-fia-gt-world-cup-date-set.html",
+        "https://www.macau.grandprix.gov.mo"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch"
     },
     {
       "id": "motogp-2026-portugal",
@@ -3255,6 +3367,38 @@
       "note": "Daten offiziell, Startzeiten noch provisorisch"
     },
     {
+      "id": "carreracup-2027-imola",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Imola",
+      "circuit": "Autodromo Enzo e Dino Ferrari",
+      "location": "Imola",
+      "countryCode": "IT",
+      "sessions": [
+        {
+          "id": "carreracup-2027-imola-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-04-10T12:00:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-imola-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-04-11T07:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
       "id": "btcc-2027-donington",
       "seriesId": "btcc",
       "name": "BTCC Donington Park",
@@ -3728,6 +3872,70 @@
       ],
       "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch"
+    },
+    {
+      "id": "carreracup-2027-spielberg",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Spielberg",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "countryCode": "AT",
+      "sessions": [
+        {
+          "id": "carreracup-2027-spielberg-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-04-24T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-spielberg-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-04-25T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
+      "id": "gtmasters-2027-spielberg",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Spielberg",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "countryCode": "AT",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-spielberg-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-04-24T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-spielberg-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-04-25T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
     },
     {
       "id": "dtm-2027-spielberg",
@@ -5391,6 +5599,30 @@
       "note": "Kalender provisorisch, Startzeit provisorisch"
     },
     {
+      "id": "supercup-2027-monaco",
+      "seriesId": "supercup",
+      "name": "Supercup Monte Carlo",
+      "circuit": "Circuit de Monaco",
+      "location": "Monte Carlo",
+      "countryCode": "MC",
+      "sessions": [
+        {
+          "id": "supercup-2027-monaco-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-06-06T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "indycar-2027-detroit",
       "seriesId": "indycar",
       "name": "Detroit Grand Prix",
@@ -5698,6 +5930,38 @@
       "note": "Kalender provisorisch, Startzeiten provisorisch"
     },
     {
+      "id": "gtmasters-2027-lausitzring",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Lausitzring",
+      "circuit": "Lausitzring",
+      "location": "Klettwitz",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-lausitzring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-06-19T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-lausitzring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-06-20T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
+    },
+    {
       "id": "dtm-2027-lausitzring",
       "seriesId": "dtm",
       "name": "DTM Lausitzring",
@@ -5800,6 +6064,30 @@
       ],
       "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch"
+    },
+    {
+      "id": "supercup-2027-portugal",
+      "seriesId": "supercup",
+      "name": "Supercup Portimão",
+      "circuit": "Autódromo Internacional do Algarve",
+      "location": "Portimão",
+      "countryCode": "PT",
+      "sessions": [
+        {
+          "id": "supercup-2027-portugal-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-06-20T10:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
     },
     {
       "id": "mxgp-2027-deutschland",
@@ -6179,6 +6467,38 @@
       "note": "Daten offiziell, Startzeiten provisorisch"
     },
     {
+      "id": "carreracup-2027-norisring",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Norisring",
+      "circuit": "Norisring",
+      "location": "Nürnberg",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "carreracup-2027-norisring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-07-03T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-norisring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-07-04T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
       "id": "f3-2027-grossbritannien",
       "seriesId": "f3",
       "name": "F3 Silverstone",
@@ -6458,6 +6778,38 @@
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch"
     },
     {
+      "id": "gtmasters-2027-nuerburgring",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Nürburgring",
+      "circuit": "Nürburgring GP-Strecke",
+      "location": "Nürburg",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-nuerburgring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-07-10T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-nuerburgring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-07-11T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
+    },
+    {
       "id": "f2-2027-oesterreich",
       "seriesId": "f2",
       "name": "F2 Spielberg",
@@ -6614,6 +6966,30 @@
       ],
       "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)"
+    },
+    {
+      "id": "supercup-2027-oesterreich",
+      "seriesId": "supercup",
+      "name": "Supercup Spielberg",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "countryCode": "AT",
+      "sessions": [
+        {
+          "id": "supercup-2027-oesterreich-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-07-11T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
     },
     {
       "id": "moto2-2027-deutschland",
@@ -6987,6 +7363,30 @@
       "note": "Datum offiziell, Startzeiten provisorisch"
     },
     {
+      "id": "supercup-2027-belgien",
+      "seriesId": "supercup",
+      "name": "Supercup Spa",
+      "circuit": "Spa-Francorchamps",
+      "location": "Spa",
+      "countryCode": "BE",
+      "sessions": [
+        {
+          "id": "supercup-2027-belgien-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-07-25T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "mxgp-2027-tschechien",
       "seriesId": "mxgp",
       "name": "MXGP von Tschechien",
@@ -7138,6 +7538,30 @@
       "note": "Daten offiziell, Startzeiten noch provisorisch"
     },
     {
+      "id": "supercup-2027-ungarn",
+      "seriesId": "supercup",
+      "name": "Supercup Budapest",
+      "circuit": "Hungaroring",
+      "location": "Budapest",
+      "countryCode": "HU",
+      "sessions": [
+        {
+          "id": "supercup-2027-ungarn-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-08-01T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "mxgp-2027-flandern",
       "seriesId": "mxgp",
       "name": "MXGP von Flandern",
@@ -7223,6 +7647,70 @@
       ],
       "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch"
+    },
+    {
+      "id": "carreracup-2027-zandvoort",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Zandvoort",
+      "circuit": "Circuit Zandvoort",
+      "location": "Zandvoort",
+      "countryCode": "NL",
+      "sessions": [
+        {
+          "id": "carreracup-2027-zandvoort-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-08-07T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-zandvoort-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-08-08T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
+      "id": "gtmasters-2027-zandvoort",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Zandvoort",
+      "circuit": "Circuit Zandvoort",
+      "location": "Zandvoort",
+      "countryCode": "NL",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-zandvoort-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-08-07T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-zandvoort-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-08-08T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
     },
     {
       "id": "dtm-2027-zandvoort",
@@ -7507,6 +7995,38 @@
       ],
       "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch"
+    },
+    {
+      "id": "carreracup-2027-nuerburgring",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Nürburgring",
+      "circuit": "Nürburgring GP-Strecke",
+      "location": "Nürburg",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "carreracup-2027-nuerburgring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-08-21T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-nuerburgring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-08-22T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
     },
     {
       "id": "dtm-2027-nuerburgring",
@@ -7945,6 +8465,30 @@
       "note": "Kalender provisorisch, Startzeiten provisorisch"
     },
     {
+      "id": "supercup-2027-italien",
+      "seriesId": "supercup",
+      "name": "Supercup Monza",
+      "circuit": "Monza",
+      "location": "Monza",
+      "countryCode": "IT",
+      "sessions": [
+        {
+          "id": "supercup-2027-italien-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-09-05T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "elms-2027-silverstone",
       "seriesId": "elms",
       "name": "4 Stunden von Silverstone",
@@ -8310,6 +8854,30 @@
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)"
     },
     {
+      "id": "supercup-2027-spanien",
+      "seriesId": "supercup",
+      "name": "Supercup Madrid",
+      "circuit": "Madring",
+      "location": "Madrid",
+      "countryCode": "ES",
+      "sessions": [
+        {
+          "id": "supercup-2027-spanien-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-09-12T09:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "moto2-2027-san-marino",
       "seriesId": "moto2",
       "name": "Grand Prix von San Marino",
@@ -8577,6 +9145,38 @@
       "note": "Daten offiziell, Startzeiten provisorisch"
     },
     {
+      "id": "carreracup-2027-sachsenring",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Sachsenring",
+      "circuit": "Sachsenring",
+      "location": "Hohenstein-Ernstthal",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "carreracup-2027-sachsenring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-09-25T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-sachsenring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-09-26T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
       "id": "f2-2027-aserbaidschan",
       "seriesId": "f2",
       "name": "F2 Baku",
@@ -8607,6 +9207,38 @@
       ],
       "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch"
+    },
+    {
+      "id": "gtmasters-2027-sachsenring",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Sachsenring",
+      "circuit": "Sachsenring",
+      "location": "Hohenstein-Ernstthal",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-sachsenring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-09-25T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-sachsenring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-09-26T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
     },
     {
       "id": "dtm-2027-sachsenring",
@@ -9024,6 +9656,30 @@
       "note": "Startzeiten provisorisch"
     },
     {
+      "id": "supercup-2027-tuerkei",
+      "seriesId": "supercup",
+      "name": "Supercup Istanbul",
+      "circuit": "Istanbul Park",
+      "location": "Istanbul",
+      "countryCode": "TR",
+      "sessions": [
+        {
+          "id": "supercup-2027-tuerkei-race-1",
+          "kind": "race",
+          "name": "Rennen",
+          "start": "2027-10-03T08:15:00Z",
+          "durationMinutes": 30,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+        "https://racing.porsche.com/mobil-1-supercup"
+      ],
+      "channelIds": null,
+      "note": "Kalender vorläufig, Startzeit provisorisch"
+    },
+    {
       "id": "moto3-2027-portugal",
       "seriesId": "moto3",
       "name": "Grand Prix von Portugal",
@@ -9155,6 +9811,70 @@
       ],
       "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch"
+    },
+    {
+      "id": "carreracup-2027-hockenheim",
+      "seriesId": "carreracup",
+      "name": "Carrera Cup Finale Hockenheim",
+      "circuit": "Hockenheimring",
+      "location": "Hockenheim",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "carreracup-2027-hockenheim-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-10-09T08:50:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        },
+        {
+          "id": "carreracup-2027-hockenheim-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-10-10T10:30:00Z",
+          "durationMinutes": 35,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+        "https://racing.porsche.com/series/carrera-cup-deutschland"
+      ],
+      "channelIds": null,
+      "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch"
+    },
+    {
+      "id": "gtmasters-2027-hockenheim",
+      "seriesId": "gtmasters",
+      "name": "GT Masters Finale Hockenheim",
+      "circuit": "Hockenheimring",
+      "location": "Hockenheim",
+      "countryCode": "DE",
+      "sessions": [
+        {
+          "id": "gtmasters-2027-hockenheim-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-10-09T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        },
+        {
+          "id": "gtmasters-2027-hockenheim-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-10-10T09:15:00Z",
+          "durationMinutes": 60,
+          "confirmed": false
+        }
+      ],
+      "sources": [
+        "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+        "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"
     },
     {
       "id": "dtm-2027-hockenheim",

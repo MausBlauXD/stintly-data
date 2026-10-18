@@ -51,6 +51,9 @@ CHANNELS = [
     ("rallytv", "Rally.TV", "payStream", "https://rally.tv", "Alle WRC-Prüfungen live"),
     ("dakar-web", "dakar.com", "freeStream", "https://www.dakar.com", "Live-Tracking & tägliche Highlights"),
     ("yt-ppihc", "YouTube · Pikes Peak", "freeStream", "https://www.youtube.com/results?search_query=Pikes+Peak+Hill+Climb+live", "Gratis-Livestream"),
+    ("yt-adac", "YouTube · ADAC Motorsport", "freeStream", "https://www.youtube.com/@ADACMotorsport", "Livestream je nach Rechtelage"),
+    ("yt-porsche", "YouTube · Porsche Motorsport", "freeStream", "https://www.youtube.com/@PorscheMotorsport", "Livestream je nach Rechtelage"),
+    ("yt-macau", "YouTube · Macau Grand Prix", "freeStream", "https://www.youtube.com/results?search_query=Macau+Grand+Prix+live", "Livestream je nach Region"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -73,6 +76,10 @@ SERIES = [
     ("n24", "24h Nürburgring", "24h", "Langstrecke", "Grüne Hölle, 24 Stunden", "#F2A900", ["yt-24h", "n24-web"], "https://www.24h-rennen.de"),
     # Tourenwagen / GT
     ("dtm", "DTM", "DTM", "Tourenwagen / GT", "GT3-Sprintrennen", "#1B3D8F", ["prosieben", "joyn"], "https://www.dtm.com"),
+    ("gtmasters", "ADAC GT Masters", "GTM", "Tourenwagen / GT", "GT3-Sprints im DTM-Rahmen", "#F2B800", ["joyn", "yt-adac"], "https://www.adac-motorsport.de/adac-gt-masters/"),
+    ("carreracup", "Porsche Carrera Cup Deutschland", "CCD", "Tourenwagen / GT", "Markenpokal im DTM-Rahmen", "#3C3C46", ["joyn", "yt-porsche"], "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/"),
+    ("supercup", "Porsche Supercup", "PSC", "Tourenwagen / GT", "Markenpokal im F1-Rahmen", "#B12B28", ["sky", "f1tv"], "https://racing.porsche.com/mobil-1-supercup"),
+    ("macau", "Macau Grand Prix", "Macau", "Tourenwagen / GT", "GT World Cup auf dem Guia Circuit", "#0B8A6E", ["yt-macau"], "https://www.macau.grandprix.gov.mo"),
     ("btcc", "British Touring Car Championship", "BTCC", "Tourenwagen / GT", "Britische Tourenwagen", "#D4145A", ["yt-btcc"], "https://www.btcc.net"),
     ("supercars", "Supercars", "SC", "Tourenwagen / GT", "V8-Tourenwagen aus Australien", "#B5121B", ["superview"], "https://www.supercars.com"),
     ("nascar", "NASCAR Cup Series", "NASCAR", "Tourenwagen / GT", "Stockcars, inkl. Daytona 500", "#FFB81C", ["sportdigital"], "https://www.nascar.com"),
@@ -770,6 +777,64 @@ event("dakar", "rallye", "Rallye Dakar 2027", "Start & Ziel King Abdullah Econom
 event("pikespeak", "race-day", "105. Pikes Peak International Hill Climb", "Pikes Peak Highway", "Colorado Springs", "US", "America/Denver", [
     ("race", "Renntag", at(d("27.06.2027"), "08:00"), 480, False),
 ], ["https://ppihc.org"], note="Datum offiziell, Startzeit provisorisch")
+
+
+# ===========================================================================
+# Erweiterung vom 18.10.2026: ADAC- und Porsche-Cups, Macau
+# ===========================================================================
+
+# ADAC GT Masters 2027: Lauf 1 Sa, Lauf 2 So (je 60 Min.), fünfmal im DTM-Rahmen
+GTM_SRC = ["https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
+           "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"]
+for slug, name, circuit, loc, cc, tz, saturday in [
+    ("spielberg", "GT Masters Spielberg", "Red Bull Ring", "Spielberg", "AT", "Europe/Vienna", "24.04.2027"),
+    ("lausitzring", "GT Masters Lausitzring", "Lausitzring", "Klettwitz", "DE", "Europe/Berlin", "19.06.2027"),
+    ("nuerburgring", "GT Masters Nürburgring", "Nürburgring GP-Strecke", "Nürburg", "DE", "Europe/Berlin", "10.07.2027"),
+    ("zandvoort", "GT Masters Zandvoort", "Circuit Zandvoort", "Zandvoort", "NL", "Europe/Amsterdam", "07.08.2027"),
+    ("sachsenring", "GT Masters Sachsenring", "Sachsenring", "Hohenstein-Ernstthal", "DE", "Europe/Berlin", "25.09.2027"),
+    ("hockenheim", "GT Masters Finale Hockenheim", "Hockenheimring", "Hockenheim", "DE", "Europe/Berlin", "09.10.2027"),
+]:
+    sat = d(saturday)
+    event("gtmasters", slug, name, circuit, loc, cc, tz, [
+        ("race", "Rennen 1", at(sat, "11:15"), 60, False),
+        ("race", "Rennen 2", at(sat + timedelta(days=1), "11:15"), 60, False),
+    ], GTM_SRC, note="Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch")
+
+# Porsche Carrera Cup Deutschland 2027: zwei Sprints à 30 Min. + 1 Runde
+# Monza (International GT Open) ist angekündigt, aber noch ohne Datum.
+CCD_SRC = ["https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
+           "https://racing.porsche.com/series/carrera-cup-deutschland"]
+for slug, name, circuit, loc, cc, tz, saturday, sat_time, sun_time in [
+    ("imola", "Carrera Cup Imola", "Autodromo Enzo e Dino Ferrari", "Imola", "IT", "Europe/Rome", "10.04.2027", "14:00", "09:30"),
+    ("spielberg", "Carrera Cup Spielberg", "Red Bull Ring", "Spielberg", "AT", "Europe/Vienna", "24.04.2027", "10:50", "12:30"),
+    ("norisring", "Carrera Cup Norisring", "Norisring", "Nürnberg", "DE", "Europe/Berlin", "03.07.2027", "10:50", "12:30"),
+    ("zandvoort", "Carrera Cup Zandvoort", "Circuit Zandvoort", "Zandvoort", "NL", "Europe/Amsterdam", "07.08.2027", "10:50", "12:30"),
+    ("nuerburgring", "Carrera Cup Nürburgring", "Nürburgring GP-Strecke", "Nürburg", "DE", "Europe/Berlin", "21.08.2027", "10:50", "12:30"),
+    ("sachsenring", "Carrera Cup Sachsenring", "Sachsenring", "Hohenstein-Ernstthal", "DE", "Europe/Berlin", "25.09.2027", "10:50", "12:30"),
+    ("hockenheim", "Carrera Cup Finale Hockenheim", "Hockenheimring", "Hockenheim", "DE", "Europe/Berlin", "09.10.2027", "10:50", "12:30"),
+]:
+    sat = d(saturday)
+    event("carreracup", slug, name, circuit, loc, cc, tz, [
+        ("race", "Rennen 1", at(sat, sat_time), 35, False),
+        ("race", "Rennen 2", at(sat + timedelta(days=1), sun_time), 35, False),
+    ], CCD_SRC, note="Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch")
+
+# Porsche Supercup 2027 (vorläufig): Rennen am F1-Renntag, ca. 3:45 Std. vor dem Grand Prix
+PSC_SRC = ["https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
+           "https://racing.porsche.com/mobil-1-supercup"]
+for slug in ["monaco", "portugal", "oesterreich", "belgien", "ungarn", "italien", "spanien", "tuerkei"]:
+    _, _, circuit, loc, cc, tz, raceday, race, _, _ = F1_LOOKUP[slug]
+    event("supercup", slug, f"Supercup {loc}", circuit, loc, cc, tz, [
+        ("race", "Rennen", shift(at(d(raceday), race), -3.75), 30, False),
+    ], PSC_SRC, note="Kalender vorläufig, Startzeit provisorisch")
+
+# Macau Grand Prix 2026 (19.–22. November): FIA GT World Cup + Formel-Regional-Weltcup
+event("macau", "grand-prix", "73. Macau Grand Prix", "Guia Circuit", "Macau", "MO", "Asia/Macau", [
+    ("sprint", "GT World Cup · Qualifikationsrennen", at(d("21.11.2026"), "12:30"), 40, False),
+    ("race", "GT World Cup · Hauptrennen", at(d("22.11.2026"), "11:30"), 60, False),
+    ("race", "Formel Regional · Grand Prix", at(d("22.11.2026"), "15:30"), 60, False),
+], ["https://www.dailysportscar.com/2025/12/10/2026-fia-gt-world-cup-date-set.html",
+    "https://www.macau.grandprix.gov.mo"], note="Datum offiziell, Startzeiten provisorisch")
 
 
 # ---------------------------------------------------------------------------
