@@ -25,7 +25,7 @@ Jeder Push auf `main` ist sofort bei allen Nutzern – nur geprüfte Daten pushe
 - Übersetzungen (en/fr/it) in `tools/i18n.py`. Neue Taglines, Sender-Hinweise, Notiz-Bausteine oder
   Session-Namen dort ergänzen – der Generator meldet fehlende als „Hinweis“ (App zeigt dann Deutsch).
 - `LIVE_TIMING` nur mit geprüften Links (HTTP 200).
-- Der Generator schreibt auch die Kalender-Abos `docs/calendar/<serie>.ics` und `fav-<id>.ics` – mitcommitten.
+- Der Generator schreibt auch die Kalender-Abos `docs/calendar/<serie>.ics` – mitcommitten.
 
 ## Regeln
 

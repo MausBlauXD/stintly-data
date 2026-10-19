@@ -8,33 +8,33 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:macau-2026-grand-prix-sprint-1@stintly
-DTSTAMP:20261019T050831Z
+DTSTAMP:20261019T062819Z
 DTSTART:20261121T043000Z
 DURATION:PT40M
 SUMMARY:Macau · 73. Macau Grand Prix – GT World Cup · Qualifikationsren
  nen
 LOCATION:Guia Circuit\, Macau
 DESCRIPTION:Wo schauen: YouTube · Macau Grand Prix\nStartzeit provisorisch
- \nDatum offiziell\, Startzeiten provisorisch\; AO Racing by Absolute
+ \nDatum offiziell\, Startzeiten provisorisch
 END:VEVENT
 BEGIN:VEVENT
 UID:macau-2026-grand-prix-race-1@stintly
-DTSTAMP:20261019T050831Z
+DTSTAMP:20261019T062819Z
 DTSTART:20261122T033000Z
 DURATION:PT60M
 SUMMARY:Macau · 73. Macau Grand Prix – GT World Cup · Hauptrennen
 LOCATION:Guia Circuit\, Macau
 DESCRIPTION:Wo schauen: YouTube · Macau Grand Prix\nStartzeit provisorisch
- \nDatum offiziell\, Startzeiten provisorisch\; AO Racing by Absolute
+ \nDatum offiziell\, Startzeiten provisorisch
 END:VEVENT
 BEGIN:VEVENT
 UID:macau-2026-grand-prix-race-2@stintly
-DTSTAMP:20261019T050831Z
+DTSTAMP:20261019T062819Z
 DTSTART:20261122T073000Z
 DURATION:PT60M
 SUMMARY:Macau · 73. Macau Grand Prix – Formel Regional · Grand Prix
 LOCATION:Guia Circuit\, Macau
 DESCRIPTION:Wo schauen: YouTube · Macau Grand Prix\nStartzeit provisorisch
- \nDatum offiziell\, Startzeiten provisorisch\; AO Racing by Absolute
+ \nDatum offiziell\, Startzeiten provisorisch
 END:VEVENT
 END:VCALENDAR

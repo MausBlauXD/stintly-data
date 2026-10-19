@@ -847,29 +847,31 @@ event("macau", "grand-prix", "73. Macau Grand Prix", "Guia Circuit", "Macau", "M
     "https://www.macau.grandprix.gov.mo"], note="Datum offiziell, Startzeiten provisorisch")
 
 
-# ===========================================================================
-# Favoriten: Fahrer und Autos, die man in der App folgen kann
-# ===========================================================================
-ENTRANTS = [
-    ("grello", "Grello", "car", t_("Manthey Porsche 911 GT3 R #911", "Manthey Porsche 911 GT3 R #911",
-                                  "Manthey Porsche 911 GT3 R #911", "Manthey Porsche 911 GT3 R #911")),
-    ("rexy", "Rexy", "car", t_("AO Racing Porsche 911 GT3 R #77 und Schwesterautos",
-                              "AO Racing Porsche 911 GT3 R #77 and sister cars",
-                              "AO Racing Porsche 911 GT3 R #77 et voitures sœurs",
-                              "AO Racing Porsche 911 GT3 R #77 e vetture sorelle")),
-    ("estre", "Kévin Estre", "driver", t_("Porsche-Werksfahrer", "Porsche factory driver",
-                                          "Pilote d'usine Porsche", "Pilota ufficiale Porsche")),
-]
-# Nur bestätigte Starts eintragen (Quelle in der Klammer)
-EVENT_ENTRANTS = {
-    # Estre 2027 Vollzeit in der IMSA bei Porsche Penske (sportscar365, Aug. 2026)
-    **{e_id: ["estre"] for e_id in [f"imsa-2027-{s}" for s in [
-        "daytona", "sebring", "long-beach", "laguna-seca", "detroit", "watkins-glen",
-        "road-america", "indianapolis", "petit-le-mans"]]},
-    # AO Racing by Absolute in Macau (aoracing.com, 15.10.2026)
-    "macau-2026-grand-prix": ["rexy"],
+# Offizielle Ticketshops (nur offizielle Shops der Serie bzw. des Veranstalters)
+F1_TICKETS = "https://tickets.formula1.com"
+TICKETS = {
+    "f1": F1_TICKETS, "f2": F1_TICKETS, "f3": F1_TICKETS, "f1academy": F1_TICKETS, "supercup": F1_TICKETS,
+    "indycar": "https://www.indycar.com/tickets",
+    "fe": "https://www.fiaformulae.com/en/tickets",
+    "imsa": "https://www.imsa.com/tickets",
+    "gtwc": "https://www.gt-world-challenge-europe.com/tickets",
+    "nls": "https://www.nuerburgring-langstrecken-serie.de/tickets",
+    "n24": "https://www.24h-rennen.de/tickets/",
+    "dtm": "https://www.dtm.com/de/tickets", "gtmasters": "https://www.dtm.com/de/tickets",
+    "carreracup": "https://www.dtm.com/de/tickets",
+    "macau": "https://www.macau.grandprix.gov.mo",
+    "btcc": "https://www.btcc.net/tickets/",
+    "supercars": "https://www.supercars.com/tickets",
+    "nascar": "https://www.nascar.com/tickets/",
+    "motogp": "https://tickets.motogp.com", "moto2": "https://tickets.motogp.com", "moto3": "https://tickets.motogp.com",
+    "iomtt": "https://www.iomttraces.com/tickets/",
+    "supercross": "https://www.supermotocross.com/tickets",
+    "pikespeak": "https://ppihc.org/tickets/",
 }
-ENTRANT_NOTES = {"macau-2026-grand-prix": "AO Racing by Absolute"}
+# Einzelne Events mit eigenem Shop (überschreibt den Serien-Shop)
+EVENT_TICKETS = {
+    "wec-2027-le-mans": "https://www.24h-lemans.com/en/tickets",
+}
 
 # Live-Timing (nur geprüfte Links)
 LIVE_TIMING = {
@@ -950,18 +952,12 @@ def write_calendars(data):
         evs = [e for e in data["events"] if e["seriesId"] == s["id"]]
         (CALENDAR_DIR / f"{s['id']}.ics").write_text(calendar(f"Stintly · {s['name']}", evs), encoding="utf-8")
         s["calendarUrl"] = f"{SITE}/calendar/{s['id']}.ics"
-    for en in data["entrants"]:
-        evs = [e for e in data["events"] if en["id"] in (e.get("entrantIds") or [])]
-        (CALENDAR_DIR / f"fav-{en['id']}.ics").write_text(calendar(f"Stintly · {en['name']}", evs), encoding="utf-8")
-        en["calendarUrl"] = f"{SITE}/calendar/fav-{en['id']}.ics"
 
 # ---------------------------------------------------------------------------
 def build():
     events = sorted(EVENTS, key=lambda e: (e["sessions"][0]["start"], e["id"]))
     for e in events:
-        e["entrantIds"] = EVENT_ENTRANTS.get(e["id"])
-        if e["id"] in ENTRANT_NOTES:
-            e["note"] = f"{e['note']}; {ENTRANT_NOTES[e['id']]}" if e.get("note") else ENTRANT_NOTES[e["id"]]
+        e["ticketsUrl"] = EVENT_TICKETS.get(e["id"])
     return {
         "schemaVersion": 1,
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -972,13 +968,9 @@ def build():
         ],
         "series": [
             {"id": i, "name": n, "shortName": s, "category": c, "tagline": tl,
-             "color": col, "channelIds": ch, "website": w, "liveTimingUrl": LIVE_TIMING.get(i)}
+             "color": col, "channelIds": ch, "website": w, "liveTimingUrl": LIVE_TIMING.get(i),
+             "ticketsUrl": TICKETS.get(i)}
             for i, n, s, c, tl, col, ch, w in SERIES
-        ],
-        "entrants": [
-            {"id": i, "name": n, "kind": k, "description": desc["de"],
-             "descriptionI18n": {lang: desc[lang] for lang in ("en", "fr", "it")}}
-            for i, n, k, desc in ENTRANTS
         ],
         "events": events,
     }
@@ -986,9 +978,9 @@ def build():
 
 def main():
     data = build()
-    unknown = [e for ids in EVENT_ENTRANTS for e in [ids] if not any(ev["id"] == ids for ev in data["events"])]
+    unknown = [e for e in EVENT_TICKETS if not any(ev["id"] == e for ev in data["events"])]
     if unknown:
-        raise SystemExit(f"EVENT_ENTRANTS verweist auf unbekannte Events: {unknown}")
+        raise SystemExit(f"EVENT_TICKETS verweist auf unbekannte Events: {unknown}")
     write_calendars(data)
     missing = translate_data(data)
     if missing:

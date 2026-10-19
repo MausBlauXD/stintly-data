@@ -84,7 +84,7 @@ def main():
         if en.get("kind") not in ("driver", "car", "team"):
             err(f"{where}: unbekannte Art '{en.get('kind')}'")
     for s in data.get("series", []):
-        for key in ("liveTimingUrl", "calendarUrl"):
+        for key in ("liveTimingUrl", "calendarUrl", "ticketsUrl"):
             if s.get(key) and not str(s[key]).startswith("https://"):
                 err(f"Serie {s.get('id')}: {key} muss mit https:// beginnen")
 
@@ -102,6 +102,8 @@ def main():
         for c in e.get("channelIds") or []:
             if c not in channel_ids:
                 err(f"{where}: unbekannter Sender '{c}'")
+        if e.get("ticketsUrl") and not str(e["ticketsUrl"]).startswith("https://"):
+            err(f"{where}: ticketsUrl muss mit https:// beginnen")
         for en in e.get("entrantIds") or []:
             if en not in entrant_ids:
                 err(f"{where}: unbekannter Favorit '{en}'")
