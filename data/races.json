@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T21:24:03Z",
+  "updatedAt": "2026-10-19T05:08:31Z",
   "region": "CH",
   "channels": [
     {
@@ -1052,7 +1052,8 @@
         }
       ],
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"
+        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
       "channelIds": null,
       "note": "Startzeit provisorisch",
@@ -1378,7 +1379,8 @@
         }
       ],
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"
+        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
       "channelIds": null,
       "note": null,
@@ -1586,7 +1588,7 @@
           "name": "Rennen",
           "start": "2026-11-01T19:00:00Z",
           "durationMinutes": 210,
-          "confirmed": false,
+          "confirmed": true,
           "nameI18n": {
             "en": "Race",
             "fr": "Course",
@@ -1595,18 +1597,14 @@
         }
       ],
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"
+        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
       "channelIds": null,
-      "note": "Startzeit provisorisch",
+      "note": null,
       "entrantIds": null,
       "nameI18n": null,
-      "locationI18n": null,
-      "noteI18n": {
-        "en": "Start time provisional",
-        "fr": "Horaire provisoire",
-        "it": "Orario provvisorio"
-      }
+      "locationI18n": null
     },
     {
       "id": "wec-2026-bahrain",
@@ -1891,7 +1889,8 @@
         }
       ],
       "sources": [
-        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"
+        "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
       "channelIds": null,
       "note": null,

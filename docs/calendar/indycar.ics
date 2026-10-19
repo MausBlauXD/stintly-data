@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:indycar-2027-st-petersburg-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270307T170000Z
 DURATION:PT120M
 SUMMARY:Indy · Grand Prix of St. Petersburg – Rennen
@@ -18,7 +18,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-phoenix-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270313T200000Z
 DURATION:PT120M
 SUMMARY:Indy · Good Ranchers 250 – Rennen
@@ -28,7 +28,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-arlington-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270321T180000Z
 DURATION:PT120M
 SUMMARY:Indy · Grand Prix of Arlington – Rennen
@@ -38,7 +38,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-barber-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270404T183000Z
 DURATION:PT120M
 SUMMARY:Indy · Indy Grand Prix of Alabama – Rennen
@@ -48,7 +48,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-long-beach-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270418T200000Z
 DURATION:PT120M
 SUMMARY:Indy · Grand Prix of Long Beach – Rennen
@@ -58,7 +58,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-ims-road-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270515T193000Z
 DURATION:PT120M
 SUMMARY:Indy · Sonsio Grand Prix – Rennen
@@ -68,7 +68,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-indy500-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270530T164500Z
 DURATION:PT210M
 SUMMARY:Indy · 111. Indianapolis 500 – Rennen
@@ -78,7 +78,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-detroit-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270606T163000Z
 DURATION:PT120M
 SUMMARY:Indy · Detroit Grand Prix – Rennen
@@ -88,7 +88,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-gateway-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270613T200000Z
 DURATION:PT120M
 SUMMARY:Indy · Bommarito Automotive Group 500 – Rennen
@@ -98,7 +98,7 @@ DESCRIPTION:Wo schauen: Sky Sport · Motorvision+\nStartzeit provisorisch\n
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-road-america-race-1@stintly
-DTSTAMP:20261018T212403Z
+DTSTAMP:20261019T050831Z
 DTSTART:20270627T170000Z
 DURATION:PT120M
 SUMMARY:Indy · Grand Prix at Road America – Rennen

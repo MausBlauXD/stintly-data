@@ -568,11 +568,11 @@ event("supercars", "adelaide", "Adelaide Grand Final", "Adelaide Street Circuit"
 # ---------------------------------------------------------------------------
 # NASCAR Cup Series (Zeiten in US-Ostküstenzeit)
 # ---------------------------------------------------------------------------
-NASCAR_2026_SRC = ["https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"]
+NASCAR_2026_SRC = ["https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series", "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"]
 for slug, name, circuit, loc, date, start, confirmed in [
     ("phoenix", "Freeway Insurance 500", "Phoenix Raceway", "Avondale", "18.10.2026", "15:00", False),
     ("talladega", "YellaWood 500", "Talladega Superspeedway", "Lincoln", "25.10.2026", "14:00", True),
-    ("martinsville", "Xfinity 500", "Martinsville Speedway", "Ridgeway", "01.11.2026", "14:00", False),
+    ("martinsville", "Xfinity 500", "Martinsville Speedway", "Ridgeway", "01.11.2026", "14:00", True),
     ("homestead", "Straight Talk Wireless 400 (Finale)", "Homestead-Miami Speedway", "Homestead", "08.11.2026", "15:00", True),
 ]:
     event("nascar", slug, name, circuit, loc, "US", "America/New_York", [
