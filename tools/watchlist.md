@@ -16,3 +16,4 @@ Erledigte Punkte löschen, neue offene Punkte ergänzen.
 - Porsche Sprint Challenge Suisse 2027 (neue Serie)
 - Porsche Sprint Challenge Deutschland 2027 (neue Serie, Prospeed)
 - Macau Grand Prix 2027
+- Porsche Carrera Cup Middle East: Saison 2026/27 ausgesetzt, Rückkehr 2027 geplant (fährt bei F1 Katar, Bahrain, Dschidda) → als Serie aufnehmen, sobald der Kalender steht

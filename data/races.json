@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:28:19Z",
+  "updatedAt": "2026-10-25T12:16:26Z",
   "region": "CH",
   "channels": [
     {
@@ -732,6 +732,26 @@
       }
     },
     {
+      "id": "carreracupna",
+      "name": "Porsche Carrera Cup North America",
+      "shortName": "CCNA",
+      "category": "Tourenwagen / GT",
+      "tagline": "Markenpokal bei F1, IMSA und IndyCar in den USA",
+      "color": "#1F4E79",
+      "channelIds": [
+        "yt-porsche"
+      ],
+      "website": "https://racing.porsche.com/en-US/series/carrera-cup-north-america",
+      "liveTimingUrl": null,
+      "ticketsUrl": null,
+      "calendarUrl": "https://mausblauxd.github.io/stintly-data/calendar/carreracupna.ics",
+      "taglineI18n": {
+        "en": "One-make cup at F1, IMSA and IndyCar events in the US",
+        "fr": "Coupe monomarque aux courses F1, IMSA et IndyCar aux États-Unis",
+        "it": "Monomarca nei weekend di F1, IMSA e IndyCar negli USA"
+      }
+    },
+    {
       "id": "macau",
       "name": "Macau Grand Prix",
       "shortName": "Macau",
@@ -1217,6 +1237,60 @@
         "en": "Date official, start times provisional",
         "fr": "Date officielle, horaires provisoires",
         "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
+      "id": "carreracupna-2026-austin",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Austin (Finale)",
+      "circuit": "Circuit of the Americas",
+      "location": "Austin",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2026-austin-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2026-10-24T16:30:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2026-austin-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2026-10-25T15:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell (F1-Rahmenprogramm), Startzeiten provisorisch",
+      "ticketsUrl": "https://tickets.formula1.com",
+      "nameI18n": {
+        "en": "Carrera Cup NA Austin (finale)",
+        "fr": "Carrera Cup NA Austin (finale)",
+        "it": "Carrera Cup NA Austin (finale)"
+      },
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official (F1 support race), start times provisional",
+        "fr": "Date officielle (lever de rideau F1), horaires provisoires",
+        "it": "Data ufficiale (gara di supporto F1), orari provvisori"
       }
     },
     {
@@ -2898,6 +2972,56 @@
       }
     },
     {
+      "id": "carreracupna-2027-daytona",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Daytona",
+      "circuit": "Daytona International Speedway",
+      "location": "Daytona Beach",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-daytona-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-01-28T18:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-daytona-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-01-29T16:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://www.imsa.com/tickets",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
+      }
+    },
+    {
       "id": "imsa-2027-daytona",
       "seriesId": "imsa",
       "name": "Rolex 24 at Daytona",
@@ -4259,6 +4383,56 @@
         "en": "Date official, start time provisional",
         "fr": "Date officielle, horaire provisoire",
         "it": "Data ufficiale, orario provvisorio"
+      }
+    },
+    {
+      "id": "carreracupna-2027-sebring",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Sebring",
+      "circuit": "Sebring International Raceway",
+      "location": "Sebring",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-sebring-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-03-18T17:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-sebring-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-03-19T15:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://www.imsa.com/tickets",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
       }
     },
     {
@@ -6070,6 +6244,56 @@
       }
     },
     {
+      "id": "carreracupna-2027-long-beach",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Long Beach",
+      "circuit": "Long Beach Street Circuit",
+      "location": "Long Beach",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-long-beach-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-04-17T18:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-long-beach-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-04-18T17:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://www.imsa.com/tickets",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
+      }
+    },
+    {
       "id": "imsa-2027-long-beach",
       "seriesId": "imsa",
       "name": "Grand Prix of Long Beach",
@@ -6909,6 +7133,56 @@
         "en": "Date official, start times provisional",
         "fr": "Date officielle, horaires provisoires",
         "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
+      "id": "carreracupna-2027-miami",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Miami",
+      "circuit": "Miami International Autodrome",
+      "location": "Miami",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-miami-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-05-01T15:30:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-miami-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-05-02T14:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://tickets.formula1.com",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
       }
     },
     {
@@ -12442,6 +12716,56 @@
       }
     },
     {
+      "id": "carreracupna-2027-road-america",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Road America",
+      "circuit": "Road America",
+      "location": "Elkhart Lake",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-road-america-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-08-06T18:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-road-america-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-08-07T16:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://www.imsa.com/tickets",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
+      }
+    },
+    {
       "id": "nls-2027-nls4",
       "seriesId": "nls",
       "name": "NLS 4 · 6h-Rennen",
@@ -15957,6 +16281,56 @@
       }
     },
     {
+      "id": "carreracupna-2027-road-atlanta",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Road Atlanta",
+      "circuit": "Michelin Raceway Road Atlanta",
+      "location": "Braselton",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-road-atlanta-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-10-07T17:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-road-atlanta-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-10-08T15:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://www.imsa.com/tickets",
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
+      }
+    },
+    {
       "id": "nls-2027-nls8",
       "seriesId": "nls",
       "name": "NLS 8 · Saisonfinale",
@@ -16768,6 +17142,60 @@
         "en": "Start times provisional",
         "fr": "Horaires provisoires",
         "it": "Orari provvisori"
+      }
+    },
+    {
+      "id": "carreracupna-2027-austin",
+      "seriesId": "carreracupna",
+      "name": "Carrera Cup NA Austin (Finale)",
+      "circuit": "Circuit of the Americas",
+      "location": "Austin",
+      "countryCode": "US",
+      "sessions": [
+        {
+          "id": "carreracupna-2027-austin-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-10-23T16:30:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "carreracupna-2027-austin-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-10-24T15:00:00Z",
+          "durationMinutes": 40,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+        "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
+      ],
+      "channelIds": null,
+      "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
+      "ticketsUrl": "https://tickets.formula1.com",
+      "nameI18n": {
+        "en": "Carrera Cup NA Austin (finale)",
+        "fr": "Carrera Cup NA Austin (finale)",
+        "it": "Carrera Cup NA Austin (finale)"
+      },
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Dates official (subject to change), start times provisional",
+        "fr": "Dates officielles (sous réserve), horaires provisoires",
+        "it": "Date ufficiali (salvo modifiche), orari provvisori"
       }
     },
     {

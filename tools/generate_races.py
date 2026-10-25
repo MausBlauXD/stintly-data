@@ -85,6 +85,7 @@ SERIES = [
     ("gtmasters", "ADAC GT Masters", "GTM", "Tourenwagen / GT", "GT3-Sprints im DTM-Rahmen", "#F2B800", ["joyn", "yt-adac"], "https://www.adac-motorsport.de/adac-gt-masters/"),
     ("carreracup", "Porsche Carrera Cup Deutschland", "CCD", "Tourenwagen / GT", "Markenpokal im DTM-Rahmen", "#3C3C46", ["joyn", "yt-porsche"], "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/"),
     ("supercup", "Porsche Supercup", "PSC", "Tourenwagen / GT", "Markenpokal im F1-Rahmen", "#B12B28", ["sky", "f1tv"], "https://racing.porsche.com/mobil-1-supercup"),
+    ("carreracupna", "Porsche Carrera Cup North America", "CCNA", "Tourenwagen / GT", "Markenpokal bei F1, IMSA und IndyCar in den USA", "#1F4E79", ["yt-porsche"], "https://racing.porsche.com/en-US/series/carrera-cup-north-america"),
     ("macau", "Macau Grand Prix", "Macau", "Tourenwagen / GT", "GT World Cup auf dem Guia Circuit", "#0B8A6E", ["yt-macau"], "https://www.macau.grandprix.gov.mo"),
     ("btcc", "British Touring Car Championship", "BTCC", "Tourenwagen / GT", "Britische Tourenwagen", "#D4145A", ["yt-btcc"], "https://www.btcc.net"),
     ("supercars", "Supercars", "SC", "Tourenwagen / GT", "V8-Tourenwagen aus Australien", "#B5121B", ["superview"], "https://www.supercars.com"),
@@ -871,6 +872,10 @@ TICKETS = {
 # Einzelne Events mit eigenem Shop (überschreibt den Serien-Shop)
 EVENT_TICKETS = {
     "wec-2027-le-mans": "https://www.24h-lemans.com/en/tickets",
+    # Carrera Cup NA: Tickets über den Veranstalter des Hauptevents (F1 bzw. IMSA)
+    "carreracupna-2026-austin": F1_TICKETS, "carreracupna-2027-austin": F1_TICKETS, "carreracupna-2027-miami": F1_TICKETS,
+    **{f"carreracupna-2027-{s}": "https://www.imsa.com/tickets"
+       for s in ["daytona", "sebring", "long-beach", "road-america", "road-atlanta"]},
 }
 
 # Live-Timing (nur geprüfte Links)
@@ -952,6 +957,33 @@ def write_calendars(data):
         evs = [e for e in data["events"] if e["seriesId"] == s["id"]]
         (CALENDAR_DIR / f"{s['id']}.ics").write_text(calendar(f"Stintly · {s['name']}", evs), encoding="utf-8")
         s["calendarUrl"] = f"{SITE}/calendar/{s['id']}.ics"
+
+# Porsche Carrera Cup North America (zwei Rennen pro Wochenende, je ca. 40 Min.)
+CCNA_SRC = ["https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
+            "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"]
+for slug, name, circuit, loc, tz, day1, t1, day2, t2, note in [
+    ("austin", "Carrera Cup NA Austin (Finale)", "Circuit of the Americas", "Austin", "America/Chicago",
+     "24.10.2026", "11:30", "25.10.2026", "10:00", "Datum offiziell (F1-Rahmenprogramm), Startzeiten provisorisch"),
+    ("daytona", "Carrera Cup NA Daytona", "Daytona International Speedway", "Daytona Beach", "America/New_York",
+     "28.01.2027", "13:00", "29.01.2027", "11:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("sebring", "Carrera Cup NA Sebring", "Sebring International Raceway", "Sebring", "America/New_York",
+     "18.03.2027", "13:00", "19.03.2027", "11:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("long-beach", "Carrera Cup NA Long Beach", "Long Beach Street Circuit", "Long Beach", "America/Los_Angeles",
+     "17.04.2027", "11:00", "18.04.2027", "10:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("miami", "Carrera Cup NA Miami", "Miami International Autodrome", "Miami", "America/New_York",
+     "01.05.2027", "11:30", "02.05.2027", "10:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("road-america", "Carrera Cup NA Road America", "Road America", "Elkhart Lake", "America/Chicago",
+     "06.08.2027", "13:00", "07.08.2027", "11:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("road-atlanta", "Carrera Cup NA Road Atlanta", "Michelin Raceway Road Atlanta", "Braselton", "America/New_York",
+     "07.10.2027", "13:00", "08.10.2027", "11:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+    ("austin", "Carrera Cup NA Austin (Finale)", "Circuit of the Americas", "Austin", "America/Chicago",
+     "23.10.2027", "11:30", "24.10.2027", "10:00", "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch"),
+]:
+    event("carreracupna", slug, name, circuit, loc, "US", tz, [
+        ("race", "Rennen 1", at(d(day1), t1), 40, False),
+        ("race", "Rennen 2", at(d(day2), t2), 40, False),
+    ], CCNA_SRC, note=note)
+
 
 # ---------------------------------------------------------------------------
 def build():
