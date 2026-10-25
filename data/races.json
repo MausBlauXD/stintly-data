@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T12:16:26Z",
+  "updatedAt": "2026-10-25T12:19:40Z",
   "region": "CH",
   "channels": [
     {
@@ -393,6 +393,42 @@
         "fr": "Livestream selon la région",
         "it": "Livestream secondo la regione"
       }
+    },
+    {
+      "id": "yt-supergt",
+      "name": "YouTube · SUPER GT",
+      "kind": "freeStream",
+      "url": "https://www.youtube.com/results?search_query=SUPER+GT+live",
+      "note": "Livestream je nach Region",
+      "noteI18n": {
+        "en": "Live stream depending on region",
+        "fr": "Livestream selon la région",
+        "it": "Livestream secondo la regione"
+      }
+    },
+    {
+      "id": "sfgo",
+      "name": "SFgo",
+      "kind": "payStream",
+      "url": "https://superformula.net",
+      "note": "Offizielle App der Super Formula (Abo)",
+      "noteI18n": {
+        "en": "Official Super Formula app (subscription)",
+        "fr": "App officielle de la Super Formula (abonnement)",
+        "it": "App ufficiale della Super Formula (abbonamento)"
+      }
+    },
+    {
+      "id": "yt-alms",
+      "name": "YouTube · Asian Le Mans",
+      "kind": "freeStream",
+      "url": "https://www.youtube.com/results?search_query=Asian+Le+Mans+Series+live",
+      "note": "Offizieller Gratis-Livestream",
+      "noteI18n": {
+        "en": "Official free live stream",
+        "fr": "Livestream officiel gratuit",
+        "it": "Livestream ufficiale gratuito"
+      }
     }
   ],
   "series": [
@@ -503,6 +539,26 @@
       }
     },
     {
+      "id": "superformula",
+      "name": "Super Formula",
+      "shortName": "SF",
+      "category": "Formel",
+      "tagline": "Japanische Formelserie",
+      "color": "#4B2E83",
+      "channelIds": [
+        "sfgo"
+      ],
+      "website": "https://superformula.net",
+      "liveTimingUrl": null,
+      "ticketsUrl": null,
+      "calendarUrl": "https://mausblauxd.github.io/stintly-data/calendar/superformula.ics",
+      "taglineI18n": {
+        "en": "Japanese single-seater series",
+        "fr": "Monoplaces japonaises",
+        "it": "Monoposto giapponesi"
+      }
+    },
+    {
       "id": "fe",
       "name": "Formel E",
       "shortName": "FE",
@@ -583,6 +639,26 @@
         "en": "4-hour races across Europe",
         "fr": "Courses de 4 heures en Europe",
         "it": "Gare di 4 ore in Europa"
+      }
+    },
+    {
+      "id": "alms",
+      "name": "Asian Le Mans Series",
+      "shortName": "ALMS",
+      "category": "Langstrecke",
+      "tagline": "Wintersaison der Le-Mans-Serien",
+      "color": "#A0522D",
+      "channelIds": [
+        "yt-alms"
+      ],
+      "website": "https://www.asianlemansseries.com",
+      "liveTimingUrl": null,
+      "ticketsUrl": null,
+      "calendarUrl": "https://mausblauxd.github.io/stintly-data/calendar/alms.ics",
+      "taglineI18n": {
+        "en": "Winter season of the Le Mans series",
+        "fr": "Saison d'hiver des séries Le Mans",
+        "it": "Stagione invernale delle serie Le Mans"
       }
     },
     {
@@ -809,6 +885,26 @@
         "en": "V8 touring cars from Australia",
         "fr": "Voitures de tourisme V8 australiennes",
         "it": "Turismo V8 australiane"
+      }
+    },
+    {
+      "id": "supergt",
+      "name": "SUPER GT",
+      "shortName": "SGT",
+      "category": "Tourenwagen / GT",
+      "tagline": "Japanische GT-Meisterschaft",
+      "color": "#2E8B57",
+      "channelIds": [
+        "yt-supergt"
+      ],
+      "website": "https://supergt.net",
+      "liveTimingUrl": null,
+      "ticketsUrl": null,
+      "calendarUrl": "https://mausblauxd.github.io/stintly-data/calendar/supergt.ics",
+      "taglineI18n": {
+        "en": "Japanese GT championship",
+        "fr": "Championnat GT japonais",
+        "it": "Campionato GT giapponese"
       }
     },
     {
@@ -1673,6 +1769,56 @@
       "locationI18n": null
     },
     {
+      "id": "supergt-2026-motegi",
+      "seriesId": "supergt",
+      "name": "SUPER GT Finale Motegi",
+      "circuit": "Mobility Resort Motegi",
+      "location": "Motegi",
+      "countryCode": "JP",
+      "sessions": [
+        {
+          "id": "supergt-2026-motegi-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2026-11-07T04:30:00Z",
+          "durationMinutes": 105,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "supergt-2026-motegi-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2026-11-08T04:30:00Z",
+          "durationMinutes": 120,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://sportscar365.com/super-gt/second-motegi-race-added-to-this-years-schedule/",
+        "https://en.wikipedia.org/wiki/2026_Super_GT_Series"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch",
+      "ticketsUrl": null,
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official, start times provisional",
+        "fr": "Date officielle, horaires provisoires",
+        "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
       "id": "wec-2026-bahrain",
       "seriesId": "wec",
       "name": "8 Stunden von Bahrain",
@@ -1969,6 +2115,60 @@
       "locationI18n": null
     },
     {
+      "id": "alms-2026-le-castellet",
+      "seriesId": "alms",
+      "name": "4 Stunden von Le Castellet",
+      "circuit": "Circuit Paul Ricard",
+      "location": "Le Castellet",
+      "countryCode": "FR",
+      "sessions": [
+        {
+          "id": "alms-2026-le-castellet-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2026-11-14T10:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "alms-2026-le-castellet-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2026-11-15T10:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
+        "https://www.asianlemansseries.com"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch",
+      "ticketsUrl": null,
+      "nameI18n": {
+        "en": "4 Hours of Le Castellet",
+        "fr": "4 Heures du Castellet",
+        "it": "4 Ore di Le Castellet"
+      },
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official, start times provisional",
+        "fr": "Date officielle, horaires provisoires",
+        "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
       "id": "f1academy-2026-las-vegas",
       "seriesId": "f1academy",
       "name": "F1 Academy Las Vegas",
@@ -2091,6 +2291,19 @@
         {
           "id": "macau-2026-grand-prix-race-1",
           "kind": "race",
+          "name": "TCR World Tour · Finale",
+          "start": "2026-11-21T07:00:00Z",
+          "durationMinutes": 30,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "TCR World Tour · Finale",
+            "fr": "TCR World Tour · Finale",
+            "it": "TCR World Tour · Finale"
+          }
+        },
+        {
+          "id": "macau-2026-grand-prix-race-2",
+          "kind": "race",
           "name": "GT World Cup · Hauptrennen",
           "start": "2026-11-22T03:30:00Z",
           "durationMinutes": 60,
@@ -2102,7 +2315,7 @@
           }
         },
         {
-          "id": "macau-2026-grand-prix-race-2",
+          "id": "macau-2026-grand-prix-race-3",
           "kind": "race",
           "name": "Formel Regional · Grand Prix",
           "start": "2026-11-22T07:30:00Z",
@@ -2117,7 +2330,58 @@
       ],
       "sources": [
         "https://www.dailysportscar.com/2025/12/10/2026-fia-gt-world-cup-date-set.html",
+        "https://en.wikipedia.org/wiki/2026_TCR_World_Tour",
         "https://www.macau.grandprix.gov.mo"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch",
+      "ticketsUrl": null,
+      "nameI18n": null,
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official, start times provisional",
+        "fr": "Date officielle, horaires provisoires",
+        "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
+      "id": "superformula-2026-suzuka",
+      "seriesId": "superformula",
+      "name": "Super Formula Finale Suzuka",
+      "circuit": "Suzuka Circuit",
+      "location": "Suzuka",
+      "countryCode": "JP",
+      "sessions": [
+        {
+          "id": "superformula-2026-suzuka-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2026-11-21T05:30:00Z",
+          "durationMinutes": 75,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "superformula-2026-suzuka-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2026-11-22T05:30:00Z",
+          "durationMinutes": 75,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_Super_Formula_Championship",
+        "https://superformula.net"
       ],
       "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
@@ -2804,6 +3068,60 @@
       }
     },
     {
+      "id": "alms-2027-jerez",
+      "seriesId": "alms",
+      "name": "4 Stunden von Jerez",
+      "circuit": "Circuito de Jerez",
+      "location": "Jerez de la Frontera",
+      "countryCode": "ES",
+      "sessions": [
+        {
+          "id": "alms-2027-jerez-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-01-16T10:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "alms-2027-jerez-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-01-17T10:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
+        "https://www.asianlemansseries.com"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch",
+      "ticketsUrl": null,
+      "nameI18n": {
+        "en": "4 Hours of Jerez",
+        "fr": "4 Heures de Jerez",
+        "it": "4 Ore di Jerez"
+      },
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official, start times provisional",
+        "fr": "Date officielle, horaires provisoires",
+        "it": "Data ufficiale, orari provvisori"
+      }
+    },
+    {
       "id": "fe-2027-mexiko",
       "seriesId": "fe",
       "name": "Mexico City E-Prix",
@@ -3361,6 +3679,60 @@
         "en": "Calendar provisional, start times provisional",
         "fr": "Calendrier provisoire, horaires provisoires",
         "it": "Calendario provvisorio, orari provvisori"
+      }
+    },
+    {
+      "id": "alms-2027-portimao",
+      "seriesId": "alms",
+      "name": "4 Stunden von Portimão",
+      "circuit": "Autódromo Internacional do Algarve",
+      "location": "Portimão",
+      "countryCode": "PT",
+      "sessions": [
+        {
+          "id": "alms-2027-portimao-race-1",
+          "kind": "race",
+          "name": "Rennen 1",
+          "start": "2027-02-20T11:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 1",
+            "fr": "Course 1",
+            "it": "Gara 1"
+          }
+        },
+        {
+          "id": "alms-2027-portimao-race-2",
+          "kind": "race",
+          "name": "Rennen 2",
+          "start": "2027-02-21T11:00:00Z",
+          "durationMinutes": 240,
+          "confirmed": false,
+          "nameI18n": {
+            "en": "Race 2",
+            "fr": "Course 2",
+            "it": "Gara 2"
+          }
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
+        "https://www.asianlemansseries.com"
+      ],
+      "channelIds": null,
+      "note": "Datum offiziell, Startzeiten provisorisch",
+      "ticketsUrl": null,
+      "nameI18n": {
+        "en": "4 Hours of Portimão",
+        "fr": "4 Heures de Portimão",
+        "it": "4 Ore di Portimão"
+      },
+      "locationI18n": null,
+      "noteI18n": {
+        "en": "Date official, start times provisional",
+        "fr": "Date officielle, horaires provisoires",
+        "it": "Data ufficiale, orari provvisori"
       }
     },
     {

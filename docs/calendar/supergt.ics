@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · SUPER GT
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:supergt-2026-motegi-race-1@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20261107T043000Z
+DURATION:PT105M
+SUMMARY:SGT · SUPER GT Finale Motegi – Rennen 1
+LOCATION:Mobility Resort Motegi\, Motegi
+DESCRIPTION:Wo schauen: YouTube · SUPER GT\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:supergt-2026-motegi-race-2@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20261108T043000Z
+DURATION:PT120M
+SUMMARY:SGT · SUPER GT Finale Motegi – Rennen 2
+LOCATION:Mobility Resort Motegi\, Motegi
+DESCRIPTION:Wo schauen: YouTube · SUPER GT\nStartzeit provisorisch\nDatum 
+ offiziell\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

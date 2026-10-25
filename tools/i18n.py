@@ -18,10 +18,12 @@ TAGLINES = {
     "f3": t("Junior single-seater series", "Formule de promotion", "Serie formula giovanile"),
     "f1academy": t("All-female single-seater series", "Série de monoplaces féminine", "Serie di monoposto femminile"),
     "indycar": t("Incl. Indy 500", "Avec l'Indy 500", "Con la Indy 500"),
+    "superformula": t("Japanese single-seater series", "Monoplaces japonaises", "Monoposto giapponesi"),
     "fe": t("Electric street racing", "Courses électriques en ville", "Gare elettriche in città"),
     "wec": t("Incl. 24h of Le Mans", "Avec les 24 Heures du Mans", "Con la 24 Ore di Le Mans"),
     "imsa": t("Incl. Daytona 24", "Avec les 24 Heures de Daytona", "Con la 24 Ore di Daytona"),
     "elms": t("4-hour races across Europe", "Courses de 4 heures en Europe", "Gare di 4 ore in Europa"),
+    "alms": t("Winter season of the Le Mans series", "Saison d'hiver des séries Le Mans", "Stagione invernale delle serie Le Mans"),
     "gtwc": t("Incl. 24h of Spa", "Avec les 24 Heures de Spa", "Con la 24 Ore di Spa"),
     "nls": t("Nordschleife", "Nordschleife", "Nordschleife"),
     "n24": t("Green Hell, 24 hours", "Enfer vert, 24 heures", "Inferno verde, 24 ore"),
@@ -33,6 +35,7 @@ TAGLINES = {
     "macau": t("GT World Cup on the Guia Circuit", "GT World Cup sur le circuit de Guia", "GT World Cup sul circuito di Guia"),
     "btcc": t("British touring cars", "Voitures de tourisme britanniques", "Turismo britannico"),
     "supercars": t("V8 touring cars from Australia", "Voitures de tourisme V8 australiennes", "Turismo V8 australiane"),
+    "supergt": t("Japanese GT championship", "Championnat GT japonais", "Campionato GT giapponese"),
     "nascar": t("Stock cars, incl. Daytona 500", "Stock-cars, avec le Daytona 500", "Stock car, con la Daytona 500"),
     "motogp": t("Motorcycle world championship", "Championnat du monde moto", "Mondiale di motociclismo"),
     "moto2": t("Intermediate class of the world championship", "Catégorie intermédiaire du mondial", "Classe intermedia del mondiale"),
@@ -79,6 +82,9 @@ CHANNEL_NOTES = {
     "yt-adac": t("Live stream depending on rights", "Livestream selon les droits", "Livestream secondo i diritti"),
     "yt-porsche": t("Live stream depending on rights", "Livestream selon les droits", "Livestream secondo i diritti"),
     "yt-macau": t("Live stream depending on region", "Livestream selon la région", "Livestream secondo la regione"),
+    "yt-supergt": t("Live stream depending on region", "Livestream selon la région", "Livestream secondo la regione"),
+    "sfgo": t("Official Super Formula app (subscription)", "App officielle de la Super Formula (abonnement)", "App ufficiale della Super Formula (abbonamento)"),
+    "yt-alms": t("Official free live stream", "Livestream officiel gratuit", "Livestream ufficiale gratuito"),
 }
 
 # Bausteine der Event-Notizen (durch ", " bzw. "; " getrennt)
@@ -126,6 +132,7 @@ SESSION_NAMES = {
     "GT World Cup · Hauptrennen": t("GT World Cup · Main race", "GT World Cup · Course principale", "GT World Cup · Gara principale"),
     "GT World Cup · Qualifikationsrennen": t("GT World Cup · Qualification race", "GT World Cup · Course de qualification", "GT World Cup · Gara di qualificazione"),
     "Formel Regional · Grand Prix": t("Formula Regional · Grand Prix", "Formule Régionale · Grand Prix", "Formula Regional · Gran Premio"),
+    "TCR World Tour · Finale": t("TCR World Tour · Finale", "TCR World Tour · Finale", "TCR World Tour · Finale"),
 }
 # Nummerierte Varianten: „Rennen 2“, „Lauf 1“, „MXGP Lauf 2“, „Etappe 1“, „Qualifikationsrennen 1“
 NUMBERED = [

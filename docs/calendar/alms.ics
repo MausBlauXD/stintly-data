@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stintly//Renndaten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stintly · Asian Le Mans Series
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:alms-2026-le-castellet-race-1@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20261114T100000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Le Castellet – Rennen 1
+LOCATION:Circuit Paul Ricard\, Le Castellet
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:alms-2026-le-castellet-race-2@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20261115T100000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Le Castellet – Rennen 2
+LOCATION:Circuit Paul Ricard\, Le Castellet
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:alms-2027-jerez-race-1@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20270116T100000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Jerez – Rennen 1
+LOCATION:Circuito de Jerez\, Jerez de la Frontera
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:alms-2027-jerez-race-2@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20270117T100000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Jerez – Rennen 2
+LOCATION:Circuito de Jerez\, Jerez de la Frontera
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:alms-2027-portimao-race-1@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20270220T110000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Portimão – Rennen 1
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+BEGIN:VEVENT
+UID:alms-2027-portimao-race-2@stintly
+DTSTAMP:20261025T121940Z
+DTSTART:20270221T110000Z
+DURATION:PT240M
+SUMMARY:ALMS · 4 Stunden von Portimão – Rennen 2
+LOCATION:Autódromo Internacional do Algarve\, Portimão
+DESCRIPTION:Wo schauen: YouTube · Asian Le Mans\nStartzeit provisorisch\nD
+ atum offiziell\, Startzeiten provisorisch
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:carreracupna-2026-austin-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20261024T163000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Austin (Finale) – Rennen 1
@@ -18,7 +18,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2026-austin-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20261025T150000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Austin (Finale) – Rennen 2
@@ -28,7 +28,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-daytona-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270128T180000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Daytona – Rennen 1
@@ -38,7 +38,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-daytona-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270129T160000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Daytona – Rennen 2
@@ -48,7 +48,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-sebring-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270318T170000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Sebring – Rennen 1
@@ -58,7 +58,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-sebring-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270319T150000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Sebring – Rennen 2
@@ -68,7 +68,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-long-beach-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270417T180000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Long Beach – Rennen 1
@@ -78,7 +78,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-long-beach-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270418T170000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Long Beach – Rennen 2
@@ -88,7 +88,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-miami-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270501T153000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Miami – Rennen 1
@@ -98,7 +98,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-miami-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270502T140000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Miami – Rennen 2
@@ -108,7 +108,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-road-america-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270806T180000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Road America – Rennen 1
@@ -118,7 +118,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-road-america-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20270807T160000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Road America – Rennen 2
@@ -128,7 +128,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-road-atlanta-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20271007T170000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Road Atlanta – Rennen 1
@@ -138,7 +138,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-road-atlanta-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20271008T150000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Road Atlanta – Rennen 2
@@ -148,7 +148,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-austin-race-1@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20271023T163000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Austin (Finale) – Rennen 1
@@ -158,7 +158,7 @@ DESCRIPTION:Wo schauen: YouTube · Porsche Motorsport\nStartzeit provisoris
 END:VEVENT
 BEGIN:VEVENT
 UID:carreracupna-2027-austin-race-2@stintly
-DTSTAMP:20261025T121626Z
+DTSTAMP:20261025T121940Z
 DTSTART:20271024T150000Z
 DURATION:PT40M
 SUMMARY:CCNA · Carrera Cup NA Austin (Finale) – Rennen 2

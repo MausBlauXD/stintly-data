@@ -60,6 +60,9 @@ CHANNELS = [
     ("yt-adac", "YouTube · ADAC Motorsport", "freeStream", "https://www.youtube.com/@ADACMotorsport", "Livestream je nach Rechtelage"),
     ("yt-porsche", "YouTube · Porsche Motorsport", "freeStream", "https://www.youtube.com/@PorscheMotorsport", "Livestream je nach Rechtelage"),
     ("yt-macau", "YouTube · Macau Grand Prix", "freeStream", "https://www.youtube.com/results?search_query=Macau+Grand+Prix+live", "Livestream je nach Region"),
+    ("yt-supergt", "YouTube · SUPER GT", "freeStream", "https://www.youtube.com/results?search_query=SUPER+GT+live", "Livestream je nach Region"),
+    ("sfgo", "SFgo", "payStream", "https://superformula.net", "Offizielle App der Super Formula (Abo)"),
+    ("yt-alms", "YouTube · Asian Le Mans", "freeStream", "https://www.youtube.com/results?search_query=Asian+Le+Mans+Series+live", "Offizieller Gratis-Livestream"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -72,11 +75,13 @@ SERIES = [
     ("f3", "Formel 3", "F3", "Formel", "Nachwuchs-Formelserie", "#E57200", ["sky", "f1tv"], "https://www.fiaformula3.com"),
     ("f1academy", "F1 Academy", "F1A", "Formel", "Formelserie für Frauen", "#E6007E", ["f1tv", "sky"], "https://www.f1academy.com"),
     ("indycar", "IndyCar", "Indy", "Formel", "Inkl. Indy 500", "#22356F", ["sky", "motorvision"], "https://www.indycar.com"),
+    ("superformula", "Super Formula", "SF", "Formel", "Japanische Formelserie", "#4B2E83", ["sfgo"], "https://superformula.net"),
     ("fe", "Formel E", "FE", "Formel", "Elektrische Stadtrennen", "#00B2A9", ["disneyplus", "bluetv"], "https://www.fiaformulae.com"),
     # Langstrecke
     ("wec", "Langstrecken-WM (WEC)", "WEC", "Langstrecke", "Inkl. 24h Le Mans", "#0057B8", ["eurosport", "hbomax", "fiawecplus"], "https://www.fiawec.com"),
     ("imsa", "IMSA SportsCar", "IMSA", "Langstrecke", "Inkl. 24h Daytona", "#8A1538", ["yt-imsa"], "https://www.imsa.com"),
     ("elms", "European Le Mans Series", "ELMS", "Langstrecke", "4-Stunden-Rennen in Europa", "#6A2C91", ["yt-elms"], "https://www.europeanlemansseries.com"),
+    ("alms", "Asian Le Mans Series", "ALMS", "Langstrecke", "Wintersaison der Le-Mans-Serien", "#A0522D", ["yt-alms"], "https://www.asianlemansseries.com"),
     ("gtwc", "GT World Challenge Europe", "GTWC", "Langstrecke", "Inkl. 24h Spa", "#F26522", ["yt-gtworld"], "https://www.gt-world-challenge-europe.com"),
     ("nls", "Nürburgring Langstrecken-Serie", "NLS", "Langstrecke", "Nordschleife", "#008C45", ["yt-vln", "nls-web"], "https://www.nuerburgring-langstrecken-serie.de"),
     ("n24", "24h Nürburgring", "24h", "Langstrecke", "Grüne Hölle, 24 Stunden", "#F2A900", ["yt-24h", "n24-web"], "https://www.24h-rennen.de"),
@@ -89,6 +94,7 @@ SERIES = [
     ("macau", "Macau Grand Prix", "Macau", "Tourenwagen / GT", "GT World Cup auf dem Guia Circuit", "#0B8A6E", ["yt-macau"], "https://www.macau.grandprix.gov.mo"),
     ("btcc", "British Touring Car Championship", "BTCC", "Tourenwagen / GT", "Britische Tourenwagen", "#D4145A", ["yt-btcc"], "https://www.btcc.net"),
     ("supercars", "Supercars", "SC", "Tourenwagen / GT", "V8-Tourenwagen aus Australien", "#B5121B", ["superview"], "https://www.supercars.com"),
+    ("supergt", "SUPER GT", "SGT", "Tourenwagen / GT", "Japanische GT-Meisterschaft", "#2E8B57", ["yt-supergt"], "https://supergt.net"),
     ("nascar", "NASCAR Cup Series", "NASCAR", "Tourenwagen / GT", "Stockcars, inkl. Daytona 500", "#FFB81C", ["sportdigital"], "https://www.nascar.com"),
     # Motorrad
     ("motogp", "MotoGP", "MotoGP", "Motorrad", "Motorrad-WM", "#C8102E", ["srf2", "playsrf", "sky"], "https://www.motogp.com"),
@@ -843,8 +849,10 @@ for slug in ["monaco", "portugal", "oesterreich", "belgien", "ungarn", "italien"
 event("macau", "grand-prix", "73. Macau Grand Prix", "Guia Circuit", "Macau", "MO", "Asia/Macau", [
     ("sprint", "GT World Cup · Qualifikationsrennen", at(d("21.11.2026"), "12:30"), 40, False),
     ("race", "GT World Cup · Hauptrennen", at(d("22.11.2026"), "11:30"), 60, False),
+    ("race", "TCR World Tour · Finale", at(d("21.11.2026"), "15:00"), 30, False),
     ("race", "Formel Regional · Grand Prix", at(d("22.11.2026"), "15:30"), 60, False),
 ], ["https://www.dailysportscar.com/2025/12/10/2026-fia-gt-world-cup-date-set.html",
+    "https://en.wikipedia.org/wiki/2026_TCR_World_Tour",
     "https://www.macau.grandprix.gov.mo"], note="Datum offiziell, Startzeiten provisorisch")
 
 
@@ -983,6 +991,38 @@ for slug, name, circuit, loc, tz, day1, t1, day2, t2, note in [
         ("race", "Rennen 1", at(d(day1), t1), 40, False),
         ("race", "Rennen 2", at(d(day2), t2), 40, False),
     ], CCNA_SRC, note=note)
+
+
+# ===========================================================================
+# Erweiterung vom 25.10.2026: Serien, die 2026 noch fahren
+# ===========================================================================
+
+# SUPER GT 2026: Doppelfinale in Motegi (ersetzt das abgesagte Sepang)
+event("supergt", "motegi", "SUPER GT Finale Motegi", "Mobility Resort Motegi", "Motegi", "JP", "Asia/Tokyo", [
+    ("race", "Rennen 1", at(d("07.11.2026"), "13:30"), 105, False),
+    ("race", "Rennen 2", at(d("08.11.2026"), "13:30"), 120, False),
+], ["https://sportscar365.com/super-gt/second-motegi-race-added-to-this-years-schedule/",
+    "https://en.wikipedia.org/wiki/2026_Super_GT_Series"], note="Datum offiziell, Startzeiten provisorisch")
+
+# Super Formula 2026: Finale in Suzuka (zwei Rennen)
+event("superformula", "suzuka", "Super Formula Finale Suzuka", "Suzuka Circuit", "Suzuka", "JP", "Asia/Tokyo", [
+    ("race", "Rennen 1", at(d("21.11.2026"), "14:30"), 75, False),
+    ("race", "Rennen 2", at(d("22.11.2026"), "14:30"), 75, False),
+], ["https://en.wikipedia.org/wiki/2026_Super_Formula_Championship", "https://superformula.net"],
+    note="Datum offiziell, Startzeiten provisorisch")
+
+# Asian Le Mans Series 2026/27: je zwei 4-Stunden-Rennen pro Wochenende (in Europa)
+ALMS_SRC = ["https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series", "https://www.asianlemansseries.com"]
+for slug, name, circuit, loc, cc, tz, saturday in [
+    ("le-castellet", "4 Stunden von Le Castellet", "Circuit Paul Ricard", "Le Castellet", "FR", "Europe/Paris", "14.11.2026"),
+    ("jerez", "4 Stunden von Jerez", "Circuito de Jerez", "Jerez de la Frontera", "ES", "Europe/Madrid", "16.01.2027"),
+    ("portimao", "4 Stunden von Portimão", "Autódromo Internacional do Algarve", "Portimão", "PT", "Europe/Lisbon", "20.02.2027"),
+]:
+    sat = d(saturday)
+    event("alms", slug, name, circuit, loc, cc, tz, [
+        ("race", "Rennen 1", at(sat, "11:00"), 240, False),
+        ("race", "Rennen 2", at(sat + timedelta(days=1), "11:00"), 240, False),
+    ], ALMS_SRC, note="Datum offiziell, Startzeiten provisorisch")
 
 
 # ---------------------------------------------------------------------------
