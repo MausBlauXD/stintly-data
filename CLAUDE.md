@@ -23,7 +23,7 @@ Jeder Push auf `main` ist sofort bei allen Nutzern – nur geprüfte Daten pushe
 - Grello, Rexy (AO Racing) und Kévin Estre: jede Serie bzw. jedes Rennen, in dem sie starten, muss in den Daten
   sein (Beobachtung über `tools/watchlist.md`). Eine Favoriten-Funktion gibt es in der App nicht.
 - Tickets: `TICKETS` (pro Serie) und `EVENT_TICKETS` (einzelne Events) – nur offizielle Shops der Serie oder des Veranstalters.
-- Übersetzungen (en/fr/it) in `tools/i18n.py`. Neue Taglines, Sender-Hinweise, Notiz-Bausteine oder
+- Übersetzungen (en/fr/it/es/pt) in `tools/i18n.py`. Neue Taglines, Sender-Hinweise, Notiz-Bausteine oder
   Session-Namen dort ergänzen – der Generator meldet fehlende als „Hinweis“ (App zeigt dann Deutsch).
 - `LIVE_TIMING` nur mit geprüften Links (HTTP 200).
 - Der Generator schreibt auch die Kalender-Abos `docs/calendar/<serie>.ics` – mitcommitten.
