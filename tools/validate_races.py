@@ -12,7 +12,6 @@ from datetime import datetime, timezone
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DEFAULT_PATH = ROOT / "data" / "races.json"
 
-CHANNEL_KINDS = {"freeTV", "freeStream", "payTV", "payStream"}
 SESSION_KINDS = {"practice", "qualifying", "sprint", "race"}
 START_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 COLOR_RE = re.compile(r"^#[0-9A-Fa-f]{6}$")
@@ -39,7 +38,7 @@ def main():
 
     if data.get("schemaVersion") != 1:
         err("schemaVersion muss 1 sein")
-    need(data, ["updatedAt", "region", "channels", "series", "events"], "Datei")
+    need(data, ["updatedAt", "series", "events"], "Datei")
     if data.get("updatedAt") and not START_RE.match(data["updatedAt"]):
         err("updatedAt hat falsches Format")
 
@@ -50,39 +49,17 @@ def main():
             err(f"{where}: ID '{i}' ist doppelt")
         all_ids.add(i)
 
-    channel_ids = set()
-    for ch in data.get("channels", []):
-        where = f"Sender {ch.get('id')}"
-        need(ch, ["id", "name", "kind", "url"], where)
-        unique(ch.get("id"), where)
-        channel_ids.add(ch.get("id"))
-        if ch.get("kind") not in CHANNEL_KINDS:
-            err(f"{where}: unbekannte Art '{ch.get('kind')}'")
-        if not str(ch.get("url", "")).startswith("https://"):
-            err(f"{where}: URL muss mit https:// beginnen")
-
     series_ids = set()
     for s in data.get("series", []):
         where = f"Serie {s.get('id')}"
-        need(s, ["id", "name", "shortName", "category", "tagline", "color", "channelIds"], where)
+        need(s, ["id", "name", "shortName", "category", "tagline", "color"], where)
         unique(s.get("id"), where)
         series_ids.add(s.get("id"))
         if not COLOR_RE.match(str(s.get("color", ""))):
             err(f"{where}: Farbe muss #RRGGBB sein")
-        for c in s.get("channelIds") or []:
-            if c not in channel_ids:
-                err(f"{where}: unbekannter Sender '{c}'")
         if s.get("website") and not str(s["website"]).startswith("https://"):
             err(f"{where}: Website muss mit https:// beginnen")
 
-    entrant_ids = set()
-    for en in data.get("entrants") or []:
-        where = f"Favorit {en.get('id')}"
-        need(en, ["id", "name", "kind"], where)
-        unique(en.get("id"), where)
-        entrant_ids.add(en.get("id"))
-        if en.get("kind") not in ("driver", "car", "team"):
-            err(f"{where}: unbekannte Art '{en.get('kind')}'")
     for s in data.get("series", []):
         for key in ("liveTimingUrl", "calendarUrl", "ticketsUrl"):
             if s.get(key) and not str(s[key]).startswith("https://"):
@@ -99,14 +76,8 @@ def main():
             err(f"{where}: unbekannte Serie '{e.get('seriesId')}'")
         if not CC_RE.match(str(e.get("countryCode", ""))):
             err(f"{where}: countryCode muss aus 2 Grossbuchstaben bestehen")
-        for c in e.get("channelIds") or []:
-            if c not in channel_ids:
-                err(f"{where}: unbekannter Sender '{c}'")
         if e.get("ticketsUrl") and not str(e["ticketsUrl"]).startswith("https://"):
             err(f"{where}: ticketsUrl muss mit https:// beginnen")
-        for en in e.get("entrantIds") or []:
-            if en not in entrant_ids:
-                err(f"{where}: unbekannter Favorit '{en}'")
         for src in e.get("sources") or []:
             if not str(src).startswith("http"):
                 err(f"{where}: Quelle '{src}' ist keine URL")
@@ -150,7 +121,7 @@ def main():
         print(f"{len(errors)} Fehler")
         return 1
     print(f"OK: {len(series_ids)} Serien, {len(data.get('events', []))} Events, "
-          f"{session_count} Sessions, {len(channel_ids)} Sender")
+          f"{session_count} Sessions")
     return 0
 
 

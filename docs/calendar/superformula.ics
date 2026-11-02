@@ -8,22 +8,22 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:superformula-2026-suzuka-race-1@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261121T053000Z
 DURATION:PT75M
 SUMMARY:SF · Super Formula Finale Suzuka – Rennen 1
 LOCATION:Suzuka Circuit\, Suzuka
-DESCRIPTION:Wo schauen: SFgo\nStartzeit provisorisch\nDatum offiziell\, Sta
- rtzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 BEGIN:VEVENT
 UID:superformula-2026-suzuka-race-2@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261122T053000Z
 DURATION:PT75M
 SUMMARY:SF · Super Formula Finale Suzuka – Rennen 2
 LOCATION:Suzuka Circuit\, Suzuka
-DESCRIPTION:Wo schauen: SFgo\nStartzeit provisorisch\nDatum offiziell\, Sta
- rtzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 END:VCALENDAR

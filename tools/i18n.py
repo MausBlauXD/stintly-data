@@ -49,44 +49,6 @@ TAGLINES = {
     "pikespeak": t("Hill climb in Colorado", "Course de côte au Colorado", "Cronoscalata in Colorado", "Subida de montaña en Colorado", "Subida de montanha no Colorado"),
 }
 
-CHANNEL_NOTES = {
-    "srf2": t("Sometimes on SRF info or SRF 1", "Parfois sur SRF info ou SRF 1", "A volte su SRF info o SRF 1", "A veces en SRF info o SRF 1", "Às vezes no SRF info ou SRF 1"),
-    "playsrf": t("Free live stream in Switzerland", "Livestream gratuit en Suisse", "Livestream gratuito in Svizzera", "Streaming gratis en Suiza", "Transmissão grátis na Suíça"),
-    "sky": t("All sessions, subscription required", "Toutes les sessions, abonnement requis", "Tutte le sessioni, abbonamento necessario", "Todas las sesiones, requiere suscripción", "Todas as sessões, exige assinatura"),
-    "prosieben": t("Availability in Switzerland depends on your TV provider", "Réception en Suisse selon l'opérateur TV", "Ricezione in Svizzera secondo l'operatore TV", "En Suiza depende de tu operador de TV", "Na Suíça depende da operadora de TV"),
-    "joyn": t("Free live stream; may be geo-blocked in Switzerland", "Livestream gratuit ; peut être bloqué en Suisse", "Livestream gratuito; può essere bloccato in Svizzera", "Streaming gratis; puede estar bloqueado en Suiza", "Transmissão grátis; pode estar bloqueada na Suíça"),
-    "yt-vln": t("Official free NLS live stream", "Livestream officiel gratuit de la NLS", "Livestream ufficiale gratuito della NLS", "Streaming oficial gratuito de la NLS", "Transmissão oficial gratuita da NLS"),
-    "nls-web": t("Live stream & live timing", "Livestream et chronométrage", "Livestream e cronometraggio", "Streaming y tiempos en directo", "Transmissão e cronometragem ao vivo"),
-    "yt-24h": t("Free live stream", "Livestream gratuit", "Livestream gratuito", "Streaming gratis", "Transmissão grátis"),
-    "n24-web": t("Live stream & live timing", "Livestream et chronométrage", "Livestream e cronometraggio", "Streaming y tiempos en directo", "Transmissão e cronometragem ao vivo"),
-    "eurosport": t("Usually Eurosport 2, finale often on Eurosport 1", "Surtout Eurosport 2, la fin souvent sur Eurosport 1", "Di solito Eurosport 2, il finale spesso su Eurosport 1", "Sobre todo Eurosport 2, el final a menudo en Eurosport 1", "Geralmente Eurosport 2, o final muitas vezes no Eurosport 1"),
-    "fiawecplus": t("Official WEC stream", "Stream officiel du WEC", "Stream ufficiale del WEC", "Streaming oficial del WEC", "Transmissão oficial do WEC"),
-    "bluetv": t("Swisscom; Formula E partner until season 12", "Swisscom ; partenaire Formule E jusqu'à la saison 12", "Swisscom; partner Formula E fino alla stagione 12", "Swisscom; socio de la Fórmula E hasta la temporada 12", "Swisscom; parceira da Fórmula E até a temporada 12"),
-    "disneyplus": t("From season 13 per Formula E; Swiss partner still open", "Dès la saison 13 selon la Formule E ; partenaire suisse encore ouvert", "Dalla stagione 13 secondo la Formula E; partner svizzero ancora aperto", "Desde la temporada 13 según la Fórmula E; socio suizo aún por confirmar", "A partir da temporada 13 segundo a Fórmula E; parceiro suíço ainda em aberto"),
-    "f1tv": t("Official stream incl. F2, F3 and F1 Academy", "Stream officiel avec F2, F3 et F1 Academy", "Stream ufficiale con F2, F3 e F1 Academy", "Streaming oficial con F2, F3 y F1 Academy", "Transmissão oficial com F2, F3 e F1 Academy"),
-    "motorvision": t("IndyCar with German commentary", "IndyCar commenté en allemand", "IndyCar con commento in tedesco", "IndyCar con comentarios en alemán", "IndyCar com narração em alemão"),
-    "sportdigital": t("NASCAR Cup live (DACH), availability depends on TV provider", "NASCAR Cup en direct (DACH), selon l'opérateur TV", "NASCAR Cup in diretta (DACH), secondo l'operatore TV", "NASCAR Cup en directo (DACH), según operador de TV", "NASCAR Cup ao vivo (DACH), conforme a operadora de TV"),
-    "yt-imsa": t("Free live stream outside North America", "Livestream gratuit hors Amérique du Nord", "Livestream gratuito fuori dal Nord America", "Streaming gratis fuera de Norteamérica", "Transmissão grátis fora da América do Norte"),
-    "yt-elms": t("Official free live stream", "Livestream officiel gratuit", "Livestream ufficiale gratuito", "Streaming oficial gratuito", "Transmissão oficial gratuita"),
-    "yt-gtworld": t("Official free live stream", "Livestream officiel gratuit", "Livestream ufficiale gratuito", "Streaming oficial gratuito", "Transmissão oficial gratuita"),
-    "yt-btcc": t("Free live stream outside the UK and North America", "Livestream gratuit hors Royaume-Uni et Amérique du Nord", "Livestream gratuito fuori da Regno Unito e Nord America", "Streaming gratis fuera de Reino Unido y Norteamérica", "Transmissão grátis fora do Reino Unido e da América do Norte"),
-    "superview": t("International Supercars stream (subscription)", "Stream international des Supercars (abonnement)", "Stream internazionale delle Supercars (abbonamento)", "Streaming internacional de Supercars (suscripción)", "Transmissão internacional da Supercars (assinatura)"),
-    "servustv": t("Free stream in DE/AT/CH", "Stream gratuit en DE/AT/CH", "Stream gratuito in DE/AT/CH", "Streaming gratis en DE/AT/CH", "Transmissão grátis em DE/AT/CH"),
-    "sbk-pass": t("Official stream, all sessions", "Stream officiel, toutes les sessions", "Stream ufficiale, tutte le sessioni", "Streaming oficial, todas las sesiones", "Transmissão oficial, todas as sessões"),
-    "ttplus": t("Official Isle of Man TT live stream", "Livestream officiel du TT de l'île de Man", "Livestream ufficiale del TT dell'Isola di Man", "Streaming oficial del TT de la Isla de Man", "Transmissão oficial do TT da Ilha de Man"),
-    "mxgp-tv": t("Official motocross world championship stream", "Stream officiel du mondial de motocross", "Stream ufficiale del mondiale motocross", "Streaming oficial del mundial de motocross", "Transmissão oficial do mundial de motocross"),
-    "smx-pass": t("International Supercross stream", "Stream international du Supercross", "Stream internazionale del Supercross", "Streaming internacional de Supercross", "Transmissão internacional do Supercross"),
-    "rallytv": t("Every WRC stage live", "Toutes les spéciales WRC en direct", "Tutte le prove WRC in diretta", "Todos los tramos del WRC en directo", "Todas as especiais do WRC ao vivo"),
-    "dakar-web": t("Live tracking & daily highlights", "Suivi en direct et résumés quotidiens", "Tracking live e highlights quotidiani", "Seguimiento en directo y resúmenes diarios", "Rastreamento ao vivo e resumos diários"),
-    "yt-ppihc": t("Free live stream", "Livestream gratuit", "Livestream gratuito", "Streaming gratis", "Transmissão grátis"),
-    "yt-adac": t("Live stream depending on rights", "Livestream selon les droits", "Livestream secondo i diritti", "Streaming según derechos", "Transmissão conforme os direitos"),
-    "yt-porsche": t("Live stream depending on rights", "Livestream selon les droits", "Livestream secondo i diritti", "Streaming según derechos", "Transmissão conforme os direitos"),
-    "yt-macau": t("Live stream depending on region", "Livestream selon la région", "Livestream secondo la regione", "Streaming según la región", "Transmissão conforme a região"),
-    "yt-supergt": t("Live stream depending on region", "Livestream selon la région", "Livestream secondo la regione", "Streaming según la región", "Transmissão conforme a região"),
-    "sfgo": t("Official Super Formula app (subscription)", "App officielle de la Super Formula (abonnement)", "App ufficiale della Super Formula (abbonamento)", "App oficial de la Super Formula (suscripción)", "App oficial da Super Formula (assinatura)"),
-    "yt-alms": t("Official free live stream", "Livestream officiel gratuit", "Livestream ufficiale gratuito", "Streaming oficial gratuito", "Transmissão oficial gratuita"),
-}
-
 # Bausteine der Event-Notizen (durch ", " bzw. "; " getrennt)
 NOTE_PARTS = {
     "Startzeiten provisorisch": t("start times provisional", "horaires provisoires", "orari provvisori", "horas provisionales", "horários provisórios"),
@@ -327,13 +289,8 @@ def _note(note):
 
 
 def translate_data(data):
-    """Ergänzt *I18n-Felder in Sendern, Serien, Events und Sessions. Gibt fehlende Texte zurück."""
+    """Ergänzt *I18n-Felder in Serien, Events und Sessions. Gibt fehlende Texte zurück."""
     missing = []
-    for c in data["channels"]:
-        if c.get("note"):
-            c["noteI18n"] = CHANNEL_NOTES.get(c["id"])
-            if c["noteI18n"] is None:
-                missing.append(f"Sender-Hinweis {c['id']}")
     for s in data["series"]:
         s["taglineI18n"] = TAGLINES.get(s["id"])
         if s["taglineI18n"] is None:

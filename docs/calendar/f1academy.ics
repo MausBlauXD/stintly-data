@@ -8,52 +8,52 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:f1academy-2026-austin-race-1@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261024T143000Z
 DURATION:PT30M
 SUMMARY:F1A · F1 Academy Austin – Rennen 1
 LOCATION:Circuit of the Americas\, Austin
-DESCRIPTION:Wo schauen: F1 TV Pro · Sky Sport\nStartzeit provisorisch\nDat
- um offiziell\, Startzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 BEGIN:VEVENT
 UID:f1academy-2026-austin-race-2@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261024T181500Z
 DURATION:PT30M
 SUMMARY:F1A · F1 Academy Austin – Rennen 2
 LOCATION:Circuit of the Americas\, Austin
-DESCRIPTION:Wo schauen: F1 TV Pro · Sky Sport\nStartzeit provisorisch\nDat
- um offiziell\, Startzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 BEGIN:VEVENT
 UID:f1academy-2026-austin-race-3@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261025T160000Z
 DURATION:PT30M
 SUMMARY:F1A · F1 Academy Austin – Rennen 3
 LOCATION:Circuit of the Americas\, Austin
-DESCRIPTION:Wo schauen: F1 TV Pro · Sky Sport\nStartzeit provisorisch\nDat
- um offiziell\, Startzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 BEGIN:VEVENT
 UID:f1academy-2026-las-vegas-race-1@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261121T003000Z
 DURATION:PT30M
 SUMMARY:F1A · F1 Academy Las Vegas – Rennen 1
 LOCATION:Las Vegas Strip Circuit\, Las Vegas
-DESCRIPTION:Wo schauen: F1 TV Pro · Sky Sport\nStartzeit provisorisch\nDat
- um offiziell\, Startzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 BEGIN:VEVENT
 UID:f1academy-2026-las-vegas-race-2@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20261122T000000Z
 DURATION:PT30M
 SUMMARY:F1A · F1 Academy Las Vegas – Rennen 2
 LOCATION:Las Vegas Strip Circuit\, Las Vegas
-DESCRIPTION:Wo schauen: F1 TV Pro · Sky Sport\nStartzeit provisorisch\nDat
- um offiziell\, Startzeiten provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeiten provisori
+ sch
 END:VEVENT
 END:VCALENDAR

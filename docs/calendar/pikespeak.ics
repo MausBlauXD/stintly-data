@@ -8,12 +8,12 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:pikespeak-2027-race-day-race-1@stintly
-DTSTAMP:20261028T212745Z
+DTSTAMP:20261102T090612Z
 DTSTART:20270627T140000Z
 DURATION:PT480M
 SUMMARY:Pikes · 105. Pikes Peak International Hill Climb – Renntag
 LOCATION:Pikes Peak Highway\, Colorado Springs
-DESCRIPTION:Wo schauen: YouTube · Pikes Peak\nStartzeit provisorisch\nDatu
- m offiziell\, Startzeit provisorisch
+DESCRIPTION:Startzeit provisorisch\nDatum offiziell\, Startzeit provisorisc
+ h
 END:VEVENT
 END:VCALENDAR

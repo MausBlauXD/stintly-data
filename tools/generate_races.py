@@ -24,90 +24,48 @@ SITE = "https://mausblauxd.github.io/stintly-data"
 DEFAULT_DURATION = {"practice": 60, "qualifying": 60, "sprint": 45, "race": 120}
 
 # ---------------------------------------------------------------------------
-# Sender
-# ---------------------------------------------------------------------------
-CHANNELS = [
-    ("srf2", "SRF zwei", "freeTV", "https://www.srf.ch/play/tv/live", "Teils auch auf SRF info oder SRF 1"),
-    ("playsrf", "Play SRF / SRF Sport App", "freeStream", "https://www.srf.ch/sport", "Livestream gratis in der Schweiz"),
-    ("sky", "Sky Sport", "payStream", "https://sky.ch/de/sport", "Alle Sessions, Abo nötig"),
-    ("prosieben", "ProSieben", "freeTV", "https://www.prosieben.ch", "Empfang in der Schweiz je nach TV-Anbieter"),
-    ("joyn", "Joyn", "freeStream", "https://www.joyn.de", "Gratis-Livestream; aus der Schweiz evtl. gesperrt"),
-    ("yt-vln", "YouTube · VLNOFFICIAL", "freeStream", "https://www.youtube.com/results?search_query=VLNOFFICIAL+live", "Offizieller Gratis-Livestream der NLS"),
-    ("nls-web", "NLS-Website", "freeStream", "https://www.nuerburgring-langstrecken-serie.de", "Livestream & Live-Timing"),
-    ("yt-24h", "YouTube · 24h Nürburgring", "freeStream", "https://www.youtube.com/results?search_query=24h+N%C3%BCrburgring+live", "Gratis-Livestream"),
-    ("n24-web", "24h-rennen.de", "freeStream", "https://www.24h-rennen.de", "Livestream & Live-Timing"),
-    ("eurosport", "Eurosport", "payTV", "https://www.eurosport.de", "Meist Eurosport 2, Schlussphase oft Eurosport 1"),
-    ("hbomax", "HBO Max", "payStream", "https://www.hbomax.com", None),
-    ("fiawecplus", "FIAWEC+", "payStream", "https://www.fiawec.com", "Offizieller Stream der WEC"),
-    ("bluetv", "blue TV", "payTV", "https://www.blue.ch", "Swisscom; bis Saison 12 Formel-E-Partner"),
-    ("disneyplus", "Disney+", "payStream", "https://www.disneyplus.com", "Ab Saison 13 laut Formel E; Schweizer Partner noch offen"),
-    ("f1tv", "F1 TV Pro", "payStream", "https://f1tv.formula1.com", "Offizieller Stream inkl. F2, F3 und F1 Academy"),
-    ("motorvision", "Motorvision+", "payStream", "https://www.motorvision.tv", "IndyCar mit deutschem Kommentar"),
-    ("sportdigital", "Sportdigital1+", "payTV", "https://www.sportdigital.de", "NASCAR Cup live (DACH), Empfang je nach TV-Anbieter"),
-    ("yt-imsa", "YouTube · IMSA", "freeStream", "https://www.youtube.com/@IMSA", "Gratis-Livestream ausserhalb Nordamerikas"),
-    ("yt-elms", "YouTube · ELMS", "freeStream", "https://www.youtube.com/results?search_query=European+Le+Mans+Series+live", "Offizieller Gratis-Livestream"),
-    ("yt-gtworld", "YouTube · GT World", "freeStream", "https://www.youtube.com/@GTWorld", "Offizieller Gratis-Livestream"),
-    ("yt-btcc", "YouTube · BTCC", "freeStream", "https://www.youtube.com/results?search_query=BTCC+live", "Gratis-Livestream ausserhalb UK und Nordamerika"),
-    ("superview", "SuperView", "payStream", "https://www.supercars.com", "Internationaler Stream der Supercars (Abo)"),
-    ("servustv", "ServusTV On", "freeStream", "https://www.servustv.com", "Gratis-Stream in DE/AT/CH"),
-    ("sbk-pass", "WorldSBK VideoPass", "payStream", "https://www.worldsbk.com", "Offizieller Stream, alle Sessions"),
-    ("ttplus", "TT+", "payStream", "https://www.iomttraces.com", "Offizieller Livestream der Isle of Man TT"),
-    ("mxgp-tv", "MXGP-TV", "payStream", "https://www.mxgp-tv.com", "Offizieller Stream der Motocross-WM"),
-    ("smx-pass", "SMX Video Pass", "payStream", "https://www.supermotocross.com", "Internationaler Stream für Supercross"),
-    ("rallytv", "Rally.TV", "payStream", "https://rally.tv", "Alle WRC-Prüfungen live"),
-    ("dakar-web", "dakar.com", "freeStream", "https://www.dakar.com", "Live-Tracking & tägliche Highlights"),
-    ("yt-ppihc", "YouTube · Pikes Peak", "freeStream", "https://www.youtube.com/results?search_query=Pikes+Peak+Hill+Climb+live", "Gratis-Livestream"),
-    ("yt-adac", "YouTube · ADAC Motorsport", "freeStream", "https://www.youtube.com/@ADACMotorsport", "Livestream je nach Rechtelage"),
-    ("yt-porsche", "YouTube · Porsche Motorsport", "freeStream", "https://www.youtube.com/@PorscheMotorsport", "Livestream je nach Rechtelage"),
-    ("yt-macau", "YouTube · Macau Grand Prix", "freeStream", "https://www.youtube.com/results?search_query=Macau+Grand+Prix+live", "Livestream je nach Region"),
-    ("yt-supergt", "YouTube · SUPER GT", "freeStream", "https://www.youtube.com/results?search_query=SUPER+GT+live", "Livestream je nach Region"),
-    ("sfgo", "SFgo", "payStream", "https://superformula.net", "Offizielle App der Super Formula (Abo)"),
-    ("yt-alms", "YouTube · Asian Le Mans", "freeStream", "https://www.youtube.com/results?search_query=Asian+Le+Mans+Series+live", "Offizieller Gratis-Livestream"),
-]
-
-# ---------------------------------------------------------------------------
 # Serien (Reihenfolge = Anzeige-Reihenfolge, Kategorien nach erstem Auftreten)
 # ---------------------------------------------------------------------------
 SERIES = [
     # Formel
-    ("f1", "Formel 1", "F1", "Formel", "Die Königsklasse", "#E10600", ["srf2", "playsrf", "sky"], "https://www.formula1.com"),
-    ("f2", "Formel 2", "F2", "Formel", "Sprungbrett zur F1", "#0090D0", ["sky", "f1tv"], "https://www.fiaformula2.com"),
-    ("f3", "Formel 3", "F3", "Formel", "Nachwuchs-Formelserie", "#E57200", ["sky", "f1tv"], "https://www.fiaformula3.com"),
-    ("f1academy", "F1 Academy", "F1A", "Formel", "Formelserie für Frauen", "#E6007E", ["f1tv", "sky"], "https://www.f1academy.com"),
-    ("indycar", "IndyCar", "Indy", "Formel", "Inkl. Indy 500", "#22356F", ["sky", "motorvision"], "https://www.indycar.com"),
-    ("superformula", "Super Formula", "SF", "Formel", "Japanische Formelserie", "#4B2E83", ["sfgo"], "https://superformula.net"),
-    ("fe", "Formel E", "FE", "Formel", "Elektrische Stadtrennen", "#00B2A9", ["disneyplus", "bluetv"], "https://www.fiaformulae.com"),
+    ("f1", "Formel 1", "F1", "Formel", "Die Königsklasse", "#E10600", "https://www.formula1.com"),
+    ("f2", "Formel 2", "F2", "Formel", "Sprungbrett zur F1", "#0090D0", "https://www.fiaformula2.com"),
+    ("f3", "Formel 3", "F3", "Formel", "Nachwuchs-Formelserie", "#E57200", "https://www.fiaformula3.com"),
+    ("f1academy", "F1 Academy", "F1A", "Formel", "Formelserie für Frauen", "#E6007E", "https://www.f1academy.com"),
+    ("indycar", "IndyCar", "Indy", "Formel", "Inkl. Indy 500", "#22356F", "https://www.indycar.com"),
+    ("superformula", "Super Formula", "SF", "Formel", "Japanische Formelserie", "#4B2E83", "https://superformula.net"),
+    ("fe", "Formel E", "FE", "Formel", "Elektrische Stadtrennen", "#00B2A9", "https://www.fiaformulae.com"),
     # Langstrecke
-    ("wec", "Langstrecken-WM (WEC)", "WEC", "Langstrecke", "Inkl. 24h Le Mans", "#0057B8", ["eurosport", "hbomax", "fiawecplus"], "https://www.fiawec.com"),
-    ("imsa", "IMSA SportsCar", "IMSA", "Langstrecke", "Inkl. 24h Daytona", "#8A1538", ["yt-imsa"], "https://www.imsa.com"),
-    ("elms", "European Le Mans Series", "ELMS", "Langstrecke", "4-Stunden-Rennen in Europa", "#6A2C91", ["yt-elms"], "https://www.europeanlemansseries.com"),
-    ("alms", "Asian Le Mans Series", "ALMS", "Langstrecke", "Wintersaison der Le-Mans-Serien", "#A0522D", ["yt-alms"], "https://www.asianlemansseries.com"),
-    ("gtwc", "GT World Challenge Europe", "GTWC", "Langstrecke", "Inkl. 24h Spa", "#F26522", ["yt-gtworld"], "https://www.gt-world-challenge-europe.com"),
-    ("nls", "Nürburgring Langstrecken-Serie", "NLS", "Langstrecke", "Nordschleife", "#008C45", ["yt-vln", "nls-web"], "https://www.nuerburgring-langstrecken-serie.de"),
-    ("n24", "24h Nürburgring", "24h", "Langstrecke", "Grüne Hölle, 24 Stunden", "#F2A900", ["yt-24h", "n24-web"], "https://www.24h-rennen.de"),
+    ("wec", "Langstrecken-WM (WEC)", "WEC", "Langstrecke", "Inkl. 24h Le Mans", "#0057B8", "https://www.fiawec.com"),
+    ("imsa", "IMSA SportsCar", "IMSA", "Langstrecke", "Inkl. 24h Daytona", "#8A1538", "https://www.imsa.com"),
+    ("elms", "European Le Mans Series", "ELMS", "Langstrecke", "4-Stunden-Rennen in Europa", "#6A2C91", "https://www.europeanlemansseries.com"),
+    ("alms", "Asian Le Mans Series", "ALMS", "Langstrecke", "Wintersaison der Le-Mans-Serien", "#A0522D", "https://www.asianlemansseries.com"),
+    ("gtwc", "GT World Challenge Europe", "GTWC", "Langstrecke", "Inkl. 24h Spa", "#F26522", "https://www.gt-world-challenge-europe.com"),
+    ("nls", "Nürburgring Langstrecken-Serie", "NLS", "Langstrecke", "Nordschleife", "#008C45", "https://www.nuerburgring-langstrecken-serie.de"),
+    ("n24", "24h Nürburgring", "24h", "Langstrecke", "Grüne Hölle, 24 Stunden", "#F2A900", "https://www.24h-rennen.de"),
     # Tourenwagen / GT
-    ("dtm", "DTM", "DTM", "Tourenwagen / GT", "GT3-Sprintrennen", "#1B3D8F", ["prosieben", "joyn"], "https://www.dtm.com"),
-    ("gtmasters", "ADAC GT Masters", "GTM", "Tourenwagen / GT", "GT3-Sprints im DTM-Rahmen", "#F2B800", ["joyn", "yt-adac"], "https://www.adac-motorsport.de/adac-gt-masters/"),
-    ("carreracup", "Porsche Carrera Cup Deutschland", "CCD", "Tourenwagen / GT", "Markenpokal im DTM-Rahmen", "#3C3C46", ["joyn", "yt-porsche"], "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/"),
-    ("supercup", "Porsche Supercup", "PSC", "Tourenwagen / GT", "Markenpokal im F1-Rahmen", "#B12B28", ["sky", "f1tv"], "https://racing.porsche.com/mobil-1-supercup"),
-    ("carreracupna", "Porsche Carrera Cup North America", "CCNA", "Tourenwagen / GT", "Markenpokal bei F1, IMSA und IndyCar in den USA", "#1F4E79", ["yt-porsche"], "https://racing.porsche.com/en-US/series/carrera-cup-north-america"),
-    ("macau", "Macau Grand Prix", "Macau", "Tourenwagen / GT", "GT World Cup auf dem Guia Circuit", "#0B8A6E", ["yt-macau"], "https://www.macau.grandprix.gov.mo"),
-    ("btcc", "British Touring Car Championship", "BTCC", "Tourenwagen / GT", "Britische Tourenwagen", "#D4145A", ["yt-btcc"], "https://www.btcc.net"),
-    ("supercars", "Supercars", "SC", "Tourenwagen / GT", "V8-Tourenwagen aus Australien", "#B5121B", ["superview"], "https://www.supercars.com"),
-    ("supergt", "SUPER GT", "SGT", "Tourenwagen / GT", "Japanische GT-Meisterschaft", "#2E8B57", ["yt-supergt"], "https://supergt.net"),
-    ("nascar", "NASCAR Cup Series", "NASCAR", "Tourenwagen / GT", "Stockcars, inkl. Daytona 500", "#FFB81C", ["sportdigital"], "https://www.nascar.com"),
+    ("dtm", "DTM", "DTM", "Tourenwagen / GT", "GT3-Sprintrennen", "#1B3D8F", "https://www.dtm.com"),
+    ("gtmasters", "ADAC GT Masters", "GTM", "Tourenwagen / GT", "GT3-Sprints im DTM-Rahmen", "#F2B800", "https://www.adac-motorsport.de/adac-gt-masters/"),
+    ("carreracup", "Porsche Carrera Cup Deutschland", "CCD", "Tourenwagen / GT", "Markenpokal im DTM-Rahmen", "#3C3C46", "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/"),
+    ("supercup", "Porsche Supercup", "PSC", "Tourenwagen / GT", "Markenpokal im F1-Rahmen", "#B12B28", "https://racing.porsche.com/mobil-1-supercup"),
+    ("carreracupna", "Porsche Carrera Cup North America", "CCNA", "Tourenwagen / GT", "Markenpokal bei F1, IMSA und IndyCar in den USA", "#1F4E79", "https://racing.porsche.com/en-US/series/carrera-cup-north-america"),
+    ("macau", "Macau Grand Prix", "Macau", "Tourenwagen / GT", "GT World Cup auf dem Guia Circuit", "#0B8A6E", "https://www.macau.grandprix.gov.mo"),
+    ("btcc", "British Touring Car Championship", "BTCC", "Tourenwagen / GT", "Britische Tourenwagen", "#D4145A", "https://www.btcc.net"),
+    ("supercars", "Supercars", "SC", "Tourenwagen / GT", "V8-Tourenwagen aus Australien", "#B5121B", "https://www.supercars.com"),
+    ("supergt", "SUPER GT", "SGT", "Tourenwagen / GT", "Japanische GT-Meisterschaft", "#2E8B57", "https://supergt.net"),
+    ("nascar", "NASCAR Cup Series", "NASCAR", "Tourenwagen / GT", "Stockcars, inkl. Daytona 500", "#FFB81C", "https://www.nascar.com"),
     # Motorrad
-    ("motogp", "MotoGP", "MotoGP", "Motorrad", "Motorrad-WM", "#C8102E", ["srf2", "playsrf", "sky"], "https://www.motogp.com"),
-    ("moto2", "Moto2", "Moto2", "Motorrad", "Mittelklasse der Motorrad-WM", "#3F51B5", ["playsrf", "sky"], "https://www.motogp.com"),
-    ("moto3", "Moto3", "Moto3", "Motorrad", "Einstiegsklasse der Motorrad-WM", "#00897B", ["playsrf", "sky"], "https://www.motogp.com"),
-    ("wsbk", "Superbike-WM (WorldSBK)", "SBK", "Motorrad", "Seriennahe Superbikes", "#1D7FD1", ["servustv", "sbk-pass"], "https://www.worldsbk.com"),
-    ("iomtt", "Isle of Man TT", "TT", "Motorrad", "Strassenrennen auf der Isle of Man", "#B8860B", ["ttplus"], "https://www.iomttraces.com"),
-    ("mxgp", "Motocross-WM (MXGP)", "MXGP", "Motorrad", "Motocross weltweit", "#FF7A00", ["eurosport", "hbomax", "mxgp-tv"], "https://www.mxgp.com"),
-    ("supercross", "Supercross (AMA)", "SX", "Motorrad", "US-Stadionrennen", "#5E35B1", ["smx-pass"], "https://www.supercrossonline.com"),
+    ("motogp", "MotoGP", "MotoGP", "Motorrad", "Motorrad-WM", "#C8102E", "https://www.motogp.com"),
+    ("moto2", "Moto2", "Moto2", "Motorrad", "Mittelklasse der Motorrad-WM", "#3F51B5", "https://www.motogp.com"),
+    ("moto3", "Moto3", "Moto3", "Motorrad", "Einstiegsklasse der Motorrad-WM", "#00897B", "https://www.motogp.com"),
+    ("wsbk", "Superbike-WM (WorldSBK)", "SBK", "Motorrad", "Seriennahe Superbikes", "#1D7FD1", "https://www.worldsbk.com"),
+    ("iomtt", "Isle of Man TT", "TT", "Motorrad", "Strassenrennen auf der Isle of Man", "#B8860B", "https://www.iomttraces.com"),
+    ("mxgp", "Motocross-WM (MXGP)", "MXGP", "Motorrad", "Motocross weltweit", "#FF7A00", "https://www.mxgp.com"),
+    ("supercross", "Supercross (AMA)", "SX", "Motorrad", "US-Stadionrennen", "#5E35B1", "https://www.supercrossonline.com"),
     # Rallye & Bergrennen
-    ("wrc", "Rallye-WM (WRC)", "WRC", "Rallye & Bergrennen", "Rallye-Weltmeisterschaft", "#0033A0", ["rallytv"], "https://www.wrc.com"),
-    ("dakar", "Rallye Dakar", "Dakar", "Rallye & Bergrennen", "Wüstenrallye in Saudi-Arabien", "#B07D3C", ["eurosport", "dakar-web"], "https://www.dakar.com"),
-    ("pikespeak", "Pikes Peak Hill Climb", "Pikes", "Rallye & Bergrennen", "Bergrennen in Colorado", "#2F6F4F", ["yt-ppihc"], "https://ppihc.org"),
+    ("wrc", "Rallye-WM (WRC)", "WRC", "Rallye & Bergrennen", "Rallye-Weltmeisterschaft", "#0033A0", "https://www.wrc.com"),
+    ("dakar", "Rallye Dakar", "Dakar", "Rallye & Bergrennen", "Wüstenrallye in Saudi-Arabien", "#B07D3C", "https://www.dakar.com"),
+    ("pikespeak", "Pikes Peak Hill Climb", "Pikes", "Rallye & Bergrennen", "Bergrennen in Colorado", "#2F6F4F", "https://ppihc.org"),
 ]
 
 EVENTS = []
@@ -127,7 +85,7 @@ def at(day, hhmm):
     return datetime(day.year, day.month, day.day, int(h), int(m))
 
 
-def event(series, slug, name, circuit, location, cc, tz, sessions, sources, note=None, channel_ids=None):
+def event(series, slug, name, circuit, location, cc, tz, sessions, sources, note=None):
     """sessions: Liste von (kind, name, naive local datetime, durationMinutes|None, confirmed)"""
     zone = ZoneInfo(tz)
     converted = []
@@ -158,7 +116,6 @@ def event(series, slug, name, circuit, location, cc, tz, sessions, sources, note
         "countryCode": cc,
         "sessions": out_sessions,
         "sources": sources,
-        "channelIds": channel_ids,
         "note": note,
     })
 
@@ -935,7 +892,6 @@ def _ics_fold(line):
 def write_calendars(data):
     CALENDAR_DIR.mkdir(parents=True, exist_ok=True)
     series = {s["id"]: s for s in data["series"]}
-    channels = {c["id"]: c for c in data["channels"]}
     stamp = data["updatedAt"].replace("-", "").replace(":", "")
 
     def calendar(name, events):
@@ -944,11 +900,9 @@ def write_calendars(data):
                  "X-PUBLISHED-TTL:PT12H", "REFRESH-INTERVAL;VALUE=DURATION:PT12H"]
         for e in events:
             s_info = series[e["seriesId"]]
-            ch_ids = e.get("channelIds") or s_info["channelIds"]
-            where = " · ".join(channels[c]["name"] for c in ch_ids if c in channels)
             for s in e["sessions"]:
                 start = s["start"].replace("-", "").replace(":", "")
-                desc = f"Wo schauen: {where}" if where else ""
+                desc = ""
                 if not s["confirmed"]:
                     desc += "\nStartzeit provisorisch"
                 if e.get("note"):
@@ -1033,16 +987,11 @@ def build():
     return {
         "schemaVersion": 1,
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "region": "CH",
-        "channels": [
-            {"id": i, "name": n, "kind": k, "url": u, "note": note}
-            for i, n, k, u, note in CHANNELS
-        ],
         "series": [
             {"id": i, "name": n, "shortName": s, "category": c, "tagline": tl,
-             "color": col, "channelIds": ch, "website": w, "liveTimingUrl": LIVE_TIMING.get(i),
+             "color": col, "website": w, "liveTimingUrl": LIVE_TIMING.get(i),
              "ticketsUrl": TICKETS.get(i)}
-            for i, n, s, c, tl, col, ch, w in SERIES
+            for i, n, s, c, tl, col, w in SERIES
         ],
         "events": events,
     }
@@ -1063,7 +1012,7 @@ def main():
         path.write_text(text, encoding="utf-8")
     sessions = sum(len(e["sessions"]) for e in data["events"])
     print(f"Geschrieben: {len(data['series'])} Serien, {len(data['events'])} Events, "
-          f"{sessions} Sessions, {len(data['channels'])} Sender")
+          f"{sessions} Sessions")
 
 
 if __name__ == "__main__":

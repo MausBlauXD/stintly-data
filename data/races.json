@@ -1,506 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T21:27:45Z",
-  "region": "CH",
-  "channels": [
-    {
-      "id": "srf2",
-      "name": "SRF zwei",
-      "kind": "freeTV",
-      "url": "https://www.srf.ch/play/tv/live",
-      "note": "Teils auch auf SRF info oder SRF 1",
-      "noteI18n": {
-        "en": "Sometimes on SRF info or SRF 1",
-        "fr": "Parfois sur SRF info ou SRF 1",
-        "it": "A volte su SRF info o SRF 1",
-        "es": "A veces en SRF info o SRF 1",
-        "pt": "Às vezes no SRF info ou SRF 1"
-      }
-    },
-    {
-      "id": "playsrf",
-      "name": "Play SRF / SRF Sport App",
-      "kind": "freeStream",
-      "url": "https://www.srf.ch/sport",
-      "note": "Livestream gratis in der Schweiz",
-      "noteI18n": {
-        "en": "Free live stream in Switzerland",
-        "fr": "Livestream gratuit en Suisse",
-        "it": "Livestream gratuito in Svizzera",
-        "es": "Streaming gratis en Suiza",
-        "pt": "Transmissão grátis na Suíça"
-      }
-    },
-    {
-      "id": "sky",
-      "name": "Sky Sport",
-      "kind": "payStream",
-      "url": "https://sky.ch/de/sport",
-      "note": "Alle Sessions, Abo nötig",
-      "noteI18n": {
-        "en": "All sessions, subscription required",
-        "fr": "Toutes les sessions, abonnement requis",
-        "it": "Tutte le sessioni, abbonamento necessario",
-        "es": "Todas las sesiones, requiere suscripción",
-        "pt": "Todas as sessões, exige assinatura"
-      }
-    },
-    {
-      "id": "prosieben",
-      "name": "ProSieben",
-      "kind": "freeTV",
-      "url": "https://www.prosieben.ch",
-      "note": "Empfang in der Schweiz je nach TV-Anbieter",
-      "noteI18n": {
-        "en": "Availability in Switzerland depends on your TV provider",
-        "fr": "Réception en Suisse selon l'opérateur TV",
-        "it": "Ricezione in Svizzera secondo l'operatore TV",
-        "es": "En Suiza depende de tu operador de TV",
-        "pt": "Na Suíça depende da operadora de TV"
-      }
-    },
-    {
-      "id": "joyn",
-      "name": "Joyn",
-      "kind": "freeStream",
-      "url": "https://www.joyn.de",
-      "note": "Gratis-Livestream; aus der Schweiz evtl. gesperrt",
-      "noteI18n": {
-        "en": "Free live stream; may be geo-blocked in Switzerland",
-        "fr": "Livestream gratuit ; peut être bloqué en Suisse",
-        "it": "Livestream gratuito; può essere bloccato in Svizzera",
-        "es": "Streaming gratis; puede estar bloqueado en Suiza",
-        "pt": "Transmissão grátis; pode estar bloqueada na Suíça"
-      }
-    },
-    {
-      "id": "yt-vln",
-      "name": "YouTube · VLNOFFICIAL",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=VLNOFFICIAL+live",
-      "note": "Offizieller Gratis-Livestream der NLS",
-      "noteI18n": {
-        "en": "Official free NLS live stream",
-        "fr": "Livestream officiel gratuit de la NLS",
-        "it": "Livestream ufficiale gratuito della NLS",
-        "es": "Streaming oficial gratuito de la NLS",
-        "pt": "Transmissão oficial gratuita da NLS"
-      }
-    },
-    {
-      "id": "nls-web",
-      "name": "NLS-Website",
-      "kind": "freeStream",
-      "url": "https://www.nuerburgring-langstrecken-serie.de",
-      "note": "Livestream & Live-Timing",
-      "noteI18n": {
-        "en": "Live stream & live timing",
-        "fr": "Livestream et chronométrage",
-        "it": "Livestream e cronometraggio",
-        "es": "Streaming y tiempos en directo",
-        "pt": "Transmissão e cronometragem ao vivo"
-      }
-    },
-    {
-      "id": "yt-24h",
-      "name": "YouTube · 24h Nürburgring",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=24h+N%C3%BCrburgring+live",
-      "note": "Gratis-Livestream",
-      "noteI18n": {
-        "en": "Free live stream",
-        "fr": "Livestream gratuit",
-        "it": "Livestream gratuito",
-        "es": "Streaming gratis",
-        "pt": "Transmissão grátis"
-      }
-    },
-    {
-      "id": "n24-web",
-      "name": "24h-rennen.de",
-      "kind": "freeStream",
-      "url": "https://www.24h-rennen.de",
-      "note": "Livestream & Live-Timing",
-      "noteI18n": {
-        "en": "Live stream & live timing",
-        "fr": "Livestream et chronométrage",
-        "it": "Livestream e cronometraggio",
-        "es": "Streaming y tiempos en directo",
-        "pt": "Transmissão e cronometragem ao vivo"
-      }
-    },
-    {
-      "id": "eurosport",
-      "name": "Eurosport",
-      "kind": "payTV",
-      "url": "https://www.eurosport.de",
-      "note": "Meist Eurosport 2, Schlussphase oft Eurosport 1",
-      "noteI18n": {
-        "en": "Usually Eurosport 2, finale often on Eurosport 1",
-        "fr": "Surtout Eurosport 2, la fin souvent sur Eurosport 1",
-        "it": "Di solito Eurosport 2, il finale spesso su Eurosport 1",
-        "es": "Sobre todo Eurosport 2, el final a menudo en Eurosport 1",
-        "pt": "Geralmente Eurosport 2, o final muitas vezes no Eurosport 1"
-      }
-    },
-    {
-      "id": "hbomax",
-      "name": "HBO Max",
-      "kind": "payStream",
-      "url": "https://www.hbomax.com",
-      "note": null
-    },
-    {
-      "id": "fiawecplus",
-      "name": "FIAWEC+",
-      "kind": "payStream",
-      "url": "https://www.fiawec.com",
-      "note": "Offizieller Stream der WEC",
-      "noteI18n": {
-        "en": "Official WEC stream",
-        "fr": "Stream officiel du WEC",
-        "it": "Stream ufficiale del WEC",
-        "es": "Streaming oficial del WEC",
-        "pt": "Transmissão oficial do WEC"
-      }
-    },
-    {
-      "id": "bluetv",
-      "name": "blue TV",
-      "kind": "payTV",
-      "url": "https://www.blue.ch",
-      "note": "Swisscom; bis Saison 12 Formel-E-Partner",
-      "noteI18n": {
-        "en": "Swisscom; Formula E partner until season 12",
-        "fr": "Swisscom ; partenaire Formule E jusqu'à la saison 12",
-        "it": "Swisscom; partner Formula E fino alla stagione 12",
-        "es": "Swisscom; socio de la Fórmula E hasta la temporada 12",
-        "pt": "Swisscom; parceira da Fórmula E até a temporada 12"
-      }
-    },
-    {
-      "id": "disneyplus",
-      "name": "Disney+",
-      "kind": "payStream",
-      "url": "https://www.disneyplus.com",
-      "note": "Ab Saison 13 laut Formel E; Schweizer Partner noch offen",
-      "noteI18n": {
-        "en": "From season 13 per Formula E; Swiss partner still open",
-        "fr": "Dès la saison 13 selon la Formule E ; partenaire suisse encore ouvert",
-        "it": "Dalla stagione 13 secondo la Formula E; partner svizzero ancora aperto",
-        "es": "Desde la temporada 13 según la Fórmula E; socio suizo aún por confirmar",
-        "pt": "A partir da temporada 13 segundo a Fórmula E; parceiro suíço ainda em aberto"
-      }
-    },
-    {
-      "id": "f1tv",
-      "name": "F1 TV Pro",
-      "kind": "payStream",
-      "url": "https://f1tv.formula1.com",
-      "note": "Offizieller Stream inkl. F2, F3 und F1 Academy",
-      "noteI18n": {
-        "en": "Official stream incl. F2, F3 and F1 Academy",
-        "fr": "Stream officiel avec F2, F3 et F1 Academy",
-        "it": "Stream ufficiale con F2, F3 e F1 Academy",
-        "es": "Streaming oficial con F2, F3 y F1 Academy",
-        "pt": "Transmissão oficial com F2, F3 e F1 Academy"
-      }
-    },
-    {
-      "id": "motorvision",
-      "name": "Motorvision+",
-      "kind": "payStream",
-      "url": "https://www.motorvision.tv",
-      "note": "IndyCar mit deutschem Kommentar",
-      "noteI18n": {
-        "en": "IndyCar with German commentary",
-        "fr": "IndyCar commenté en allemand",
-        "it": "IndyCar con commento in tedesco",
-        "es": "IndyCar con comentarios en alemán",
-        "pt": "IndyCar com narração em alemão"
-      }
-    },
-    {
-      "id": "sportdigital",
-      "name": "Sportdigital1+",
-      "kind": "payTV",
-      "url": "https://www.sportdigital.de",
-      "note": "NASCAR Cup live (DACH), Empfang je nach TV-Anbieter",
-      "noteI18n": {
-        "en": "NASCAR Cup live (DACH), availability depends on TV provider",
-        "fr": "NASCAR Cup en direct (DACH), selon l'opérateur TV",
-        "it": "NASCAR Cup in diretta (DACH), secondo l'operatore TV",
-        "es": "NASCAR Cup en directo (DACH), según operador de TV",
-        "pt": "NASCAR Cup ao vivo (DACH), conforme a operadora de TV"
-      }
-    },
-    {
-      "id": "yt-imsa",
-      "name": "YouTube · IMSA",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/@IMSA",
-      "note": "Gratis-Livestream ausserhalb Nordamerikas",
-      "noteI18n": {
-        "en": "Free live stream outside North America",
-        "fr": "Livestream gratuit hors Amérique du Nord",
-        "it": "Livestream gratuito fuori dal Nord America",
-        "es": "Streaming gratis fuera de Norteamérica",
-        "pt": "Transmissão grátis fora da América do Norte"
-      }
-    },
-    {
-      "id": "yt-elms",
-      "name": "YouTube · ELMS",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=European+Le+Mans+Series+live",
-      "note": "Offizieller Gratis-Livestream",
-      "noteI18n": {
-        "en": "Official free live stream",
-        "fr": "Livestream officiel gratuit",
-        "it": "Livestream ufficiale gratuito",
-        "es": "Streaming oficial gratuito",
-        "pt": "Transmissão oficial gratuita"
-      }
-    },
-    {
-      "id": "yt-gtworld",
-      "name": "YouTube · GT World",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/@GTWorld",
-      "note": "Offizieller Gratis-Livestream",
-      "noteI18n": {
-        "en": "Official free live stream",
-        "fr": "Livestream officiel gratuit",
-        "it": "Livestream ufficiale gratuito",
-        "es": "Streaming oficial gratuito",
-        "pt": "Transmissão oficial gratuita"
-      }
-    },
-    {
-      "id": "yt-btcc",
-      "name": "YouTube · BTCC",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=BTCC+live",
-      "note": "Gratis-Livestream ausserhalb UK und Nordamerika",
-      "noteI18n": {
-        "en": "Free live stream outside the UK and North America",
-        "fr": "Livestream gratuit hors Royaume-Uni et Amérique du Nord",
-        "it": "Livestream gratuito fuori da Regno Unito e Nord America",
-        "es": "Streaming gratis fuera de Reino Unido y Norteamérica",
-        "pt": "Transmissão grátis fora do Reino Unido e da América do Norte"
-      }
-    },
-    {
-      "id": "superview",
-      "name": "SuperView",
-      "kind": "payStream",
-      "url": "https://www.supercars.com",
-      "note": "Internationaler Stream der Supercars (Abo)",
-      "noteI18n": {
-        "en": "International Supercars stream (subscription)",
-        "fr": "Stream international des Supercars (abonnement)",
-        "it": "Stream internazionale delle Supercars (abbonamento)",
-        "es": "Streaming internacional de Supercars (suscripción)",
-        "pt": "Transmissão internacional da Supercars (assinatura)"
-      }
-    },
-    {
-      "id": "servustv",
-      "name": "ServusTV On",
-      "kind": "freeStream",
-      "url": "https://www.servustv.com",
-      "note": "Gratis-Stream in DE/AT/CH",
-      "noteI18n": {
-        "en": "Free stream in DE/AT/CH",
-        "fr": "Stream gratuit en DE/AT/CH",
-        "it": "Stream gratuito in DE/AT/CH",
-        "es": "Streaming gratis en DE/AT/CH",
-        "pt": "Transmissão grátis em DE/AT/CH"
-      }
-    },
-    {
-      "id": "sbk-pass",
-      "name": "WorldSBK VideoPass",
-      "kind": "payStream",
-      "url": "https://www.worldsbk.com",
-      "note": "Offizieller Stream, alle Sessions",
-      "noteI18n": {
-        "en": "Official stream, all sessions",
-        "fr": "Stream officiel, toutes les sessions",
-        "it": "Stream ufficiale, tutte le sessioni",
-        "es": "Streaming oficial, todas las sesiones",
-        "pt": "Transmissão oficial, todas as sessões"
-      }
-    },
-    {
-      "id": "ttplus",
-      "name": "TT+",
-      "kind": "payStream",
-      "url": "https://www.iomttraces.com",
-      "note": "Offizieller Livestream der Isle of Man TT",
-      "noteI18n": {
-        "en": "Official Isle of Man TT live stream",
-        "fr": "Livestream officiel du TT de l'île de Man",
-        "it": "Livestream ufficiale del TT dell'Isola di Man",
-        "es": "Streaming oficial del TT de la Isla de Man",
-        "pt": "Transmissão oficial do TT da Ilha de Man"
-      }
-    },
-    {
-      "id": "mxgp-tv",
-      "name": "MXGP-TV",
-      "kind": "payStream",
-      "url": "https://www.mxgp-tv.com",
-      "note": "Offizieller Stream der Motocross-WM",
-      "noteI18n": {
-        "en": "Official motocross world championship stream",
-        "fr": "Stream officiel du mondial de motocross",
-        "it": "Stream ufficiale del mondiale motocross",
-        "es": "Streaming oficial del mundial de motocross",
-        "pt": "Transmissão oficial do mundial de motocross"
-      }
-    },
-    {
-      "id": "smx-pass",
-      "name": "SMX Video Pass",
-      "kind": "payStream",
-      "url": "https://www.supermotocross.com",
-      "note": "Internationaler Stream für Supercross",
-      "noteI18n": {
-        "en": "International Supercross stream",
-        "fr": "Stream international du Supercross",
-        "it": "Stream internazionale del Supercross",
-        "es": "Streaming internacional de Supercross",
-        "pt": "Transmissão internacional do Supercross"
-      }
-    },
-    {
-      "id": "rallytv",
-      "name": "Rally.TV",
-      "kind": "payStream",
-      "url": "https://rally.tv",
-      "note": "Alle WRC-Prüfungen live",
-      "noteI18n": {
-        "en": "Every WRC stage live",
-        "fr": "Toutes les spéciales WRC en direct",
-        "it": "Tutte le prove WRC in diretta",
-        "es": "Todos los tramos del WRC en directo",
-        "pt": "Todas as especiais do WRC ao vivo"
-      }
-    },
-    {
-      "id": "dakar-web",
-      "name": "dakar.com",
-      "kind": "freeStream",
-      "url": "https://www.dakar.com",
-      "note": "Live-Tracking & tägliche Highlights",
-      "noteI18n": {
-        "en": "Live tracking & daily highlights",
-        "fr": "Suivi en direct et résumés quotidiens",
-        "it": "Tracking live e highlights quotidiani",
-        "es": "Seguimiento en directo y resúmenes diarios",
-        "pt": "Rastreamento ao vivo e resumos diários"
-      }
-    },
-    {
-      "id": "yt-ppihc",
-      "name": "YouTube · Pikes Peak",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=Pikes+Peak+Hill+Climb+live",
-      "note": "Gratis-Livestream",
-      "noteI18n": {
-        "en": "Free live stream",
-        "fr": "Livestream gratuit",
-        "it": "Livestream gratuito",
-        "es": "Streaming gratis",
-        "pt": "Transmissão grátis"
-      }
-    },
-    {
-      "id": "yt-adac",
-      "name": "YouTube · ADAC Motorsport",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/@ADACMotorsport",
-      "note": "Livestream je nach Rechtelage",
-      "noteI18n": {
-        "en": "Live stream depending on rights",
-        "fr": "Livestream selon les droits",
-        "it": "Livestream secondo i diritti",
-        "es": "Streaming según derechos",
-        "pt": "Transmissão conforme os direitos"
-      }
-    },
-    {
-      "id": "yt-porsche",
-      "name": "YouTube · Porsche Motorsport",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/@PorscheMotorsport",
-      "note": "Livestream je nach Rechtelage",
-      "noteI18n": {
-        "en": "Live stream depending on rights",
-        "fr": "Livestream selon les droits",
-        "it": "Livestream secondo i diritti",
-        "es": "Streaming según derechos",
-        "pt": "Transmissão conforme os direitos"
-      }
-    },
-    {
-      "id": "yt-macau",
-      "name": "YouTube · Macau Grand Prix",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=Macau+Grand+Prix+live",
-      "note": "Livestream je nach Region",
-      "noteI18n": {
-        "en": "Live stream depending on region",
-        "fr": "Livestream selon la région",
-        "it": "Livestream secondo la regione",
-        "es": "Streaming según la región",
-        "pt": "Transmissão conforme a região"
-      }
-    },
-    {
-      "id": "yt-supergt",
-      "name": "YouTube · SUPER GT",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=SUPER+GT+live",
-      "note": "Livestream je nach Region",
-      "noteI18n": {
-        "en": "Live stream depending on region",
-        "fr": "Livestream selon la région",
-        "it": "Livestream secondo la regione",
-        "es": "Streaming según la región",
-        "pt": "Transmissão conforme a região"
-      }
-    },
-    {
-      "id": "sfgo",
-      "name": "SFgo",
-      "kind": "payStream",
-      "url": "https://superformula.net",
-      "note": "Offizielle App der Super Formula (Abo)",
-      "noteI18n": {
-        "en": "Official Super Formula app (subscription)",
-        "fr": "App officielle de la Super Formula (abonnement)",
-        "it": "App ufficiale della Super Formula (abbonamento)",
-        "es": "App oficial de la Super Formula (suscripción)",
-        "pt": "App oficial da Super Formula (assinatura)"
-      }
-    },
-    {
-      "id": "yt-alms",
-      "name": "YouTube · Asian Le Mans",
-      "kind": "freeStream",
-      "url": "https://www.youtube.com/results?search_query=Asian+Le+Mans+Series+live",
-      "note": "Offizieller Gratis-Livestream",
-      "noteI18n": {
-        "en": "Official free live stream",
-        "fr": "Livestream officiel gratuit",
-        "it": "Livestream ufficiale gratuito",
-        "es": "Streaming oficial gratuito",
-        "pt": "Transmissão oficial gratuita"
-      }
-    }
-  ],
+  "updatedAt": "2026-11-02T09:06:12Z",
   "series": [
     {
       "id": "f1",
@@ -509,11 +9,6 @@
       "category": "Formel",
       "tagline": "Die Königsklasse",
       "color": "#E10600",
-      "channelIds": [
-        "srf2",
-        "playsrf",
-        "sky"
-      ],
       "website": "https://www.formula1.com",
       "liveTimingUrl": "https://www.formula1.com/en/timing/f1-live",
       "ticketsUrl": "https://tickets.formula1.com",
@@ -533,10 +28,6 @@
       "category": "Formel",
       "tagline": "Sprungbrett zur F1",
       "color": "#0090D0",
-      "channelIds": [
-        "sky",
-        "f1tv"
-      ],
       "website": "https://www.fiaformula2.com",
       "liveTimingUrl": null,
       "ticketsUrl": "https://tickets.formula1.com",
@@ -556,10 +47,6 @@
       "category": "Formel",
       "tagline": "Nachwuchs-Formelserie",
       "color": "#E57200",
-      "channelIds": [
-        "sky",
-        "f1tv"
-      ],
       "website": "https://www.fiaformula3.com",
       "liveTimingUrl": null,
       "ticketsUrl": "https://tickets.formula1.com",
@@ -579,10 +66,6 @@
       "category": "Formel",
       "tagline": "Formelserie für Frauen",
       "color": "#E6007E",
-      "channelIds": [
-        "f1tv",
-        "sky"
-      ],
       "website": "https://www.f1academy.com",
       "liveTimingUrl": null,
       "ticketsUrl": "https://tickets.formula1.com",
@@ -602,10 +85,6 @@
       "category": "Formel",
       "tagline": "Inkl. Indy 500",
       "color": "#22356F",
-      "channelIds": [
-        "sky",
-        "motorvision"
-      ],
       "website": "https://www.indycar.com",
       "liveTimingUrl": "https://www.indycar.com/timing-and-scoring",
       "ticketsUrl": "https://www.indycar.com/tickets",
@@ -625,9 +104,6 @@
       "category": "Formel",
       "tagline": "Japanische Formelserie",
       "color": "#4B2E83",
-      "channelIds": [
-        "sfgo"
-      ],
       "website": "https://superformula.net",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -647,10 +123,6 @@
       "category": "Formel",
       "tagline": "Elektrische Stadtrennen",
       "color": "#00B2A9",
-      "channelIds": [
-        "disneyplus",
-        "bluetv"
-      ],
       "website": "https://www.fiaformulae.com",
       "liveTimingUrl": "https://www.fiaformulae.com/en/live-timing",
       "ticketsUrl": "https://www.fiaformulae.com/en/tickets",
@@ -670,11 +142,6 @@
       "category": "Langstrecke",
       "tagline": "Inkl. 24h Le Mans",
       "color": "#0057B8",
-      "channelIds": [
-        "eurosport",
-        "hbomax",
-        "fiawecplus"
-      ],
       "website": "https://www.fiawec.com",
       "liveTimingUrl": "https://fiawec.alkamelsystems.com",
       "ticketsUrl": null,
@@ -694,9 +161,6 @@
       "category": "Langstrecke",
       "tagline": "Inkl. 24h Daytona",
       "color": "#8A1538",
-      "channelIds": [
-        "yt-imsa"
-      ],
       "website": "https://www.imsa.com",
       "liveTimingUrl": "https://imsa.alkamelsystems.com",
       "ticketsUrl": "https://www.imsa.com/tickets",
@@ -716,9 +180,6 @@
       "category": "Langstrecke",
       "tagline": "4-Stunden-Rennen in Europa",
       "color": "#6A2C91",
-      "channelIds": [
-        "yt-elms"
-      ],
       "website": "https://www.europeanlemansseries.com",
       "liveTimingUrl": "https://elms.alkamelsystems.com",
       "ticketsUrl": null,
@@ -738,9 +199,6 @@
       "category": "Langstrecke",
       "tagline": "Wintersaison der Le-Mans-Serien",
       "color": "#A0522D",
-      "channelIds": [
-        "yt-alms"
-      ],
       "website": "https://www.asianlemansseries.com",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -760,9 +218,6 @@
       "category": "Langstrecke",
       "tagline": "Inkl. 24h Spa",
       "color": "#F26522",
-      "channelIds": [
-        "yt-gtworld"
-      ],
       "website": "https://www.gt-world-challenge-europe.com",
       "liveTimingUrl": "https://www.gt-world-challenge-europe.com/live",
       "ticketsUrl": "https://www.gt-world-challenge-europe.com/tickets",
@@ -782,10 +237,6 @@
       "category": "Langstrecke",
       "tagline": "Nordschleife",
       "color": "#008C45",
-      "channelIds": [
-        "yt-vln",
-        "nls-web"
-      ],
       "website": "https://www.nuerburgring-langstrecken-serie.de",
       "liveTimingUrl": "https://livetiming.azurewebsites.net",
       "ticketsUrl": "https://www.nuerburgring-langstrecken-serie.de/tickets",
@@ -805,10 +256,6 @@
       "category": "Langstrecke",
       "tagline": "Grüne Hölle, 24 Stunden",
       "color": "#F2A900",
-      "channelIds": [
-        "yt-24h",
-        "n24-web"
-      ],
       "website": "https://www.24h-rennen.de",
       "liveTimingUrl": "https://livetiming.azurewebsites.net",
       "ticketsUrl": "https://www.24h-rennen.de/tickets/",
@@ -828,10 +275,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "GT3-Sprintrennen",
       "color": "#1B3D8F",
-      "channelIds": [
-        "prosieben",
-        "joyn"
-      ],
       "website": "https://www.dtm.com",
       "liveTimingUrl": "https://www.dtm.com/de/livetiming",
       "ticketsUrl": "https://www.dtm.com/de/tickets",
@@ -851,10 +294,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "GT3-Sprints im DTM-Rahmen",
       "color": "#F2B800",
-      "channelIds": [
-        "joyn",
-        "yt-adac"
-      ],
       "website": "https://www.adac-motorsport.de/adac-gt-masters/",
       "liveTimingUrl": null,
       "ticketsUrl": "https://www.dtm.com/de/tickets",
@@ -874,10 +313,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Markenpokal im DTM-Rahmen",
       "color": "#3C3C46",
-      "channelIds": [
-        "joyn",
-        "yt-porsche"
-      ],
       "website": "https://www.adac-motorsport.de/porsche-carrera-cup-deutschland/",
       "liveTimingUrl": null,
       "ticketsUrl": "https://www.dtm.com/de/tickets",
@@ -897,10 +332,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Markenpokal im F1-Rahmen",
       "color": "#B12B28",
-      "channelIds": [
-        "sky",
-        "f1tv"
-      ],
       "website": "https://racing.porsche.com/mobil-1-supercup",
       "liveTimingUrl": "https://racing.porsche.com/mobil-1-supercup/live-timing",
       "ticketsUrl": "https://tickets.formula1.com",
@@ -920,9 +351,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Markenpokal bei F1, IMSA und IndyCar in den USA",
       "color": "#1F4E79",
-      "channelIds": [
-        "yt-porsche"
-      ],
       "website": "https://racing.porsche.com/en-US/series/carrera-cup-north-america",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -942,9 +370,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "GT World Cup auf dem Guia Circuit",
       "color": "#0B8A6E",
-      "channelIds": [
-        "yt-macau"
-      ],
       "website": "https://www.macau.grandprix.gov.mo",
       "liveTimingUrl": null,
       "ticketsUrl": "https://www.macau.grandprix.gov.mo",
@@ -964,9 +389,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Britische Tourenwagen",
       "color": "#D4145A",
-      "channelIds": [
-        "yt-btcc"
-      ],
       "website": "https://www.btcc.net",
       "liveTimingUrl": "https://www.tsl-timing.com",
       "ticketsUrl": "https://www.btcc.net/tickets/",
@@ -986,9 +408,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "V8-Tourenwagen aus Australien",
       "color": "#B5121B",
-      "channelIds": [
-        "superview"
-      ],
       "website": "https://www.supercars.com",
       "liveTimingUrl": "https://www.supercars.com/live-timing",
       "ticketsUrl": "https://www.supercars.com/tickets",
@@ -1008,9 +427,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Japanische GT-Meisterschaft",
       "color": "#2E8B57",
-      "channelIds": [
-        "yt-supergt"
-      ],
       "website": "https://supergt.net",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -1030,9 +446,6 @@
       "category": "Tourenwagen / GT",
       "tagline": "Stockcars, inkl. Daytona 500",
       "color": "#FFB81C",
-      "channelIds": [
-        "sportdigital"
-      ],
       "website": "https://www.nascar.com",
       "liveTimingUrl": "https://www.nascar.com/live-leaderboard/",
       "ticketsUrl": "https://www.nascar.com/tickets/",
@@ -1052,11 +465,6 @@
       "category": "Motorrad",
       "tagline": "Motorrad-WM",
       "color": "#C8102E",
-      "channelIds": [
-        "srf2",
-        "playsrf",
-        "sky"
-      ],
       "website": "https://www.motogp.com",
       "liveTimingUrl": "https://www.motogp.com/en/live",
       "ticketsUrl": "https://tickets.motogp.com",
@@ -1076,10 +484,6 @@
       "category": "Motorrad",
       "tagline": "Mittelklasse der Motorrad-WM",
       "color": "#3F51B5",
-      "channelIds": [
-        "playsrf",
-        "sky"
-      ],
       "website": "https://www.motogp.com",
       "liveTimingUrl": "https://www.motogp.com/en/live",
       "ticketsUrl": "https://tickets.motogp.com",
@@ -1099,10 +503,6 @@
       "category": "Motorrad",
       "tagline": "Einstiegsklasse der Motorrad-WM",
       "color": "#00897B",
-      "channelIds": [
-        "playsrf",
-        "sky"
-      ],
       "website": "https://www.motogp.com",
       "liveTimingUrl": "https://www.motogp.com/en/live",
       "ticketsUrl": "https://tickets.motogp.com",
@@ -1122,10 +522,6 @@
       "category": "Motorrad",
       "tagline": "Seriennahe Superbikes",
       "color": "#1D7FD1",
-      "channelIds": [
-        "servustv",
-        "sbk-pass"
-      ],
       "website": "https://www.worldsbk.com",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -1145,9 +541,6 @@
       "category": "Motorrad",
       "tagline": "Strassenrennen auf der Isle of Man",
       "color": "#B8860B",
-      "channelIds": [
-        "ttplus"
-      ],
       "website": "https://www.iomttraces.com",
       "liveTimingUrl": "https://www.iomttraces.com/live-timing/",
       "ticketsUrl": "https://www.iomttraces.com/tickets/",
@@ -1167,11 +560,6 @@
       "category": "Motorrad",
       "tagline": "Motocross weltweit",
       "color": "#FF7A00",
-      "channelIds": [
-        "eurosport",
-        "hbomax",
-        "mxgp-tv"
-      ],
       "website": "https://www.mxgp.com",
       "liveTimingUrl": "https://www.mxgp.com/live-timing",
       "ticketsUrl": null,
@@ -1191,9 +579,6 @@
       "category": "Motorrad",
       "tagline": "US-Stadionrennen",
       "color": "#5E35B1",
-      "channelIds": [
-        "smx-pass"
-      ],
       "website": "https://www.supercrossonline.com",
       "liveTimingUrl": null,
       "ticketsUrl": "https://www.supermotocross.com/tickets",
@@ -1213,9 +598,6 @@
       "category": "Rallye & Bergrennen",
       "tagline": "Rallye-Weltmeisterschaft",
       "color": "#0033A0",
-      "channelIds": [
-        "rallytv"
-      ],
       "website": "https://www.wrc.com",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -1235,10 +617,6 @@
       "category": "Rallye & Bergrennen",
       "tagline": "Wüstenrallye in Saudi-Arabien",
       "color": "#B07D3C",
-      "channelIds": [
-        "eurosport",
-        "dakar-web"
-      ],
       "website": "https://www.dakar.com",
       "liveTimingUrl": null,
       "ticketsUrl": null,
@@ -1258,9 +636,6 @@
       "category": "Rallye & Bergrennen",
       "tagline": "Bergrennen in Colorado",
       "color": "#2F6F4F",
-      "channelIds": [
-        "yt-ppihc"
-      ],
       "website": "https://ppihc.org",
       "liveTimingUrl": null,
       "ticketsUrl": "https://ppihc.org/tickets/",
@@ -1303,7 +678,6 @@
         "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
         "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -1358,7 +732,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -1413,7 +786,6 @@
         "https://en.wikipedia.org/wiki/2026_Supercars_Championship",
         "https://www.supercars.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -1484,7 +856,6 @@
         "https://en.wikipedia.org/wiki/2026_F1_Academy_season",
         "https://www.f1academy.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -1540,7 +911,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Datum offiziell (F1-Rahmenprogramm), Startzeiten provisorisch",
       "ticketsUrl": "https://tickets.formula1.com",
       "nameI18n": {
@@ -1602,7 +972,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -1641,7 +1010,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -1687,7 +1055,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -1734,7 +1101,6 @@
         "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
         "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": null,
@@ -1782,7 +1148,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -1844,7 +1209,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -1889,7 +1253,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -1935,7 +1298,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -1982,7 +1344,6 @@
         "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
         "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2031,7 +1392,6 @@
         "https://sportscar365.com/super-gt/second-motegi-race-added-to-this-years-schedule/",
         "https://en.wikipedia.org/wiki/2026_Super_GT_Series"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2072,7 +1432,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2133,7 +1492,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2195,7 +1553,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -2235,7 +1592,6 @@
         "https://en.wikipedia.org/wiki/2026_Supercars_Championship",
         "https://www.supercars.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2275,7 +1631,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2321,7 +1676,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2368,7 +1722,6 @@
         "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
         "https://www.nascar.com/news-media/2025/11/12/nascar-announces-start-times-networks-for-2026-national-series-races/"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -2423,7 +1776,6 @@
         "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
         "https://www.asianlemansseries.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2485,7 +1837,6 @@
         "https://en.wikipedia.org/wiki/2026_F1_Academy_season",
         "https://www.f1academy.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2541,7 +1892,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -2627,7 +1977,6 @@
         "https://en.wikipedia.org/wiki/2026_TCR_World_Tour",
         "https://www.macau.grandprix.gov.mo"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2683,7 +2032,6 @@
         "https://en.wikipedia.org/wiki/2026_Super_Formula_Championship",
         "https://superformula.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2738,7 +2086,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2784,7 +2131,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2830,7 +2176,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -2892,7 +2237,6 @@
         "https://en.wikipedia.org/wiki/2026_Supercars_Championship",
         "https://www.supercars.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -2947,7 +2291,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3008,7 +2351,6 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIA_Formula_2_Championship"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3064,7 +2406,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -3103,7 +2444,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3149,7 +2489,6 @@
       "sources": [
         "https://www.crash.net/motogp"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3210,7 +2549,6 @@
       "sources": [
         "https://en.wikipedia.org/wiki/2026_FIA_Formula_2_Championship"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3266,7 +2604,6 @@
         "https://www.formel1.de/formel-1-kalender/2026",
         "https://www.motorsport-total.com/formel-1/termin-kalender/2026"
       ],
-      "channelIds": null,
       "note": null,
       "ticketsUrl": null,
       "nameI18n": {
@@ -3320,7 +2657,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3397,7 +2733,6 @@
         "https://www.x-raid.de/en/x-raid-looking-forward-to-dakar-2027-route-announced/",
         "https://www.dakar.com"
       ],
-      "channelIds": null,
       "note": "Zeitraum offiziell (1.–15. Januar), Etappenzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3450,7 +2785,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3506,7 +2840,6 @@
         "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
         "https://www.asianlemansseries.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3552,7 +2885,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3599,7 +2931,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3655,7 +2986,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -3702,7 +3032,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3758,7 +3087,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://www.imsa.com/tickets",
       "nameI18n": null,
@@ -3799,7 +3127,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3840,7 +3167,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3880,7 +3206,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3921,7 +3246,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -3962,7 +3286,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4009,7 +3332,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4065,7 +3387,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4142,7 +3463,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4198,7 +3518,6 @@
         "https://en.wikipedia.org/wiki/2026%E2%80%9327_Asian_Le_Mans_Series",
         "https://www.asianlemansseries.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4244,7 +3563,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4285,7 +3603,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4326,7 +3643,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4367,7 +3683,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4422,7 +3737,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4469,7 +3783,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4524,7 +3837,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4571,7 +3883,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4611,7 +3922,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4657,7 +3967,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4704,7 +4013,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4745,7 +4053,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4801,7 +4108,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4872,7 +4178,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -4934,7 +4239,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -4989,7 +4293,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5035,7 +4338,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5076,7 +4378,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5117,7 +4418,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5158,7 +4458,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5204,7 +4503,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5250,7 +4548,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5311,7 +4608,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5358,7 +4654,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5414,7 +4709,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://www.imsa.com/tickets",
       "nameI18n": null,
@@ -5470,7 +4764,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5532,7 +4825,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5588,7 +4880,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5656,7 +4947,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5739,7 +5029,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5780,7 +5069,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5842,7 +5130,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -5895,7 +5182,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5936,7 +5222,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -5977,7 +5262,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6018,7 +5302,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6073,7 +5356,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6135,7 +5417,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6206,7 +5487,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6268,7 +5548,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6339,7 +5618,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6394,7 +5672,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6441,7 +5718,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6496,7 +5772,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6542,7 +5817,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6588,7 +5862,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6635,7 +5908,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6676,7 +5948,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6732,7 +6003,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6809,7 +6079,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -6871,7 +6140,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -6957,7 +6225,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7012,7 +6279,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7059,7 +6325,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7100,7 +6365,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7146,7 +6410,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7192,7 +6455,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7239,7 +6501,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7295,7 +6556,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7351,7 +6611,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7397,7 +6656,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7468,7 +6726,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7524,7 +6781,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://www.imsa.com/tickets",
       "nameI18n": null,
@@ -7565,7 +6821,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7606,7 +6861,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7647,7 +6901,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7702,7 +6955,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -7755,7 +7007,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7796,7 +7047,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7852,7 +7102,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7908,7 +7157,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -7964,7 +7212,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8019,7 +7266,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8066,7 +7312,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8107,7 +7352,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8168,7 +7412,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8214,7 +7457,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8260,7 +7502,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8307,7 +7548,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8363,7 +7603,6 @@
         "https://www.24h-rennen.de/termine/",
         "https://www.motorsport-total.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell (30. April – 2. Mai), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8418,7 +7657,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8474,7 +7712,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8530,7 +7767,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://tickets.formula1.com",
       "nameI18n": null,
@@ -8586,7 +7822,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8647,7 +7882,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8694,7 +7928,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8741,7 +7974,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8782,7 +8014,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8838,7 +8069,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -8900,7 +8130,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -8955,7 +8184,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9010,7 +8238,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9102,7 +8329,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9143,7 +8369,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9183,7 +8408,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9229,7 +8453,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9276,7 +8499,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9317,7 +8539,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9378,7 +8599,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9425,7 +8645,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9466,7 +8685,6 @@
         "https://ultimatemotorcycling.com/2026/10/03/2027-supercross-schedule-17-rounds-dates-venues-tickets/",
         "https://www.supercrossonline.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9512,7 +8730,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9558,7 +8775,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9605,7 +8821,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9676,7 +8891,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9732,7 +8946,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch; Montreal noch unter Vertragsvorbehalt",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9815,7 +9028,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9883,7 +9095,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch; Montreal noch unter Vertragsvorbehalt",
       "ticketsUrl": null,
       "nameI18n": {
@@ -9936,7 +9147,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -9991,7 +9201,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10044,7 +9253,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10106,7 +9314,6 @@
         "https://www.24h-rennen.de/termine/",
         "https://www.motorsport-total.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell (27.–30. Mai), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10161,7 +9368,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10222,7 +9428,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10308,7 +9513,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10348,7 +9552,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10394,7 +9597,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10455,7 +9657,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10502,7 +9703,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10543,7 +9743,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10599,7 +9798,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10667,7 +9865,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -10828,7 +10025,6 @@
         "https://www.iomttraces.com/latest/news/tt-2027-dates-isle-of-man-tt-races/",
         "https://the-race.com/tt/isle-of-man-tt-2027-schedule-changes"
       ],
-      "channelIds": null,
       "note": "Renntage offiziell, Startzeiten provisorisch und wetterabhängig",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10905,7 +10101,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -10967,7 +10162,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11038,7 +10232,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11079,7 +10272,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11120,7 +10312,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11161,7 +10352,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11202,7 +10392,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11257,7 +10446,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -11304,7 +10492,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": "https://www.24h-lemans.com/en/tickets",
       "nameI18n": {
@@ -11396,7 +10583,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11436,7 +10622,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -11482,7 +10667,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -11543,7 +10727,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -11590,7 +10773,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11631,7 +10813,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11686,7 +10867,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11742,7 +10922,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11798,7 +10977,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11869,7 +11047,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -11925,7 +11102,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -11972,7 +11148,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12027,7 +11202,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12074,7 +11248,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12130,7 +11303,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12191,7 +11363,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12246,7 +11417,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12287,7 +11457,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12333,7 +11502,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12373,7 +11541,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12428,7 +11595,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12474,7 +11640,6 @@
       "sources": [
         "https://ppihc.org"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12515,7 +11680,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12562,7 +11726,6 @@
         "https://www.indycar.com/news/2026/08/08-12-early-2027-sked",
         "https://en.wikipedia.org/wiki/2027_IndyCar_Series"
       ],
-      "channelIds": null,
       "note": "Datum laut IndyCar bzw. Medienberichten, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12603,7 +11766,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12659,7 +11821,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12715,7 +11876,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12777,7 +11937,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12848,7 +12007,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -12910,7 +12068,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -12972,7 +12129,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13013,7 +12169,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13060,7 +12215,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13116,7 +12270,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13183,7 +12336,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13239,7 +12391,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13295,7 +12446,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13351,7 +12501,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13406,7 +12555,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13483,7 +12631,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13539,7 +12686,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13585,7 +12731,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13632,7 +12777,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13672,7 +12816,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13719,7 +12862,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13766,7 +12908,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13807,7 +12948,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13862,7 +13002,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -13930,7 +13069,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -13970,7 +13108,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14022,7 +13159,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14075,7 +13211,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14131,7 +13266,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14192,7 +13326,6 @@
       "sources": [
         "https://www.fiaformulae.com/en/news"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14254,7 +13387,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14346,7 +13478,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14387,7 +13518,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14442,7 +13572,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14489,7 +13618,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14545,7 +13673,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14607,7 +13734,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14663,7 +13789,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14710,7 +13835,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14765,7 +13889,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14812,7 +13935,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -14868,7 +13990,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://www.imsa.com/tickets",
       "nameI18n": null,
@@ -14924,7 +14045,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -14986,7 +14106,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15042,7 +14161,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15098,7 +14216,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15184,7 +14301,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15225,7 +14341,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15286,7 +14401,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15378,7 +14492,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15419,7 +14532,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15459,7 +14571,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15505,7 +14616,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15566,7 +14676,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15628,7 +14737,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15684,7 +14792,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15725,7 +14832,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15786,7 +14892,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15833,7 +14938,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15874,7 +14978,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -15930,7 +15033,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -15991,7 +15093,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16038,7 +15139,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16078,7 +15178,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16124,7 +15223,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16171,7 +15269,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16227,7 +15324,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16298,7 +15394,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16360,7 +15455,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16431,7 +15525,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16472,7 +15565,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16513,7 +15605,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16574,7 +15665,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16621,7 +15711,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16677,7 +15766,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16733,7 +15821,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16789,7 +15876,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -16844,7 +15930,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16906,7 +15991,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -16998,7 +16082,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17039,7 +16122,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17095,7 +16177,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17135,7 +16216,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17182,7 +16262,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17222,7 +16301,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17269,7 +16347,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17324,7 +16401,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17386,7 +16462,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17441,7 +16516,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17487,7 +16561,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17533,7 +16606,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -17580,7 +16652,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17621,7 +16692,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17677,7 +16747,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17733,7 +16802,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17789,7 +16857,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17845,7 +16912,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17901,7 +16967,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -17957,7 +17022,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18034,7 +17098,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18120,7 +17183,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18161,7 +17223,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18208,7 +17269,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18264,7 +17324,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18326,7 +17385,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18382,7 +17440,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18423,7 +17480,6 @@
         "https://www.24h-lemans.com/en/news/six-race-calendar-and-early-start-for-exciting-2027-elms-season-60875",
         "https://sportscar365.com/lemans/elms/earlier-start-for-unchanged-2027-calendar/"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18485,7 +17541,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18547,7 +17602,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18602,7 +17656,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18649,7 +17702,6 @@
         "https://soymotor.com/competicion/noticias/la-porsche-supercup-confirma-su-calendario-de-2027-con-una-carrera-en-madring",
         "https://racing.porsche.com/mobil-1-supercup"
       ],
-      "channelIds": null,
       "note": "Kalender vorläufig, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18689,7 +17741,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18735,7 +17786,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18796,7 +17846,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -18849,7 +17898,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -18905,7 +17953,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://www.imsa.com/tickets",
       "nameI18n": null,
@@ -18961,7 +18008,6 @@
         "https://www.motorsport-total.com/nls/",
         "https://www.motorsport-xl.de"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19023,7 +18069,6 @@
         "https://ran.joyn.de/sports/motorsport/porsche-sixt-carrera-cup-deutschland/porsche-sixt-carrera-cup-deutschland-titelentscheidung-auf-dem-hockenheimring-rennkalender-fuer2027-steht-fest-197075",
         "https://racing.porsche.com/series/carrera-cup-deutschland"
       ],
-      "channelIds": null,
       "note": "Daten aus dem DTM- bzw. WEC-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19079,7 +18124,6 @@
         "https://de.wikipedia.org/wiki/ADAC_GT_Masters_2027",
         "https://www.motorsport-total.com/gt-masters/news/adac-gt-masters-praesentiert-kalender-2027-und-aenderungen-am-rennformat-26100203"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19135,7 +18179,6 @@
         "https://www.hockenheimring.de/2026/08/dtm-2027-alpen-auftakt-stadtspektakel-und-nordsee-action/",
         "https://www.motorsport-magazin.com/dtm/"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19191,7 +18234,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19283,7 +18325,6 @@
         "https://en.wikipedia.org/wiki/2027_British_Touring_Car_Championship",
         "https://www.btcc.net"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19324,7 +18365,6 @@
         "https://en.wikipedia.org/wiki/2027_IMSA_SportsCar_Championship",
         "https://www.imsa.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19394,7 +18434,6 @@
       "sources": [
         "https://www.fim-moto.com/en/news/news-detail/article/provisional-2027-fim-motorcross-world-championship-calendar-announced"
       ],
-      "channelIds": null,
       "note": "Datum provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19441,7 +18480,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19496,7 +18534,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19573,7 +18610,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19613,7 +18649,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19659,7 +18694,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19706,7 +18740,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -19762,7 +18795,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19823,7 +18855,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19885,7 +18916,6 @@
         "https://racing.porsche.com/en-US/articles/pccna-2027-calendar-announcement",
         "https://newsroom.porsche.com/en_US/2025/motorsport/2026-porsche-carrera-cup-north-america-calendar-unveiled.html"
       ],
-      "channelIds": null,
       "note": "Daten offiziell (Änderungen vorbehalten), Startzeiten provisorisch",
       "ticketsUrl": "https://tickets.formula1.com",
       "nameI18n": {
@@ -19947,7 +18977,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -19993,7 +19022,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20039,7 +19067,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20086,7 +19113,6 @@
         "https://www.speedweek.com/en/a/sportscar/gt-world-challenge-europe-announces-race-calendar-for-2027",
         "https://www.gt-world-challenge-europe.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -20127,7 +19153,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -20198,7 +19223,6 @@
         "https://www.cyclenews.com/2026/10/article/2027-fim-world-superbike-calendar/",
         "https://www.worldsbk.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -20253,7 +19277,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20315,7 +19338,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20383,7 +19405,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20435,7 +19456,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20481,7 +19501,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20528,7 +19547,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -20584,7 +19602,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20631,7 +19648,6 @@
         "https://www.fiawec.com",
         "https://www.fiawec.com/en/race/show/4955"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20708,7 +19724,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20755,7 +19770,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -20810,7 +19824,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20856,7 +19869,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20902,7 +19914,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -20949,7 +19960,6 @@
         "https://en.wikipedia.org/wiki/2027_NASCAR_Cup_Series",
         "https://www.nascar.com"
       ],
-      "channelIds": null,
       "note": "Datum offiziell, Startzeit provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21011,7 +20021,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21073,7 +20082,6 @@
         "https://en.wikipedia.org/wiki/2027_World_Rally_Championship",
         "https://www.wrc.com"
       ],
-      "channelIds": null,
       "note": "Kalender provisorisch, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21140,7 +20148,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21186,7 +20193,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21232,7 +20238,6 @@
       "sources": [
         "https://www.motogp.com/en/news/2026/09/25/2027-motogp-calendar-revealed/1092589"
       ],
-      "channelIds": null,
       "note": "Startzeit provisorisch (abgeleitet vom MotoGP-Zeitplan)",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21309,7 +20314,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21371,7 +20375,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,
@@ -21442,7 +20445,6 @@
         "https://www.mclaren.com/racing/formula-1/2026/2027-calendar-announced/",
         "https://en.wikipedia.org/wiki/2027_Formula_One_World_Championship"
       ],
-      "channelIds": null,
       "note": "Daten offiziell, Startzeiten noch provisorisch",
       "ticketsUrl": null,
       "nameI18n": {
@@ -21504,7 +20506,6 @@
         "https://www.formula1.com/en/latest/article/fia-formula-2-and-fia-formula-3-announce-2027-calendars.7IToHJjbGez7YrJpMiihyH",
         "https://racer.com/2026/10/05/montreal-istanbul-mexico-city-join-f2-calendar-for-2027"
       ],
-      "channelIds": null,
       "note": "Daten gemäss F1-Kalender, Startzeiten provisorisch",
       "ticketsUrl": null,
       "nameI18n": null,

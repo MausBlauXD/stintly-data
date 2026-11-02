@@ -12,7 +12,7 @@ Erledigte Punkte löschen, neue offene Punkte ergänzen.
 - Supercars 2027
 - IndyCar 2027, Phase 2 (Markham, Milwaukee, Laguna Seca)
 - Porsche Carrera Cup Deutschland 2027: Datum Monza (International GT Open)
-- ADAC GT4 Germany 2027 (neue Serie, Sender wie ADAC GT Masters)
+- ADAC GT4 Germany 2027 (neue Serie im Rahmen des ADAC GT Masters)
 - Porsche Sprint Challenge Suisse 2027 (neue Serie)
 - Porsche Sprint Challenge Deutschland 2027 (neue Serie, Prospeed)
 - Macau Grand Prix 2027
